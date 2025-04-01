@@ -1,0 +1,110 @@
+header{
+    background-color: #014E56;
+    width: 2545px;
+    height: 700px;
+    flex-shrink: 0;
+}
+
+.MyTeam{
+    width: 160px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: 165px;
+    margin-top: 77px;
+}
+
+.NavList{
+    margin-top: -40px;
+}
+
+.home{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 365px;
+}
+
+.about{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 40px;
+}
+
+.home:link{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.about:link{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.contact:link{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.NavList > li{
+    display: inline-block;
+}
+
+.contact{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 1560px;    
+    border: 2px white solid;
+    border-radius: 60px;
+    padding: 10px 30px 10px 30px;
+}
+
+/* CircleLeft cia tas rutuliukas is kaires */
+.circleLeft{
+    margin-top: 150px;
+    margin-right: 1340px;
+    flex-shrink: 0;
+}
+
+h1{
+    margin-top: -200px;
+    margin-left: 165px;
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    width: 600px;
+}
+
+h1 > span{
+    color: #F67E7E;
+    font-family: "Livvic", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.headerP{
+    width: 445px;
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 1800px;
+    margin-top: -190px;
+}
