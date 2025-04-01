@@ -21,80 +21,83 @@ body {
     align-items: flex-start;
 }
 
-.left-icons {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+
+
+.icon1, .icon2, .icon3 {
+    position: absolute;
+    
 }
 
 .icon1 {
     width: 200px;
     height: 200px;
-    top: 245px;
-    left: 100px;
+    top: 400px;
+    left: 0px;
+    z-index: 3;
 }
 
-.icon2{
-    width:  53px;
+.icon2 {
+    width: 53px;
     height: 44px;
-    top: 345px;
-    left: 100px;
+    top: 550px;
+    left: 150px;
+    z-index: 3;
 }
 
 .icon3 {
-   width: 100px;
-   height: 44px;
-   top: 301px;
-   left: 100px;
+    width: 210px;
+    height: 44px;
+    top: 500px;
+    left: 0px;
+    z-index: 4;
 }
 
-.ask-us-about {
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: left;
-    gap: 30px;
-}
-
-h1 {
-    font-size: 36px;
-}
-
-h2 {
-    color: #f28b82;
+/* Move .info sections to the left of the form */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    left: -620px; /* Adjust positioning as needed */
+    top: 50px;
 }
 
 .info {
     display: flex;
-    align-items: center;
     gap: 15px;
     margin-top: 15px;
+    margin-left: 255px;
+    
 }
 
 .info img {
     width: 72px;
     height: 72px;
+    
 }
+
  /* pataisykite postions jei mokate greitai */
 .right-section {
     flex: 1;
     display: flex;
     justify-content: center; 
     align-items: center;
-    position: relative;
+  
 }
 
 .form-container {
     padding: 20px;
     border-radius: 10px;
-    width: 100%;
-    max-width: 500px; 
+    width: 542px;
+    max-width: 500px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-right: 350px;
 }
 
 input, textarea {
@@ -104,7 +107,7 @@ input, textarea {
     padding: 10px;
     color: white;
     font-size: 16px;
-    width: 100%;
+    width: 542px;
 }
 
 button {
@@ -115,12 +118,25 @@ button {
     font-size: 16px;
     color: #014E56;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 4px 4px 4px 4px;
+    
 }
   /* pusrutulis su kvadratu */
 .background-img {
     width: 225px;
     height: 200px;
-    top: 500px;
-    right: 200px;
+    
+    
+   
 }
+
+h1 {
+    margin-left: 260px;
+}
+
+h2 {
+    margin-left: 260px;
+}
+
+
+
