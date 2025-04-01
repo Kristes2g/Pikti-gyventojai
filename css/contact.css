@@ -12,7 +12,7 @@ body {
     height: 100vh;
     padding: 0 50px;
 }
-
+ /* pataisykite postions jei mokate greitai */
 .left-section {
     flex: 1;
     display: flex;
@@ -75,7 +75,7 @@ h2 {
     width: 72px;
     height: 72px;
 }
-
+ /* pataisykite postions jei mokate greitai */
 .right-section {
     flex: 1;
     display: flex;
