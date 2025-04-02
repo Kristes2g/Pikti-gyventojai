@@ -178,3 +178,90 @@ input[type="text"]:focus + .error-message,
 textarea:focus + .error-message {
     display: none;
 }
+
+header{
+    background-color: #014E56;
+    width: 100%;
+    height: 0px;
+    flex-shrink: 0;
+}
+
+.MyTeam{
+    width: 160px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: 165px;
+    margin-top: 77px;
+}
+
+.NavList{
+    margin-top: -40px;
+}
+
+.home{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 365px;
+}
+
+.about{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 40px;
+}
+
+.home:link{
+    color: #FFF;
+    text-decoration: none;
+}
+.home:hover{
+    color: #F67E7E;;
+    text-decoration: none;
+}
+
+.about:link{
+    color: #FFF;
+    text-decoration: none;
+}
+.about:hover{
+    color: #F67E7E;;
+    text-decoration: none;
+}
+
+.contact:link{
+    color: #FFF;
+    text-decoration: none;
+}
+.contact:hover{
+    background-color: #FFF;
+    color: black;
+}
+
+.NavList > li{
+    display: inline-block;
+}
+
+.contact{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 1200px;    
+    border: 2px white solid;
+    border-radius: 60px;
+    padding: 10px 30px 10px 30px;
+}
+
+.header{
+    margin-left: 150px;
+}
