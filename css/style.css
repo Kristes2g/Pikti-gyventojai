@@ -1,7 +1,7 @@
 header{
     background-color: #014E56;
     width: 2545px;
-    height: 700px;
+    height: 800px;
     flex-shrink: 0;
 }
 
@@ -41,15 +41,27 @@ header{
     color: #FFF;
     text-decoration: none;
 }
+.home:hover{
+    color: #F67E7E;;
+    text-decoration: none;
+}
 
 .about:link{
     color: #FFF;
+    text-decoration: none;
+}
+.about:hover{
+    color: #F67E7E;;
     text-decoration: none;
 }
 
 .contact:link{
     color: #FFF;
     text-decoration: none;
+}
+.contact:hover{
+    background-color: #FFF;
+    color: black;
 }
 
 .NavList > li{
@@ -88,6 +100,7 @@ h1{
     width: 600px;
 }
 
+/*zodis talent*/
 h1 > span{
     color: #F67E7E;
     font-family: "Livvic", sans-serif;
@@ -97,6 +110,7 @@ h1 > span{
     line-height: 100px;
 }
 
+/*Tekstas desineje*/
 .headerP{
     width: 445px;
     color: #FFF;
@@ -107,4 +121,66 @@ h1 > span{
     line-height: 28px;
     margin-left: 1800px;
     margin-top: -190px;
+}
+
+.headerHr{
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #79C8C7;
+    border: 0;
+    margin: 0;
+    margin-left: 1800px;
+    margin-top: 150px;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.oval{
+    position: absolute;
+    fill: #2C6269;
+    position: absolute;
+    margin-left: 1900px;
+    margin-top: 210px;
+    z-index: 1;
+    flex-shrink: 0;
+}
+
+.combinedshape{
+    position: absolute;
+    fill: #79C8C7;
+    z-index: 1;
+    flex-shrink: 0;
+    margin-top: 210px;
+    margin-left: 1900px;
+}
+
+.combinedshapecopy{
+    position: absolute;
+    margin-left: 2040px;
+    z-index: 4;
+    flex-shrink: 0;
+    margin-top: 210px;
+}
+
+.combinedshapecopy1{
+    position: absolute;
+    z-index: 1;
+    margin-top: 210px;
+    flex-shrink: 0;
+    margin-left: 2070px
+}
+
+.square{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+    background: #79C8C7;
+    z-index: 2;
+    margin-left: 2220px;
+    margin-top: 205px;
 }
