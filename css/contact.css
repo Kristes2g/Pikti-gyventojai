@@ -2,141 +2,179 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #014E56;
-    color: white;
+    color: #FFFFFF;
 }
-
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: 960px;
     padding: 0 50px;
 }
- /* pataisykite postions jei mokate greitai */
+/* icons 1,2,3,5 */
 .left-section {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: flex-start;
+   
 }
-
-
-
-
-.icon1, .icon2, .icon3 {
+.icon1, .icon2, .icon3, .icon4, .icon5 {
     position: absolute;
-    
 }
-
+/* juodas pusrutulis */
 .icon1 {
-    width: 200px;
-    height: 200px;
-    top: 400px;
+    width: 150px;
+    height: 300px;
+    top: 250px;
     left: 0px;
     z-index: 3;
 }
-
+/* mazi raudoni kvadratai */
 .icon2 {
-    width: 53px;
-    height: 44px;
-    top: 550px;
-    left: 150px;
+    width: 80px;
+    height: 80px;
+    top: 400px;
+    left: 70px;
     z-index: 3;
 }
-
+/* melynos linijos */
 .icon3 {
-    width: 210px;
+    width: 150px;
     height: 44px;
-    top: 500px;
+    top: 350px;
     left: 0px;
     z-index: 4;
 }
-
-/* Move .info sections to the left of the form */
+/* 2 pusrutuliai su kvadratu desineje */
+.icon4 {
+    width: 150px;
+    height: 300px;
+    top: 670px;
+    left: 1770px;
+    z-index: 5;
+}
+/* permatomas kvadratas */
+.icon5 {
+    width: 150px;
+    height: 130px;
+    top: 250px;
+    left: 0px;
+    z-index: 1;
+}
 .info-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
     position: absolute;
-    left: -620px; /* Adjust positioning as needed */
     top: 50px;
 }
-
 .info {
     display: flex;
     gap: 15px;
     margin-top: 15px;
     margin-left: 255px;
-    
 }
-
+/* h1,h2 images dydziai */
 .info img {
-    width: 72px;
-    height: 72px;
-    
+    width: 82px;
+    height: 82px;
 }
-
- /* pataisykite postions jei mokate greitai */
+/* form section */
 .right-section {
     flex: 1;
     display: flex;
     justify-content: center; 
     align-items: center;
-  
 }
-
 .form-container {
     padding: 20px;
     border-radius: 10px;
     width: 542px;
     max-width: 500px;
+    margin-right: 400px;
+    margin-top: 85px;
 }
-
+/* keicia button */
 form {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-right: 350px;
 }
-
 input, textarea {
     background: none;
     border: none;
-    border-bottom: 1px solid white;
-    padding: 10px;
-    color: white;
+    border-bottom: 1px solid #FFFFFF; /* Default white border */
+    padding: 20px;
+    color: #FFFFFF; 
     font-size: 16px;
     width: 542px;
 }
-
+ /* keicia formoje Message field dydi */
+textarea {
+    height: 100px;
+    resize: none;
+}
 button {
-    background: white;
+    background: #FFFFFF;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 30px; 
     cursor: pointer;
     font-size: 16px;
     color: #014E56;
     font-weight: bold;
-    border-radius: 4px 4px 4px 4px;
-    
+    border-radius: 50px; 
 }
-  /* pusrutulis su kvadratu */
-.background-img {
-    width: 225px;
-    height: 200px;
-    
-    
-   
-}
-
+/* Contact h1 */
 h1 {
     margin-left: 260px;
+    font-size: 4rem;
+    color: #FFFFFF;
+/* Ask about us h2 */
 }
-
 h2 {
     margin-left: 260px;
+    font-size: 3rem;
+    color: #F67E7E;
+/* tekstas prie h1,h2 */
+}
+p {
+    font-size: 1.4rem;
+}
+input[type="text"]:hover, textarea:hover {
+    border-bottom: 1px solid #79C8C7; 
+
+    color: #FFFFFF; 
 }
 
+input[type="text"]:hover::placeholder, textarea:hover::placeholder {
+    color: #FFFFFF; 
+}
+input[type="email"]:hover, input[type="email"]:focus {
+    border-bottom: 1px solid #F67E7E; 
+    color: #F67E7E;
+}
 
-
+input[type="email"]:hover::placeholder, input[type="email"]:focus::placeholder {
+    color: #F67E7E; 
+}
+/* raudonas error field is required */
+.email-error {
+    display: none;
+    color: #F67E7E; 
+    font-size: 12px;
+    margin-top: 5px;
+}
+input[type="email"]:hover + .email-error,
+input[type="email"]:focus + .email-error {
+    display: block;
+}
+.error-message {
+    display: none; 
+}
+input[type="text"]:hover + .error-message,
+textarea:hover + .error-message,
+input[type="text"]:focus + .error-message,
+textarea:focus + .error-message {
+    display: none;
+}
