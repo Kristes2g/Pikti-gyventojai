@@ -3,8 +3,6 @@ header{
     width: 100%;
     height: 800px;
     flex-shrink: 0;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .MyTeam{
@@ -139,14 +137,8 @@ h1 > span{
 
 .container{
     margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-.bottomimg{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .oval{
     position: absolute;
