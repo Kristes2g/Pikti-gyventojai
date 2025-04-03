@@ -193,9 +193,148 @@ h1 > span{
     margin-top: 205px;
 }
 
+
+
 main{
     width: 100%;
     height: 784px;
     flex-shrink: 0;
     background: #012F34;
+}
+/*kairine dalis*/
+.left-text{
+    margin: 0;
+    padding-top: 140px;
+    margin-left: 165px;
+}
+.mainHr{
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #F67E7E;
+    border: 0;
+    margin: 0;
+}
+.mainH2{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    padding-top: 20px;
+    width: 445px;
+}
+
+/*konteineris konentui is desines*/
+.right-text{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+/*virsutine dalis is desines*/
+.upperImg{
+    position: absolute;
+    margin-top: -8%;
+    margin-right: 29%;
+}
+.upperText{
+    position: absolute;
+    color: #F67E7E;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    margin: 0;
+    padding: 0;
+    margin-top: -8%;
+    margin-right: 20%;
+}
+.uppersubText{
+    position: absolute;
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    width: 445px;
+    margin-top: -6.3%;
+    margin-right: 10.5%;
+    opacity: 0.8;
+}
+
+/*vidurine dalis is desines*/
+.midImg{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    margin-right: 29%;
+    margin-top: -2.5%;
+}
+.midText{
+    position: absolute;
+    color: #F67E7E;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    width: 445px;
+    margin-top: -2.5%;
+    margin-right: 10.5%;
+}
+.midsubText{
+    position: absolute;
+    color: #FFF;
+    font-family: "Livic", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+    width: 450px;
+    margin-right: 10.3%;
+    margin-top: -0.7%;
+    opacity: 0.8;
+}
+
+/*apatine dalis is desines*/
+.lowerImg{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    margin-right: 29%;
+    margin-top: 3%;
+}
+.lowerText{
+    position: absolute;
+    color: #F67E7E;
+    font-family: "Livic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    margin-top: 3%;
+    margin-right: 20.3%;
+}
+.lowersubText{
+    position: absolute;
+    color: #FFF;
+    font-family: "Livic", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    width: 445px;
+    opacity: 0.8;
+    margin-top: 4.8%;
+    margin-right: 10.5%;
+}
+.lowerrightImg{
+    position: absolute;
+    margin-right: -4.98%;
+    margin-top: 5.95%;
+    flex-shrink: 0;
 }
