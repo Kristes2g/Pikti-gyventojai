@@ -148,7 +148,7 @@ header{
     fill: #2C6269;
     position: absolute;
     margin-left: 1900px;
-    margin-top: 210px;
+    margin-top: 207px;
     z-index: 1;
     flex-shrink: 0;
 }
@@ -169,7 +169,7 @@ header{
     margin-left: 2040px;
     z-index: 4;
     flex-shrink: 0;
-    margin-top: 210px;
+    margin-top: 207px;
 }
 
 /*spurgos seselis*/
@@ -233,12 +233,10 @@ header{
 
 /*virsutine dalis is desines*/
 .upperImg{
-    position: absolute;
     margin-top: -8%;
     margin-right: 29%;
 }
 .upperText{
-    position: absolute;
     color: #F67E7E;
     font-family: "Livvic", sans-serif;
     font-size: 18px;
@@ -249,9 +247,9 @@ header{
     padding: 0;
     margin-top: -8%;
     margin-right: 20%;
+    margin-bottom: 12%;
 }
 .uppersubText{
-    position: absolute;
     color: #FFF;
     font-family: "Livvic", sans-serif;
     font-size: 15px;
@@ -266,14 +264,12 @@ header{
 
 /*vidurine dalis is desines*/
 .midImg{
-    position: absolute;
     margin: 0;
     padding: 0;
     margin-right: 29%;
     margin-top: -2.5%;
 }
 .midText{
-    position: absolute;
     color: #F67E7E;
     font-family: "Livvic", sans-serif;
     font-size: 18px;
@@ -285,7 +281,6 @@ header{
     margin-right: 10.5%;
 }
 .midsubText{
-    position: absolute;
     color: #FFF;
     font-family: "Livic", sans-serif;
     font-size: 15px;
@@ -300,14 +295,12 @@ header{
 
 /*apatine dalis is desines*/
 .lowerImg{
-    position: absolute;
     margin: 0;
     padding: 0;
     margin-right: 29%;
     margin-top: 3%;
 }
 .lowerText{
-    position: absolute;
     color: #F67E7E;
     font-family: "Livic", sans-serif;
     font-size: 18px;
@@ -318,7 +311,6 @@ header{
     margin-right: 20.3%;
 }
 .lowersubText{
-    position: absolute;
     color: #FFF;
     font-family: "Livic", sans-serif;
     font-size: 15px;
@@ -335,4 +327,27 @@ header{
     margin-right: -4.98%;
     margin-top: 5.95%;
     flex-shrink: 0;
+}
+
+.right_text_container{
+    height: 700px;
+    margin-top: -10%;
+    margin-right: 15%;
+}
+
+.up{
+    margin-left: 26%;
+    margin-top: -15%;
+    padding-bottom: 13%;
+}
+
+.mid{
+    margin-left: 26%;
+    margin-top: -15%;
+    padding-bottom: 13%;
+}
+
+.low{
+    margin-left: 26%;
+    margin-top: -17.5%;
 }
