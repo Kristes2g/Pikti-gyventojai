@@ -89,7 +89,7 @@ header{
 }
 
 /*Didelis tekstas is kaires*/
-h1{
+.header_h1{
     margin-top: -200px;
     margin-left: 165px;
     color: #FFF;
@@ -102,7 +102,7 @@ h1{
 }
 
 /*zodis talent*/
-h1 > span{
+.header_h1 > span{
     color: #F67E7E;
     font-family: "Livvic", sans-serif;
     font-size: 100px;
@@ -148,7 +148,7 @@ h1 > span{
     fill: #2C6269;
     position: absolute;
     margin-left: 1900px;
-    margin-top: 210px;
+    margin-top: 207px;
     z-index: 1;
     flex-shrink: 0;
 }
@@ -169,7 +169,7 @@ h1 > span{
     margin-left: 2040px;
     z-index: 4;
     flex-shrink: 0;
-    margin-top: 210px;
+    margin-top: 207px;
 }
 
 /*spurgos seselis*/
@@ -193,9 +193,7 @@ h1 > span{
     margin-top: 205px;
 }
 
-
-
-main{
+.first_half{
     width: 100%;
     height: 784px;
     flex-shrink: 0;
@@ -235,12 +233,10 @@ main{
 
 /*virsutine dalis is desines*/
 .upperImg{
-    position: absolute;
     margin-top: -8%;
     margin-right: 29%;
 }
 .upperText{
-    position: absolute;
     color: #F67E7E;
     font-family: "Livvic", sans-serif;
     font-size: 18px;
@@ -251,9 +247,9 @@ main{
     padding: 0;
     margin-top: -8%;
     margin-right: 20%;
+    margin-bottom: 12%;
 }
 .uppersubText{
-    position: absolute;
     color: #FFF;
     font-family: "Livvic", sans-serif;
     font-size: 15px;
@@ -268,14 +264,12 @@ main{
 
 /*vidurine dalis is desines*/
 .midImg{
-    position: absolute;
     margin: 0;
     padding: 0;
     margin-right: 29%;
     margin-top: -2.5%;
 }
 .midText{
-    position: absolute;
     color: #F67E7E;
     font-family: "Livvic", sans-serif;
     font-size: 18px;
@@ -287,7 +281,6 @@ main{
     margin-right: 10.5%;
 }
 .midsubText{
-    position: absolute;
     color: #FFF;
     font-family: "Livic", sans-serif;
     font-size: 15px;
@@ -302,14 +295,12 @@ main{
 
 /*apatine dalis is desines*/
 .lowerImg{
-    position: absolute;
     margin: 0;
     padding: 0;
     margin-right: 29%;
     margin-top: 3%;
 }
 .lowerText{
-    position: absolute;
     color: #F67E7E;
     font-family: "Livic", sans-serif;
     font-size: 18px;
@@ -320,7 +311,6 @@ main{
     margin-right: 20.3%;
 }
 .lowersubText{
-    position: absolute;
     color: #FFF;
     font-family: "Livic", sans-serif;
     font-size: 15px;
@@ -337,4 +327,27 @@ main{
     margin-right: -4.98%;
     margin-top: 5.95%;
     flex-shrink: 0;
+}
+
+.right_text_container{
+    height: 700px;
+    margin-top: -10%;
+    margin-right: 15%;
+}
+
+.up{
+    margin-left: 26%;
+    margin-top: -15%;
+    padding-bottom: 13%;
+}
+
+.mid{
+    margin-left: 26%;
+    margin-top: -15%;
+    padding-bottom: 13%;
+}
+
+.low{
+    margin-left: 26%;
+    margin-top: -17.5%;
 }
