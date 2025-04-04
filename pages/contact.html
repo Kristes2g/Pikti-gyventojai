@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
     <link rel="stylesheet" href="../css/contact.css">
+     <script src="../js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -55,22 +56,22 @@
         <!-- form dalis su error hover -->
         <div class="right-section">
             <div class="form-container">
-                <form>
-                    <input type="text" placeholder="Name">
-                    <span class="error-message"></span>
-                    
-                    <input type="email" placeholder="Email Address" required>
-                    <span class="error-message email-error">This field is required</span>
-                    
-                    <input type="text" placeholder="Company Name">
-                    <span class="error-message"></span>
-                    
-                    <input type="text" placeholder="Title">
-                    <span class="error-message"></span>
-                    
-                    <textarea placeholder="Message"></textarea>
-                    <span class="error-message"></span>
-                    
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Name">
+                    <div class="error-message">This field is required</div>
+                
+                    <input type="email" id="email" placeholder="Email address">
+                    <div class="error-message">This field is required</div>
+                
+                    <input type="text" id="company" placeholder="Company Name">
+                    <div class="error-message">This field is required</div>
+                
+                    <input type="text" id="title" placeholder="Title">
+                    <div class="error-message">This field is required</div>
+                
+                    <textarea id="message" placeholder="Message"></textarea>
+                    <div class="error-message">This field is required</div>
+                
                     <button type="submit">Submit</button>
                 </form>
                 
