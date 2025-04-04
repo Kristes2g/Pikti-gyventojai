@@ -102,13 +102,14 @@ form {
     margin-right: 350px;
 }
 input, textarea {
-    background: none;
+    background: transparent;
     border: none;
-    border-bottom: 1px solid #FFFFFF; /* Default white border */
-    padding: 20px;
-    color: #FFFFFF; 
-    font-size: 16px;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff; /* Always keep text white */
+    padding: 20px 0;
     width: 542px;
+    outline: none;
+    transition: all 0.3s ease;
 }
  /* keicia formoje Message field dydi */
 textarea {
@@ -136,47 +137,66 @@ h2 {
     margin-left: 260px;
     font-size: 3rem;
     color: #F67E7E;
+    
 /* tekstas prie h1,h2 */
 }
 p {
     font-size: 1.4rem;
 }
-input[type="text"]:hover, textarea:hover {
-    border-bottom: 1px solid #79C8C7; 
 
-    color: #FFFFFF; 
+
+/* hover styles */
+
+
+/* Hover ir focus */
+input:hover:not(.error),
+textarea:hover:not(.error),
+input:focus:not(.error),
+textarea:focus:not(.error) {
+    border-bottom: 1px solid #79C8C7;
 }
 
-input[type="text"]:hover::placeholder, textarea:hover::placeholder {
-    color: #FFFFFF; 
+
+input:hover:not(.error),
+textarea:hover:not(.error),
+input:focus:not(.error),
+textarea:focus:not(.error) {
+    color: #FFFFFF;
 }
-input[type="email"]:hover, input[type="email"]:focus {
-    border-bottom: 1px solid #F67E7E; 
+
+/* melyna underline kada hover  */
+input:hover:not(.error),
+textarea:hover:not(.error),
+input:focus:not(.error),
+textarea:focus:not(.error) {
+    border-bottom: 1px solid #79C8C7;
+}
+
+
+/* error statusas */
+input.error,
+textarea.error {
+    border-bottom: 1px solid #F67E7E;
     color: #F67E7E;
 }
 
-input[type="email"]:hover::placeholder, input[type="email"]:focus::placeholder {
-    color: #F67E7E; 
+/* error placeholder */
+input.error::placeholder,
+textarea.error::placeholder {
+    color: #F67E7E;
 }
-/* raudonas error field is required */
-.email-error {
+
+/* error message styling */
+.error-message {
     display: none;
-    color: #F67E7E; 
+    color: #F67E7E;
     font-size: 12px;
     margin-top: 5px;
 }
-input[type="email"]:hover + .email-error,
-input[type="email"]:focus + .email-error {
+
+/* rodo error */
+.error-message.active {
     display: block;
-}
-.error-message {
-    display: none; 
-}
-input[type="text"]:hover + .error-message,
-textarea:hover + .error-message,
-input[type="text"]:focus + .error-message,
-textarea:focus + .error-message {
-    display: none;
 }
 
 header{
