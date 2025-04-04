@@ -336,3 +336,140 @@ header{
     margin-top: 5.95%;
     flex-shrink: 0;
 }
+
+/* antra puse */
+
+.second_half{
+    background-color: rgba(0, 64, 71, 1);
+    font-family: "Livic", sans-serif;
+    height: 745px;
+}
+
+.pavadinimo_box{
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+}
+
+.succsess_storie{
+    color: #79C8C7;
+}
+
+.kabutes{
+    position: absolute;
+    z-index: 1;
+
+}
+
+.aprasu_box{
+    display: flex;
+    gap: 30px;
+}
+
+.aprasai{
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 25px;
+}
+
+.aprasai_pirmo{
+    text-align: center;
+    height: 80px;
+    width: 350px;
+    margin-left: 600px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.kabutes_vienas{
+    margin-left: 740px;
+}
+
+.aprasai_antro{
+    text-align: center;
+    height: 100px;
+    width: 350px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.kabutes_du{
+    margin-left: 1120px;
+}
+
+.aprasai_trecio{
+    text-align: center;
+    height: 80px;
+    width: 350px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.kabutes_trys{
+    margin-left: 1500px;
+}
+
+/* raudona dalis */
+.red_part{
+    font-family: Livvic;
+    background-color: #F67E7E;
+    height: 220px;
+}
+
+.group_8{
+    margin-top: 76px;
+    z-index: 1;
+    position: absolute;
+}
+
+.red_box{
+    
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 260px;
+    flex-shrink: 0;
+    margin-top: 86px;
+    margin-left: 273px;
+}
+
+.red_name{
+    color: #012F34;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+    
+}
+
+.contact_red_box{
+    color: #012F34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+    border: 2px #012F34 solid;
+    border-radius: 60px;
+    padding: 10px 30px 10px 30px;
+}
+
+.contact_red_box:hover{
+    background-color: #012F34;
+    color: white;
+}
