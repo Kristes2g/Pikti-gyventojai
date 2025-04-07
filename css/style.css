@@ -6,15 +6,17 @@ header{
 }
 
 .MyTeam{
+    position: absolute;
     width: 160px;
     height: 40px;
     flex-shrink: 0;
     margin-left: 165px;
     margin-top: 77px;
+    z-index: 1;
 }
 
 .NavList{
-    margin-top: -40px;
+    padding-top: 53px;
 }
 
 .home{
@@ -78,10 +80,16 @@ header{
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    margin-left: 1560px;    
+    margin-left: 700px;    
     border: 2px white solid;
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
+    width: 88px;
+    justify-content: flex-end;
+}
+
+.contact_decoration{
+    text-decoration: none;
 }
 
 /* CircleLeft cia tas rutuliukas is kaires */
