@@ -44,6 +44,7 @@ header{
 .home:hover{
     color: #F67E7E;;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .about:link{
@@ -53,6 +54,7 @@ header{
 .about:hover{
     color: #F67E7E;;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .contact:link{
@@ -62,6 +64,7 @@ header{
 .contact:hover{
     background-color: #FFF;
     color: black;
+    transition: 0.3s;
 }
 
 .NavList > li{
@@ -488,6 +491,7 @@ header{
 .contact_red_box:hover{
     background-color: #012F34;
     color: white;
+    transition: 0.3s;
 }
 
 /* footer */
@@ -510,6 +514,11 @@ footer{
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
+}
+
+.footer_links:hover{
+    color: #F67E7E;
+    transition: 0.3s;
 }
 
 .footer_nav{
@@ -561,8 +570,17 @@ footer{
     margin-right: 165px;
 }
 
-.social_links{
+.social_links_box{
     margin-top: 48px;
     margin-left: 1000px;
     margin-right: 165px;
+}
+
+.social_icons{
+    fill: white;
+}
+
+.social_icons:hover{
+    fill: #F67E7E;
+    transition: 0.3s;
 }
