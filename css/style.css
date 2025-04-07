@@ -224,7 +224,7 @@ header{
     width: 445px;
 }
 
-/*konteineris konentui is desines*/
+/*konteineris kontentui is desines*/
 .right-text{
     display: flex;
     justify-content: flex-end;
@@ -232,6 +232,30 @@ header{
 }
 
 /*virsutine dalis is desines*/
+
+.right_text_container{
+    height: 700px;
+    margin-top: -10%;
+    margin-right: 15%;
+}
+
+.up{
+    margin-left: 26%;
+    margin-top: -15%;
+    padding-bottom: 13%;
+}
+
+.mid{
+    margin-left: 26%;
+    margin-top: -15%;
+    padding-bottom: 13%;
+}
+
+.low{
+    margin-left: 26%;
+    margin-top: -17.5%;
+}
+
 .upperImg{
     margin-top: -8%;
     margin-right: 29%;
@@ -465,25 +489,80 @@ header{
     background-color: #012F34;
     color: white;
 }
-.right_text_container{
-    height: 700px;
-    margin-top: -10%;
-    margin-right: 15%;
+
+/* footer */
+
+footer{
+    background-color: rgba(0, 37, 41, 1);
+    height: 196px;
+    
 }
 
-.up{
-    margin-left: 26%;
-    margin-top: -15%;
-    padding-bottom: 13%;
+.footer_box{
+    display: flex;
 }
 
-.mid{
-    margin-left: 26%;
-    margin-top: -15%;
-    padding-bottom: 13%;
+.footer_links{
+    text-decoration: none;
+    color: white;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
 }
 
-.low{
-    margin-left: 26%;
-    margin-top: -17.5%;
+.footer_nav{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    margin-left: 163px;
+    margin-top: 115px;
+}
+
+.footer_logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: 48px;
+    margin-left: 165px;
+
+}
+
+.adres_box{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+.adresas{
+    margin-left: 190px;
+    margin-top: 45px;
+    width: 200px;
+}
+
+.copyright{
+    color: #FFF;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 48px;
+    opacity: 0.6;
+    margin-right: 165px;
+}
+
+.social_links{
+    margin-top: 48px;
+    margin-left: 1000px;
+    margin-right: 165px;
 }
