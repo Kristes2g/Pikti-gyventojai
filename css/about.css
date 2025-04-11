@@ -249,6 +249,7 @@ margin-left: 390px;
     height: 56px;
     flex-shrink: 0;
     margin-left: 147px;
+    z-index: 2;
 }
 .circle-inside:hover{
     fill: #79C8C7;
