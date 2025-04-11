@@ -7,7 +7,7 @@ body {
 .container {
     display: flex;
     align-items: center;
-    height: 960px;
+    height: 100%;
     padding: 0 50px;
 }
 /* icons 1,2,3,5 */
@@ -23,42 +23,42 @@ body {
 }
 /* juodas pusrutulis */
 .icon1 {
-    width: 150px;
-    height: 300px;
-    top: 250px;
-    left: 0px;
+    width: 7.8%;
+    height: 30%;
+    top: 27%;
+    left: 0%;
     z-index: 3;
 }
 /* mazi raudoni kvadratai */
 .icon2 {
-    width: 80px;
-    height: 80px;
-    top: 400px;
-    left: 70px;
+    width: 4.2%;
+    height: 9%;
+    top: 42%;
+    left: 3.6%;
     z-index: 3;
 }
 /* melynos linijos */
 .icon3 {
-    width: 150px;
-    height: 44px;
-    top: 350px;
-    left: 0px;
+    width: 7.8%;
+    height: 4%;
+    top: 37.5%;
+    left: 0%;
     z-index: 4;
 }
 /* 2 pusrutuliai su kvadratu desineje */
 .icon4 {
-    width: 150px;
-    height: 300px;
-    top: 670px;
-    left: 1770px;
+    width: 7%;
+    height: 25%;
+    top: 60%;
+    left: 93%;
     z-index: 5;
 }
 /* permatomas kvadratas */
 .icon5 {
-    width: 150px;
-    height: 130px;
-    top: 250px;
-    left: 0px;
+    width: 7.8%;
+    height: 15%;
+    top: 27%;
+    left: 0%;
     z-index: 1;
 }
 .info-container {
@@ -70,14 +70,14 @@ body {
 }
 .info {
     display: flex;
-    gap: 15px;
-    margin-top: 15px;
-    margin-left: 255px;
+    gap: 4%;
+    margin-top: 1%;
+    margin-left: 27%;
 }
 /* h1,h2 images dydziai */
 .info img {
-    width: 82px;
-    height: 82px;
+    width: 15%;
+    height: 15%;
 }
 /* form section */
 .right-section {
@@ -87,29 +87,29 @@ body {
     align-items: center;
 }
 .form-container {
-    padding: 20px;
-    border-radius: 10px;
-    width: 542px;
-    max-width: 500px;
-    margin-right: 400px;
-    margin-top: 85px;
+    padding: 5%;
+    border-radius: 5%;
+    width: 20%;
+    margin-right: 55%;
+    margin-top: 30%;
 }
 /* keicia button */
 form {
     display: flex;
     flex-direction: column;
+    margin-right: 2%;
     gap: 15px;
-    margin-right: 350px;
+    margin-top: 30%;
 }
 input, textarea {
     background: transparent;
     border: none;
     border-bottom: 1px solid #ffffff;
     color: #ffffff; /* Always keep text white */
-    padding: 20px 0;
-    width: 542px;
+    padding: 10%;
+    width: 300%;
     outline: none;
-    transition: all 0.3s ease;
+  
 }
  /* keicia formoje Message field dydi */
 textarea {
@@ -119,29 +119,31 @@ textarea {
 button {
     background: #FFFFFF;
     border: none;
-    padding: 15px 30px; 
+    padding: 5% 5%; 
     cursor: pointer;
-    font-size: 16px;
+    font-size: 100%;
     color: #014E56;
     font-weight: bold;
-    border-radius: 50px; 
+    border-radius: 20%; 
 }
 /* Contact h1 */
 h1 {
-    margin-left: 260px;
-    font-size: 4rem;
+    margin-left: 28%;
+    font-size: 400%;
     color: #FFFFFF;
+    margin-top: 20%;
 /* Ask about us h2 */
 }
 h2 {
-    margin-left: 260px;
-    font-size: 3rem;
+    margin-left: 28%;
+    font-size: 400%;
     color: #F67E7E;
     
 /* tekstas prie h1,h2 */
 }
 p {
-    font-size: 1.4rem;
+    font-size: 200%;
+    justify-content: center;
 }
 
 
@@ -207,24 +209,24 @@ header{
 }
 
 .MyTeam{
-    width: 160px;
-    height: 40px;
-    flex-shrink: 0;
-    margin-left: 165px;
-    margin-top: 77px;
+    width: 10%;
+    height: 3%;
+    flex-shrink: 0%;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .NavList{
-    margin-top: -40px;
+    margin-top: -2.5%;
 }
 
 .home{
     color: #FFF;
     font-family: "Livvic", sans-serif;
-    font-size: 18px;
+    font-size: 100%;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 20%;
     margin-left: 365px;
 }
 
@@ -232,10 +234,10 @@ header{
     color: #FFF;
     font-family: "Livvic", sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 100%;
     font-weight: 600;
-    line-height: 28px;
-    margin-left: 40px;
+    line-height: 20%;
+    margin-left: 50%;
 }
 
 .home:link{
@@ -273,6 +275,7 @@ header{
     color: #FFF;
     font-family: "Livvic", sans-serif;
     font-size: 18px;
+    display: flex;
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
@@ -283,5 +286,95 @@ header{
 }
 
 .header{
-    margin-left: 150px;
+    margin-left: 5%;
+}
+
+
+footer{
+    background-color: rgba(0, 37, 41, 1);
+    height: 40%;
+    
+}
+
+.footer_box{
+    display: flex;
+}
+
+.footer_links{
+    text-decoration: none;
+    color: white;
+    font-family: Livvic;
+    font-size: 125%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20%;
+}
+
+.footer_links:hover{
+    color: #F67E7E;
+    transition: 0.3s;
+}
+
+.footer_nav{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    margin-left: 163px;
+    margin-top: 115px;
+}
+
+.footer_logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: 2%;
+    margin-left: 8.5%;
+
+}
+
+.adres_box{
+    color: #FFF;
+    font-family: "Livic", sans-serif;
+    font-size: 60%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 250%;
+    opacity: 0.6;
+}
+
+.adresas{
+    margin-left: 95%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.copyright{
+    color: #FFF;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15%;
+    margin-top: 3%;
+    opacity: 0.6;
+    margin-right: 13%;
+}
+
+.social_links_box{
+    margin-top: 4%;
+    margin-left: 1000px;
+    margin-right: 165px;
+}
+
+.social_icons{
+    fill: white;
+}
+
+.social_icons:hover{
+    fill: #F67E7E;
+    transition: 0.3s;
 }
