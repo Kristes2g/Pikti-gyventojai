@@ -850,6 +850,8 @@ header{
     display: flex;
     justify-content: flex-end;
     margin-right: 5%;
+    right: 165px;
+    top: 198px;
 }
 
 /*virsutine dalis is desines*/
@@ -1003,8 +1005,9 @@ header{
 
 .aprasu_box{
     display: flex;
-    gap: 30px;
-    width: 1740px;
+    width: 1240px;
+    margin: auto;
+    z-index: 2;
 }
 
 .aprasai{
@@ -1012,13 +1015,15 @@ header{
     z-index: 2;
     color: white;
     font-size: 25px;
+    margin: auto;
 }
 
 .aprasai_pirmo{
     text-align: center;
     height: 80px;
     width: 350px;
-    margin-left: 600px;
+    
+    text-align: center;
     margin-top: 20px;
     line-height: 30px;
     font-size: 15px;
@@ -1027,7 +1032,7 @@ header{
 }
 
 .kabutes_vienas{
-    margin-left: 740px;
+    margin-left: 170px;
 }
 
 .aprasai_antro{
@@ -1042,7 +1047,7 @@ header{
 }
 
 .kabutes_du{
-    margin-left: 1120px;
+    margin-left: 590px;
 }
 
 .aprasai_trecio{
@@ -1057,7 +1062,7 @@ header{
 }
 
 .kabutes_trys{
-    margin-left: 1500px;
+    margin-left: 1000px;
 }
 
 .person_name_one{
@@ -1156,10 +1161,17 @@ header{
     margin-top: 50px;
 }
 
+.container_second_half_icon_du{
+    position: relative;
+}
+
 .second_half_icon_du{
-    
+    position: absolute;
     margin-top: 275px;
-    margin-left: 89.38%;
+    
+    flex-shrink: 0;
+    right: 0;
+    
 }
 
 /* raudona dalis */
@@ -1225,6 +1237,8 @@ footer{
 
 .footer_box{
     display: flex;
+    justify-content: center;
+    
 }
 
 .footer_links{
@@ -1291,10 +1305,15 @@ footer{
     margin-right: 165px;
 }
 
+/* .copyright_box{
+    justify-content: flex-end;
+} */
+
 .social_links_box{
     margin-top: 48px;
     margin-left: 1000px;
     margin-right: 165px;
+    
 }
 
 .social_icons{
