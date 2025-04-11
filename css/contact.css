@@ -285,3 +285,93 @@ header{
 .header{
     margin-left: 150px;
 }
+
+
+footer{
+    background-color: rgba(0, 37, 41, 1);
+    height: 196px;
+    
+}
+
+.footer_box{
+    display: flex;
+}
+
+.footer_links{
+    text-decoration: none;
+    color: white;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.footer_links:hover{
+    color: #F67E7E;
+    transition: 0.3s;
+}
+
+.footer_nav{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    margin-left: 163px;
+    margin-top: 115px;
+}
+
+.footer_logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: 48px;
+    margin-left: 165px;
+
+}
+
+.adres_box{
+    color: #FFF;
+    font-family: "Livic", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+.adresas{
+    margin-left: 190px;
+    margin-top: 45px;
+    width: 250px;
+}
+
+.copyright{
+    color: #FFF;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 48px;
+    opacity: 0.6;
+    margin-right: 165px;
+}
+
+.social_links_box{
+    margin-top: 48px;
+    margin-left: 1000px;
+    margin-right: 165px;
+}
+
+.social_icons{
+    fill: white;
+}
+
+.social_icons:hover{
+    fill: #F67E7E;
+    transition: 0.3s;
+}
