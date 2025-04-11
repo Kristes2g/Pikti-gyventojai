@@ -979,7 +979,7 @@ header{
 .second_half{
     background-color: rgba(0, 64, 71, 1);
     font-family: "Livic", sans-serif;
-    height: 745px;
+    height: 895px;
 }
 
 .pavadinimo_box{
@@ -1004,6 +1004,7 @@ header{
 .aprasu_box{
     display: flex;
     gap: 30px;
+    width: 1740px;
 }
 
 .aprasai{
@@ -1057,6 +1058,108 @@ header{
 
 .kabutes_trys{
     margin-left: 1500px;
+}
+
+.person_name_one{
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0;
+}
+
+.person_specialte_one{
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0;
+}
+
+.moteris{
+    width: 92px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    border: 2px solid #C4FFFE;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin-top: 50px;
+}
+
+.person_name_two{
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0;
+}
+
+.person_specialte_two{
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0;
+}
+
+.moteris_2{
+    width: 92px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    border: 2px solid #C4FFFE;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin-top: 50px;
+}
+
+.person_name_three{
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0;
+}
+
+.person_specialte_three{
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0;
+}
+
+.senukas{
+    width: 92px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    border: 2px solid #C4FFFE;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin-top: 50px;
+}
+
+.second_half_icon_du{
+    
+    margin-top: 275px;
+    margin-left: 89.38%;
 }
 
 /* raudona dalis */
