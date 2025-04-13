@@ -302,305 +302,9 @@ header{
     }
 }
 
-@media(max-width: 768px){
-    header{
-        background-color: #014E56;
-        width: 100%;
-        height: 800px;
-        flex-shrink: 0;
-    }
-    
-    .MyTeam{
-        position: absolute;
-        width: 160px;
-        height: 40px;
-        flex-shrink: 0;
-        margin-left: 39px;
-        margin-top: 77px;
-        z-index: 1;
-    }
-    
-    .NavList{
-        padding-top: 3.4vw;
-        display: flex;
-        flex-wrap: wrap;
-        transform: translateY(37px);
-    }
-    
-    .home{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        margin-left: 215px;
-    }
-    
-    .about{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 600;
-        margin-left: 40px;
-    }
-    
-    .home:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .home:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .about:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .about:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .contact:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .contact:hover{
-        background-color: #FFF;
-        color: black;
-        transition: 0.3s;
-    }
-    
-    .NavList > li{
-        display: inline-block;
-    }
-    
-    .contact{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px;
-        border: 2px white solid;
-        border-radius: 60px;
-        padding: 5px 30px 5px 30px;
-        width: 88px;
-        margin-left: 65vw;
-        transform: translateY(-55px);
-    }
-    
-    .contact_decoration{
-        text-decoration: none;
-    }
-    
-    /* CircleLeft cia tas rutuliukas is kaires */
-    .circleLeft{
-        display: none;
-    }
-    
-    /*Didelis tekstas is kaires*/
-    .header_h1{
-        color: #FFF;
-        text-align: center;
-        font-family: "Livvic", sans-serif;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 56px; 
-        margin-top: 70px;
-        margin-left: 220px;
-        width: 350px;
-    }
-    
-    /*zodis talent*/
-    .header_h1 > span{
-        color: #F67E7E;
-        font-family: "Livvic", sans-serif;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 56px; 
-    }
-    
-    /*Tekstas desineje*/
-    .headerP{
-        color: #FFF;
-        text-align: center;
-        font-family: "Livvic", sans-serif;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px;
-        margin-left: 150px;
-        transform: translateY(205%);
-        width: 470px;
-    }
-    
-    /*Zydras bruksnelis virs teksto is desines*/
-    .headerHr{
-        display: none;
-    }
-    
-    /*containeris kuriame randasi headerHr, h1 ir headerP*/
-    .container{
-        margin-top: 20px;
-    }
-}
 
-@media(max-width: 480px){
-    header{
-        background-color: #014E56;
-        width: 100%;
-        height: 650px;
-        flex-shrink: 0;
-    }
-    
-    .MyTeam{
-        position: absolute;
-        width: 160px;
-        height: 40px;
-        flex-shrink: 0;
-        margin-left: 24px;
-        margin-top: 48px;
-        z-index: 1;
-    }
-    
-    .NavList{
-        padding-top: 3.4vw;
-        display: flex;
-        flex-wrap: wrap;
-        transform: translateY(37px);
-    }
-    
-    .home{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        margin-left: 215px;
-    }
-    
-    .about{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 600;
-        margin-left: 40px;
-    }
-    
-    .home:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .home:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .about:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .about:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .contact:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .contact:hover{
-        background-color: #FFF;
-        color: black;
-        transition: 0.3s;
-    }
-    
-    .NavList > li{
-        display: inline-block;
-    }
-    
-    .contact{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px;
-        border: 2px white solid;
-        border-radius: 60px;
-        padding: 5px 30px 5px 30px;
-        width: 88px;
-        margin-left: 65vw;
-        transform: translateY(-55px);
-    }
-    
-    .contact_decoration{
-        text-decoration: none;
-    }
-    
-    /* CircleLeft cia tas rutuliukas is kaires */
-    .circleLeft{
-        display: none;
-    }
-    
-    /*Didelis tekstas is kaires*/
-    .header_h1{
-        color: #FFF;
-        text-align: center;
-        font-family: "Livvic", sans-serif;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px; /* 100% */
-        margin-top: 70px;
-        margin-left: 140px;
-        width: 220px;
-    }
-    
-    /*zodis talent*/
-    .header_h1 > span{
-        color: #F67E7E;
-        font-family: "Livvic", sans-serif;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-    }
-    
-    /*Tekstas desineje*/
-    .headerP{
-        color: #FFF;
-        text-align: center;
-        font-family: "Livvic", sans-serif;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px; /* 186.667% */
-        margin-left: 80px;
-        transform: translateY(160%);
-        width: 335px;
-    }
-    
-    /*Zydras bruksnelis virs teksto is desines*/
-    .headerHr{
-        display: none;
-    }
-    
-    /*containeris kuriame randasi headerHr, h1 ir headerP*/
-    .container{
-        margin-top: 20px;
-    }
-}
+
+
 
 @media(min-width: 1921px){
     header{
@@ -943,14 +647,16 @@ header{
 .kabutes{
     position: absolute;
     z-index: 1;
-
+    margin-left: 142px;
 }
 
 .aprasu_box{
     display: flex;
-    width: 1240px;
+    font-family: Livvic;
+    justify-content: center;
+    /* width: 1240px; */
     margin: auto;
-    z-index: 2;
+    gap: 30px;
 }
 
 .aprasai{
@@ -959,6 +665,7 @@ header{
     color: white;
     font-size: 25px;
     margin: auto;
+    margin-top: 35px;
 }
 
 .aprasai_pirmo{
@@ -967,45 +674,31 @@ header{
     width: 350px;
     
     text-align: center;
-    margin-top: 20px;
+    
     line-height: 30px;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-}
-
-.kabutes_vienas{
-    margin-left: 170px;
 }
 
 .aprasai_antro{
     text-align: center;
     height: 100px;
     width: 350px;
-    margin-top: 20px;
     line-height: 30px;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-}
-
-.kabutes_du{
-    margin-left: 590px;
 }
 
 .aprasai_trecio{
     text-align: center;
     height: 80px;
     width: 350px;
-    margin-top: 20px;
     line-height: 30px;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-}
-
-.kabutes_trys{
-    margin-left: 1000px;
 }
 
 .person_name_one{
@@ -1111,10 +804,8 @@ header{
 .second_half_icon_du{
     position: absolute;
     margin-top: 275px;
-    
     flex-shrink: 0;
     right: 0;
-    
 }
 
 /* raudona dalis */
@@ -1179,9 +870,10 @@ footer{
 }
 
 .footer_box{
-    display: flex;
-    justify-content: center;
-    
+    display: inline-flex;
+    /* justify-content: center; */
+    position: relative;
+    width: 100%;
 }
 
 .footer_links{
@@ -1201,8 +893,8 @@ footer{
 
 .footer_nav{
     display: inline-flex;
-    justify-content: center;
-    align-items: flex-start;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
     gap: 40px;
     margin-top: 30px;
     position: relative;
@@ -1233,30 +925,32 @@ footer{
     margin-left: 190px;
     margin-top: 45px;
     width: 200px;
+    line-height: 25px;
 }
 
 .copyright{
     color: #FFF;
-    text-align: right;
+    /* text-align: right; */
     font-family: Livvic;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
-    margin-top: 48px;
+    margin-top: 42px;
+    width: 255px;
     opacity: 0.6;
     margin-right: 165px;
 }
 
-/* .copyright_box{
-    justify-content: flex-end;
-} */
+.copyright_box{
+    /* width: 100%; */
+    position: absolute;
+    right: 0;
+}
 
 .social_links_box{
     margin-top: 48px;
-    margin-left: 1000px;
-    margin-right: 165px;
-    
+    margin-left: 145px;
 }
 
 .social_icons{
@@ -1266,4 +960,382 @@ footer{
 .social_icons:hover{
     fill: #F67E7E;
     transition: 0.3s;
+}
+
+@media(max-width: 480px){
+    header{
+        background-color: #014E56;
+        width: 100%;
+        height: 650px;
+        flex-shrink: 0;
+    }
+    
+    .MyTeam{
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-left: 24px;
+        margin-top: 48px;
+        z-index: 1;
+    }
+    
+    .NavList{
+        padding-top: 3.4vw;
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(37px);
+    }
+    
+    .home{
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        margin-left: 215px;
+    }
+    
+    .about{
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 40px;
+    }
+    
+    .home:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .home:hover{
+        color: #F67E7E;;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    .about:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .about:hover{
+        color: #F67E7E;;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    .contact:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .contact:hover{
+        background-color: #FFF;
+        color: black;
+        transition: 0.3s;
+    }
+    
+    .NavList > li{
+        display: inline-block;
+    }
+    
+    .contact{
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        border: 2px white solid;
+        border-radius: 60px;
+        padding: 5px 30px 5px 30px;
+        width: 88px;
+        margin-left: 65vw;
+        transform: translateY(-55px);
+    }
+    
+    .contact_decoration{
+        text-decoration: none;
+    }
+    
+    /* CircleLeft cia tas rutuliukas is kaires */
+    .circleLeft{
+        display: none;
+    }
+    
+    /*Didelis tekstas is kaires*/
+    .header_h1{
+        color: #FFF;
+        text-align: center;
+        font-family: "Livvic", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 100% */
+        margin-top: 70px;
+        margin-left: 140px;
+        width: 220px;
+    }
+    
+    /*zodis talent*/
+    .header_h1 > span{
+        color: #F67E7E;
+        font-family: "Livvic", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    
+    /*Tekstas desineje*/
+    .headerP{
+        color: #FFF;
+        text-align: center;
+        font-family: "Livvic", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 186.667% */
+        margin-left: 80px;
+        transform: translateY(160%);
+        width: 335px;
+    }
+    
+    /*Zydras bruksnelis virs teksto is desines*/
+    .headerHr{
+        display: none;
+    }
+    
+    /*containeris kuriame randasi headerHr, h1 ir headerP*/
+    .container{
+        margin-top: 20px;
+    }
+
+    /* antroji dalis aprasai */
+    .second_half{
+        height: 1588px;
+        font-family: "Livic", sans-serif;   
+    }
+
+    .pavadinimo_box{
+       font-size: 22px;
+       font-style: normal;
+       font-family: Livvic;
+       font-weight: 700;
+       line-height: 32px;
+       width: 327px;
+       margin: auto;
+    }
+
+    .aprasu_box{
+        width: 375px;
+        flex-direction: column;
+        gap: 280px;
+    }
+
+    .second_half_icon_du{
+        margin-top: 285;
+    }
+
+    /* raudona dalis */
+    .red_part{
+        height: 302px;
+    }
+
+/* footer */
+    footer{
+        height: 445px;
+        justify-content: center ;
+    }
+
+    .footer_box{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .footer_container{
+        justify-content: center;
+    }
+
+    .footer_nav{
+       margin-left: 171px;
+       
+    }
+
+    .adres_box{
+        text-align: center;
+    }
+
+    .adresas{
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .social_links_box{
+        margin: 0;
+    }
+
+    .copyright_box{
+        bottom: 64px;
+        text-align: center;
+        /* justify-content: center; */
+        width: 100%;
+    }
+    
+    .copyright{
+        margin: 0;
+        margin-left: 113px;
+        margin-top: 15px;
+    }
+
+}
+
+@media(max-width: 768px){
+    header{
+        background-color: #014E56;
+        width: 100%;
+        height: 800px;
+        flex-shrink: 0;
+    }
+    
+    .MyTeam{
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-left: 39px;
+        margin-top: 77px;
+        z-index: 1;
+    }
+    
+    .NavList{
+        padding-top: 3.4vw;
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(37px);
+    }
+    
+    .home{
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        margin-left: 215px;
+    }
+    
+    .about{
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 40px;
+    }
+    
+    .home:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .home:hover{
+        color: #F67E7E;;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    .about:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .about:hover{
+        color: #F67E7E;;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    .contact:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .contact:hover{
+        background-color: #FFF;
+        color: black;
+        transition: 0.3s;
+    }
+    
+    .NavList > li{
+        display: inline-block;
+    }
+    
+    .contact{
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        border: 2px white solid;
+        border-radius: 60px;
+        padding: 5px 30px 5px 30px;
+        width: 88px;
+        margin-left: 65vw;
+        transform: translateY(-55px);
+    }
+    
+    .contact_decoration{
+        text-decoration: none;
+    }
+    
+    /* CircleLeft cia tas rutuliukas is kaires */
+    .circleLeft{
+        display: none;
+    }
+    
+    /*Didelis tekstas is kaires*/
+    .header_h1{
+        color: #FFF;
+        text-align: center;
+        font-family: "Livvic", sans-serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px; 
+        margin-top: 70px;
+        margin-left: 220px;
+        width: 350px;
+    }
+    
+    /*zodis talent*/
+    .header_h1 > span{
+        color: #F67E7E;
+        font-family: "Livvic", sans-serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px; 
+    }
+    
+    /*Tekstas desineje*/
+    .headerP{
+        color: #FFF;
+        text-align: center;
+        font-family: "Livvic", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        margin-left: 150px;
+        transform: translateY(205%);
+        width: 470px;
+    }
+    
+    /*Zydras bruksnelis virs teksto is desines*/
+    .headerHr{
+        display: none;
+    }
+    
+    /*containeris kuriame randasi headerHr, h1 ir headerP*/
+    .container{
+        margin-top: 20px;
+    }
 }
