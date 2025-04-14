@@ -906,9 +906,21 @@ footer{
         justify-content: center;
     }
 
+    .footer_box{
+        width: 100%;
+        align-items: center;
+    }
+
     .footer_nav{
-       margin-left: 171px;
-       
+       margin: 0;
+       margin-top: 114px;
+    }
+
+    .footer_logo{
+        margin: 0;
+        margin-top: 66px;
+        width: 96px;
+        margin-left: 20px;
     }
 
     .adres_box{
@@ -933,7 +945,7 @@ footer{
     
     .copyright{
         margin: 0;
-        margin-left: 113px;
+        margin: auto;
         margin-top: 15px;
     }
 
