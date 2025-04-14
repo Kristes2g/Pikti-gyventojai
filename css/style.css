@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 header{
     background-color: #014E56;
     width: 100%;
@@ -16,9 +20,10 @@ header{
 }
 
 .NavList{
-    padding-top: 2.5vw;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    transform: translateY(85%);
 }
 
 .home{
@@ -87,7 +92,7 @@ header{
     padding: 5px 30px 5px 30px;
     width: 88px;
     margin-left: 60vw;
-    margin-top: 0.5vw;
+    transform: translateY(10%);
 }
 
 .contact_decoration{
@@ -133,21 +138,21 @@ header{
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    margin-left: 1800px;
+    padding-left: 1700px;
     margin-top: -190px;
 }
 
 /*Zydras bruksnelis virs teksto is desines*/
 .headerHr{
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 4px;
     flex-shrink: 0;
     background: #79C8C7;
     border: 0;
-    margin: 0;
-    margin-left: 1800px;
-    margin-top: 150px;
+    margin-top: 144px;
+    margin-left: 1700px;
+    transform: translateY(3500%);
 }
 
 /*containeris kuriame randasi headerHr, h1 ir headerP*/
@@ -155,666 +160,41 @@ header{
     margin-top: 20px;
 }
 
-/*Pusrutulis is kaires rozines spurgos*/
-.oval{
-    position: absolute;
-    fill: #2C6269;
-    position: absolute;
-    margin-left: 1900px;
-    margin-top: 182px;
-    z-index: 1;
-    flex-shrink: 0;
+.bottomcontainer{
+    position: relative;
+    width: 1440;
+    display: flex;
+    bottom: 0;
 }
 
-/*Bruksneliai ant oval*/
-.combinedshape{
+.bottomimg{
     position: absolute;
-    fill: #79C8C7;
-    z-index: 1;
-    flex-shrink: 0;
-    margin-top: 182px;
-    margin-left: 1900px;
-}
-
-/*rozine spurga*/
-.combinedshapecopy{
-    position: absolute;
-    margin-left: 2040px;
-    z-index: 4;
-    flex-shrink: 0;
-    margin-top: 182px;
-}
-
-/*spurgos seselis*/
-.combinedshapecopy1{
-    position: absolute;
-    z-index: 1;
-    margin-top: 182px;
-    flex-shrink: 0;
-    margin-left: 2070px
-}
-
-/*zydras kvadratas prie rozines spurgos is desines*/
-.square{
-    position: absolute;
-    width: 43px;
-    height: 43px;
-    flex-shrink: 0;
-    background: #79C8C7;
-    z-index: 2;
-    margin-left: 2220px;
-    margin-top: 179px;
+    right: 175px;
+    transform: translateY(100%);
 }
 
 @media(max-width: 1920px){
-    header{
-        background-color: #014E56;
-        width: 100%;
-        height: 800px;
-        flex-shrink: 0;
-    }
-    
-    .MyTeam{
-        position: absolute;
-        width: 160px;
-        height: 40px;
-        flex-shrink: 0;
-        margin-left: 165px;
-        margin-top: 77px;
-        z-index: 1;
-    }
-    
-    .NavList{
-        padding-top: 3.4vw;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .home{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 63px;
-        margin-left: 365px;
-    }
-    
-    .about{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 63px;
-        margin-left: 40px;
-    }
-    
-    .home:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .home:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .about:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .about:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .contact:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .contact:hover{
-        background-color: #FFF;
-        color: black;
-        transition: 0.3s;
-    }
-    
     .NavList > li{
         display: inline-block;
     }
     
     .contact{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px;    
-        border: 2px white solid;
-        border-radius: 60px;
-        padding: 10px 30px 10px 30px;
-        width: 88px;
         margin-left: 55vw;
-        margin-top: 0.5vw;
-    }
-    
-    .contact_decoration{
-        text-decoration: none;
-    }
-    
-    /* CircleLeft cia tas rutuliukas is kaires */
-    .circleLeft{
-        margin-top: 150px;
-        margin-right: 1340px;
-        flex-shrink: 0;
-    }
-    
-    /*Didelis tekstas is kaires*/
-    .header_h1{
-        margin-top: -200px;
-        margin-left: 165px;
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 100px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 100px;
-        width: 600px;
-    }
-    
-    /*zodis talent*/
-    .header_h1 > span{
-        color: #F67E7E;
-        font-family: "Livvic", sans-serif;
-        font-size: 100px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 100px;
     }
     
     /*Tekstas desineje*/
     .headerP{
-        width: 445px;
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px;
+        padding-left: 1300px;
+    }
+    
+    /*Zydras bruksnelis virs teksto is desines*/
+    .headerHr{
         margin-left: 1300px;
-        margin-top: -190px;
     }
-    
-    /*Zydras bruksnelis virs teksto is desines*/
-    .headerHr{
+    .bottomimg{
         position: absolute;
-        width: 50px;
-        height: 4px;
-        flex-shrink: 0;
-        background: #79C8C7;
-        border: 0;
-        margin: 0;
-        margin-left: 1300px;
-        margin-top: 150px;
-    }
-    
-    /*containeris kuriame randasi headerHr, h1 ir headerP*/
-    .container{
-        margin-top: 20px;
-    }
-    
-    /*Pusrutulis is kaires rozines spurgos*/
-    .oval{
-        position: absolute;
-        fill: #2C6269;
-        position: absolute;
-        margin-left: 1350px;
-        margin-top: 174px;
-        z-index: 1;
-        flex-shrink: 0;
-    }
-    
-    /*Bruksneliai ant oval*/
-    .combinedshape{
-        position: absolute;
-        fill: #79C8C7;
-        z-index: 1;
-        flex-shrink: 0;
-        margin-top: 174px;
-        margin-left: 1350px;
-    }
-    
-    /*rozine spurga*/
-    .combinedshapecopy{
-        position: absolute;
-        margin-left: 1490px;
-        z-index: 4;
-        flex-shrink: 0;
-        margin-top: 174px;
-    }
-    
-    /*spurgos seselis*/
-    .combinedshapecopy1{
-        position: absolute;
-        z-index: 1;
-        margin-top: 174px;
-        flex-shrink: 0;
-        margin-left: 1520px
-    }
-    
-    /*zydras kvadratas prie rozines spurgos is desines*/
-    .square{
-        position: absolute;
-        width: 43px;
-        height: 43px;
-        flex-shrink: 0;
-        background: #79C8C7;
-        z-index: 2;
-        margin-left: 1670px;
-        margin-top: 169px;
-    }
-}
-
-@media(max-width: 768px){
-    header{
-        background-color: #014E56;
-        width: 100%;
-        height: 800px;
-        flex-shrink: 0;
-    }
-    
-    .MyTeam{
-        position: absolute;
-        width: 160px;
-        height: 40px;
-        flex-shrink: 0;
-        margin-left: 39px;
-        margin-top: 77px;
-        z-index: 1;
-    }
-    
-    .NavList{
-        padding-top: 3.4vw;
-        display: flex;
-        flex-wrap: wrap;
-        transform: translateY(37px);
-    }
-    
-    .home{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        margin-left: 215px;
-    }
-    
-    .about{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 600;
-        margin-left: 40px;
-    }
-    
-    .home:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .home:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .about:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .about:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .contact:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .contact:hover{
-        background-color: #FFF;
-        color: black;
-        transition: 0.3s;
-    }
-    
-    .NavList > li{
-        display: inline-block;
-    }
-    
-    .contact{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px;
-        border: 2px white solid;
-        border-radius: 60px;
-        padding: 5px 30px 5px 30px;
-        width: 88px;
-        margin-left: 65vw;
-        transform: translateY(-55px);
-    }
-    
-    .contact_decoration{
-        text-decoration: none;
-    }
-    
-    /* CircleLeft cia tas rutuliukas is kaires */
-    .circleLeft{
-        display: none;
-    }
-    
-    /*Didelis tekstas is kaires*/
-    .header_h1{
-        color: #FFF;
-        text-align: center;
-        font-family: "Livvic", sans-serif;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 56px; 
-        margin-top: 70px;
-        margin-left: 220px;
-        width: 350px;
-    }
-    
-    /*zodis talent*/
-    .header_h1 > span{
-        color: #F67E7E;
-        font-family: "Livvic", sans-serif;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 56px; 
-    }
-    
-    /*Tekstas desineje*/
-    .headerP{
-        color: #FFF;
-        text-align: center;
-        font-family: "Livvic", sans-serif;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px;
-        margin-left: 150px;
-        transform: translateY(205%);
-        width: 470px;
-    }
-    
-    /*Zydras bruksnelis virs teksto is desines*/
-    .headerHr{
-        display: none;
-    }
-    
-    /*containeris kuriame randasi headerHr, h1 ir headerP*/
-    .container{
-        margin-top: 20px;
-    }
-    
-    /*Pusrutulis is kaires rozines spurgos*/
-    .oval{
-        position: absolute;
-        fill: #2C6269;
-        position: absolute;
-        margin-left: 200px;
-        margin-top: 413px;
-        z-index: 1;
-        flex-shrink: 0;
-    }
-    
-    /*Bruksneliai ant oval*/
-    .combinedshape{
-        position: absolute;
-        fill: #79C8C7;
-        z-index: 1;
-        flex-shrink: 0;
-        margin-top: 413px;
-        margin-left: 200px;
-    }
-    
-    /*rozine spurga*/
-    .combinedshapecopy{
-        position: absolute;
-        margin-left: 333px;
-        z-index: 4;
-        flex-shrink: 0;
-        margin-top: 413px;
-    }
-    
-    /*spurgos seselis*/
-    .combinedshapecopy1{
-        position: absolute;
-        z-index: 1;
-        margin-top: 413px;
-        flex-shrink: 0;
-        margin-left: 360px
-    }
-    
-    /*zydras kvadratas prie rozines spurgos is desines*/
-    .square{
-        position: absolute;
-        width: 43px;
-        height: 43px;
-        flex-shrink: 0;
-        background: #79C8C7;
-        z-index: 2;
-        margin-left: 517px;
-        margin-top: 413px;
-    }
-}
-
-@media(max-width: 480px){
-    header{
-        background-color: #014E56;
-        width: 100%;
-        height: 650px;
-        flex-shrink: 0;
-    }
-    
-    .MyTeam{
-        position: absolute;
-        width: 160px;
-        height: 40px;
-        flex-shrink: 0;
-        margin-left: 24px;
-        margin-top: 48px;
-        z-index: 1;
-    }
-    
-    .NavList{
-        padding-top: 3.4vw;
-        display: flex;
-        flex-wrap: wrap;
-        transform: translateY(37px);
-    }
-    
-    .home{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        margin-left: 215px;
-    }
-    
-    .about{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 600;
-        margin-left: 40px;
-    }
-    
-    .home:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .home:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .about:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .about:hover{
-        color: #F67E7E;;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    
-    .contact:link{
-        color: #FFF;
-        text-decoration: none;
-    }
-    .contact:hover{
-        background-color: #FFF;
-        color: black;
-        transition: 0.3s;
-    }
-    
-    .NavList > li{
-        display: inline-block;
-    }
-    
-    .contact{
-        color: #FFF;
-        font-family: "Livvic", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px;
-        border: 2px white solid;
-        border-radius: 60px;
-        padding: 5px 30px 5px 30px;
-        width: 88px;
-        margin-left: 65vw;
-        transform: translateY(-55px);
-    }
-    
-    .contact_decoration{
-        text-decoration: none;
-    }
-    
-    /* CircleLeft cia tas rutuliukas is kaires */
-    .circleLeft{
-        display: none;
-    }
-    
-    /*Didelis tekstas is kaires*/
-    .header_h1{
-        color: #FFF;
-        text-align: center;
-        font-family: "Livvic", sans-serif;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px; /* 100% */
-        margin-top: 70px;
-        margin-left: 140px;
-        width: 220px;
-    }
-    
-    /*zodis talent*/
-    .header_h1 > span{
-        color: #F67E7E;
-        font-family: "Livvic", sans-serif;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-    }
-    
-    /*Tekstas desineje*/
-    .headerP{
-        color: #FFF;
-        text-align: center;
-        font-family: "Livvic", sans-serif;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px; /* 186.667% */
-        margin-left: 80px;
-        transform: translateY(160%);
-        width: 335px;
-    }
-    
-    /*Zydras bruksnelis virs teksto is desines*/
-    .headerHr{
-        display: none;
-    }
-    
-    /*containeris kuriame randasi headerHr, h1 ir headerP*/
-    .container{
-        margin-top: 20px;
-    }
-    
-    /*Pusrutulis is kaires rozines spurgos*/
-    .oval{
-        position: absolute;
-        fill: #2C6269;
-        position: absolute;
-        margin-left: 45px;
-        margin-top: 294px;
-        z-index: 1;
-        flex-shrink: 0;
-    }
-    
-    /*Bruksneliai ant oval*/
-    .combinedshape{
-        position: absolute;
-        fill: #79C8C7;
-        z-index: 1;
-        flex-shrink: 0;
-        margin-top: 294px;
-        margin-left: 45px;
-    }
-    
-    /*rozine spurga*/
-    .combinedshapecopy{
-        position: absolute;
-        margin-left: 195px;
-        z-index: 4;
-        flex-shrink: 0;
-        margin-top: 294px;
-    }
-    
-    /*spurgos seselis*/
-    .combinedshapecopy1{
-        position: absolute;
-        z-index: 1;
-        margin-top: 294px;
-        flex-shrink: 0;
-        margin-left: 225px;
-    }
-    
-    /*zydras kvadratas prie rozines spurgos is desines*/
-    .square{
-        position: absolute;
-        width: 43px;
-        height: 43px;
-        flex-shrink: 0;
-        background: #79C8C7;
-        z-index: 2;
-        margin-left: 378px;
-        margin-top: 295px;
+        right: 175px;
+        transform: translateY(101%);
     }
 }
 
@@ -831,7 +211,13 @@ header{
     margin-left: 165px;
 }
 .mainHr{
-    display: none;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    border: none;
+    background-color: #F67E7E;
 }
 
 .mainH2{
@@ -850,13 +236,14 @@ header{
     display: flex;
     justify-content: flex-end;
     margin-right: 5%;
+    right: 165px;
 }
 
 /*virsutine dalis is desines*/
 
 .right_text_container{
     height: 700px;
-    margin-top: -10%;
+    margin-top: -7%;
     margin-right: 15%;
 }
 
@@ -998,13 +385,16 @@ header{
 .kabutes{
     position: absolute;
     z-index: 1;
-
+    margin-left: 142px;
 }
 
 .aprasu_box{
     display: flex;
+    font-family: Livvic;
+    justify-content: center;
+    /* width: 1240px; */
+    margin: auto;
     gap: 30px;
-    width: 1740px;
 }
 
 .aprasai{
@@ -1012,52 +402,41 @@ header{
     z-index: 2;
     color: white;
     font-size: 25px;
+    margin: auto;
+    margin-top: 35px;
 }
 
 .aprasai_pirmo{
     text-align: center;
     height: 80px;
     width: 350px;
-    margin-left: 600px;
-    margin-top: 20px;
+    
+    text-align: center;
+    
     line-height: 30px;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-}
-
-.kabutes_vienas{
-    margin-left: 740px;
 }
 
 .aprasai_antro{
     text-align: center;
     height: 100px;
     width: 350px;
-    margin-top: 20px;
     line-height: 30px;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-}
-
-.kabutes_du{
-    margin-left: 1120px;
 }
 
 .aprasai_trecio{
     text-align: center;
     height: 80px;
     width: 350px;
-    margin-top: 20px;
     line-height: 30px;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-}
-
-.kabutes_trys{
-    margin-left: 1500px;
 }
 
 .person_name_one{
@@ -1156,10 +535,15 @@ header{
     margin-top: 50px;
 }
 
+.container_second_half_icon_du{
+    position: relative;
+}
+
 .second_half_icon_du{
-    
+    position: absolute;
     margin-top: 275px;
-    margin-left: 89.38%;
+    flex-shrink: 0;
+    right: 0;
 }
 
 /* raudona dalis */
@@ -1224,7 +608,10 @@ footer{
 }
 
 .footer_box{
-    display: flex;
+    display: inline-flex;
+    /* justify-content: center; */
+    position: relative;
+    width: 100%;
 }
 
 .footer_links{
@@ -1244,8 +631,8 @@ footer{
 
 .footer_nav{
     display: inline-flex;
-    justify-content: center;
-    align-items: flex-start;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
     gap: 40px;
     margin-top: 30px;
     position: relative;
@@ -1276,25 +663,32 @@ footer{
     margin-left: 190px;
     margin-top: 45px;
     width: 200px;
+    line-height: 25px;
 }
 
 .copyright{
     color: #FFF;
-    text-align: right;
+    /* text-align: right; */
     font-family: Livvic;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
-    margin-top: 48px;
+    margin-top: 42px;
+    width: 255px;
     opacity: 0.6;
     margin-right: 165px;
 }
 
+.copyright_box{
+    /* width: 100%; */
+    position: absolute;
+    right: 0;
+}
+
 .social_links_box{
     margin-top: 48px;
-    margin-left: 1000px;
-    margin-right: 165px;
+    margin-left: 145px;
 }
 
 .social_icons{
@@ -1306,6 +700,259 @@ footer{
     transition: 0.3s;
 }
 
+<<<<<<< HEAD
 html{
     margin: 0;
 }
+=======
+
+@media(max-width: 768px){
+    .MyTeam{
+        margin-left: 39px;
+        margin-top: 72px;
+    }
+    
+    .NavList{
+        padding-top: 3.4vw;
+        transform: translateY(20%);
+    }
+    
+    .home{
+        margin-left: 215px;
+    }
+    
+    .contact{
+        margin-left: 65vw;
+        transform: translateY(-160%);
+    }
+
+    .circleLeft{
+        display: none;
+    }
+    
+    /*Didelis tekstas is kaires*/
+    .header_h1{
+        text-align: center;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 56px; 
+        margin-top: 60px;
+        margin-left: 220px;
+        width: 350px;
+    }
+    
+    /*zodis talent*/
+    .header_h1 > span{
+        font-size: 64px;
+    }
+    
+    /*Tekstas desineje*/
+    .headerP{
+        color: #FFF;
+        text-align: center;
+        font-family: "Livvic", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        width: 470px;
+        margin-left: -150%;
+        margin-top: 1%;
+    }
+    
+    /*Zydras bruksnelis virs teksto is desines*/
+    .headerHr{
+        display: none;
+    }
+
+    .bottomimg{
+        right: 200px;
+        margin-top: 9.2%;
+    }
+
+    .mainH2{
+        font-size: 32px;
+        width: 500px;
+        margin-top: -0.1%;
+    }
+
+    .left-text{
+        padding: 0;
+        margin-left: 10%;
+        padding-top: 10%;
+    }
+
+    .lowerrightImg{
+        margin-top: -29%;
+    }
+
+    .right_text_container{
+        padding: 0;
+        margin: 0;
+        margin-right: 28%;
+        margin-top: 10%;
+    }
+}
+
+@media(max-width: 480px){  
+    .circleLeft{
+        display: none;
+    }
+
+    .header_h1{
+        margin-left: 17%;
+    }
+    /*Tekstas desineje*/
+    .headerP{
+        padding: 0;
+        margin-left: 18%;
+        width: 330px;
+    }
+    
+    /*Zydras bruksnelis virs teksto is desines*/
+    .headerHr{
+        display: none;
+    }
+
+    .bottomimg{
+        margin-top: 10.8%;
+        right: 50px;
+    }
+
+    .first_half{
+        height: 1250px;
+    }
+
+    .mainH2{
+        font-size: 32px;
+        width: 240px;
+        margin-top: -0.1%;
+        margin-bottom: -10%;
+    }
+
+    .left-text{
+        padding: 0;
+        margin-left: 5%;
+        padding-top: 10%;
+    }
+
+    .lowerrightImg{
+        margin-top: -55.5%;
+    }
+
+    .right_text_container{
+        padding: 0;
+        margin: 0;
+        margin-top: 30%;
+        margin-right: 25%;
+        text-align: center;
+    }
+
+    .upperImg, .midImg, .lowerImg{
+        display: flex;
+        width: 72px;
+        height: 72px;
+        transform: translateX(425%);
+        margin-bottom: 20%;
+    }
+
+    .upperText, .lowerText{
+        width: 445px;
+    }
+
+    .uppersubText, .midsubText, .lowersubText{
+        width: 330px;
+        margin-left: 20%;
+    }
+
+    /* antroji dalis aprasai */
+    .second_half{
+        height: 1588px;
+        font-family: "Livic", sans-serif;   
+    }
+
+    .pavadinimo_box{
+       font-size: 22px;
+       font-style: normal;
+       font-family: Livvic;
+       font-weight: 700;
+       line-height: 32px;
+       width: 327px;
+       margin: auto;
+    }
+
+    .aprasu_box{
+        width: 375px;
+        flex-direction: column;
+        gap: 280px;
+    }
+
+    .second_half_icon_du{
+        margin-top: 285;
+    }
+
+    /* raudona dalis */
+    .red_part{
+        height: 302px;
+    }
+
+/* footer */
+    footer{
+        height: 445px;
+        justify-content: center ;
+    }
+
+    .footer_box{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .footer_container{
+        justify-content: center;
+    }
+
+    .footer_box{
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer_nav{
+       margin: 0;
+       margin-top: 114px;
+    }
+
+    .footer_logo{
+        margin: 0;
+        margin-top: 66px;
+        width: 96px;
+        margin-left: 20px;
+    }
+
+    .adres_box{
+        text-align: center;
+    }
+
+    .adresas{
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .social_links_box{
+        margin: 0;
+    }
+
+    .copyright_box{
+        bottom: 64px;
+        text-align: center;
+        /* justify-content: center; */
+        width: 100%;
+    }
+    
+    .copyright{
+        margin: 0;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+}
+>>>>>>> 8790c5c68b8699b237e3b31f471a1a8f34757f60
