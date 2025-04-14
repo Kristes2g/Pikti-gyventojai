@@ -259,6 +259,7 @@ margin-left: 390px;
 
 .fill:hover{
     fill: #79C8C7;
+    cursor: pointer;
 }
 .fill.is-flipped{
     fill: #79C8C7;
@@ -299,7 +300,6 @@ margin-left: 390px;
   .card__face--back {
     background-color: #002529;
     transform: rotateY(180deg);
-
   }
 
   .quote{
