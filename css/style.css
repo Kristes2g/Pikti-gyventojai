@@ -1305,3 +1305,7 @@ footer{
     fill: #F67E7E;
     transition: 0.3s;
 }
+
+html{
+    margin: 0;
+}
