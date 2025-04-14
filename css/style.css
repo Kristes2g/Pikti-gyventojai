@@ -184,12 +184,12 @@ header{
     
     /*Tekstas desineje*/
     .headerP{
-        padding-left: 1300px;
+        padding-left: 1100px;
     }
     
     /*Zydras bruksnelis virs teksto is desines*/
     .headerHr{
-        margin-left: 1300px;
+        margin-left: 1100px;
     }
     .bottomimg{
         position: absolute;
@@ -744,14 +744,13 @@ footer{
     /*Tekstas desineje*/
     .headerP{
         color: #FFF;
-        text-align: center;
         font-family: "Livvic", sans-serif;
         font-size: 15px;
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
         width: 470px;
-        margin-left: -150%;
+        margin-left: -130%;
         margin-top: 1%;
     }
     
@@ -762,7 +761,16 @@ footer{
 
     .bottomimg{
         right: 200px;
-        margin-top: 9.2%;
+        margin-top: 8.4%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Pdiv{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 1000px;
     }
 
     .mainH2{
@@ -800,17 +808,20 @@ footer{
     /*Tekstas desineje*/
     .headerP{
         padding: 0;
-        margin-left: 18%;
         width: 330px;
     }
     
+    .Pdiv{
+        margin-left: 85%;
+    }
+
     /*Zydras bruksnelis virs teksto is desines*/
     .headerHr{
         display: none;
     }
 
     .bottomimg{
-        margin-top: 10.8%;
+        margin-top: 8.7%;
         right: 50px;
     }
 
