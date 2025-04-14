@@ -1,6 +1,8 @@
-const oval=document.getElementsByClassName("circle-inside")
-const div=document.getElementsByClassName("div1")
+var buttons = document.querySelectorAll('.rotate, .fill');
 
-oval.addEventListener("click", ()=>{
-    oval.style.fill='green'
-})
+[...buttons].forEach((button)=>{
+  button.addEventListener( 'click', function() {
+    button.classList.toggle('is-flipped');
+  });
+});
+    

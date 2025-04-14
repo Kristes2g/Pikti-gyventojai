@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 header{
     background-color: #014E56;
     width: 100%;
@@ -251,6 +255,18 @@ margin-left: 390px;
     margin-left: 147px;
     z-index: 2;
 }
-.circle-inside:hover{
+
+.fill:hover{
     fill: #79C8C7;
+}
+.fill.is-flipped{
+    fill: #79C8C7;
+}
+
+.rotate{
+    transition: transform 1s;
+}
+.rotate.is-flipped{
+    transform: rotate(+45deg);
+    transition: transform 1s;
 }
