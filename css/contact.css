@@ -85,6 +85,8 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center;
+    width: 1%;
+    height: 2%;
 }
 .form-container {
     padding: 5%;
@@ -204,7 +206,7 @@ textarea.error::placeholder {
 header{
     background-color: #014E56;
     width: 100%;
-    height: 0px;
+    height: 1%;
     flex-shrink: 0;
 }
 
@@ -217,7 +219,7 @@ header{
 }
 
 .NavList{
-    margin-top: -2.5%;
+    margin-top: -3.5%;
 }
 
 .home{
@@ -227,7 +229,7 @@ header{
     font-style: normal;
     font-weight: 600;
     line-height: 20%;
-    margin-left: 365px;
+    margin-left: 450px;
 }
 
 .about{
@@ -279,7 +281,7 @@ header{
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    margin-left: 1200px;    
+    margin-left: 1000px;    
     border: 2px white solid;
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
