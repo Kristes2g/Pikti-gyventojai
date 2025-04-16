@@ -333,3 +333,168 @@ margin-left: 390px;
 .fa:hover{
     color: #F67E7E;
 }
+
+.red_part{
+    font-family: Livvic;
+    background-color: #F67E7E;
+    height: 220px;
+    z-index: 4;
+    width: 1920px;;
+    top: 1550px;
+    position: relative;
+}
+
+.group_8{
+    margin-top: 76px;
+    z-index: 3;
+    position: absolute;
+    
+}
+
+.red_box{
+    
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 260px;
+    flex-shrink: 0;
+    margin-top: 86px;
+    margin-left: 273px;
+    
+}
+
+.red_name{
+    color: #012F34;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+    z-index: 3;
+    
+}
+
+.contact_red_box{
+    color: #012F34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+    border: 2px #012F34 solid;
+    border-radius: 60px;
+    padding: 10px 30px 10px 30px;
+}
+
+.contact_red_box:hover{
+    background-color: #012F34;
+    color: white;
+    transition: 0.3s;
+}
+
+/* footer */
+
+footer{
+    background-color: rgba(0, 37, 41, 1);
+    height: 196px;
+    
+}
+
+.footer_box{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 1550px;
+    width: 100%;
+    background-color: rgba(0, 37, 41, 1);
+    z-index: 7;
+}
+
+.footer_links{
+    text-decoration: none;
+    color: white;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.footer_links:hover{
+    color: #F67E7E;
+    transition: 0.3s;
+}
+
+.footer_nav{
+    display: inline-flex;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    gap: 40px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    margin-left: 163px;
+    margin-top: 115px;
+}
+
+.footer_logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: 48px;
+    margin-left: 165px;
+
+}
+
+.adres_box{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+.adresas{
+    margin-left: 190px;
+    margin-top: 45px;
+    width: 200px;
+    line-height: 25px;
+}
+
+.copyright{
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 42px;
+    width: 255px;
+    opacity: 0.6;
+    margin-right: 165px;
+}
+
+.copyright_box{
+    /* width: 100%; */
+    position: absolute;
+    right: 0;
+}
+
+.social_links_box{
+    margin-top: 48px;
+    margin-left: 145px;
+    
+}
+
+.social_icons{
+    fill: white;
+    cursor: pointer;
+}
+
+.social_icons:hover{
+    fill: #F67E7E;
+    transition: 0.3s;
+}
