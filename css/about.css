@@ -78,11 +78,13 @@ header{
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
-    margin-left: 1400px;    
+    line-height: 28px;    
     border: 2px white solid;
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
+    width: 88px;
+    margin-left: 70vw;
+    transform: translateY(10%);
 }
 
 .about_h1{
@@ -121,9 +123,17 @@ header{
     margin-top: -50px;
 }
 
+.bottomimg{
+    position: relative;
+    display: flex;
+    height: 130px; 
+    margin-top: 100px; 
+}
+
 .headerCircle{
-    margin-left: 94.7%;
-    margin-top: -10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .background1{
@@ -339,7 +349,7 @@ margin-left: 390px;
     background-color: #F67E7E;
     height: 220px;
     z-index: 4;
-    width: 1920px;;
+    width: 100%;
     top: 1550px;
     position: relative;
 }
@@ -352,7 +362,6 @@ margin-left: 390px;
 }
 
 .red_box{
-    
     display: inline-flex;
     height: 48px;
     justify-content: center;
@@ -497,4 +506,85 @@ footer{
 .social_icons:hover{
     fill: #F67E7E;
     transition: 0.3s;
+}
+
+@media(max-width: 768px){
+    .headerHr{
+        display: none;
+    }
+
+    .container{
+        text-align: center;
+    }
+
+    .MyTeam{
+        margin-left: 39px;
+    }
+
+    .NavList{
+        margin-left: -150px;
+    }
+
+    .contact{
+        margin-left: 150px;
+    }
+
+    .about_h1{
+        margin-right: 150px;
+        margin-top: 105px;
+    }
+
+    .bottomimg{
+        margin-top: 155px;
+    }
+
+    .headerP{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        margin-top: 2px;
+        margin-left: 160px;
+        width: 457px;
+    }
+}
+
+@media(max-width: 480px){
+    .NavList{
+        display: none;
+    }
+
+    .MyTeam{
+        margin-top: 48px;
+        margin-left: 24px;
+    }
+
+    .bottomimg{
+        margin-top: 333px;
+    }
+
+    .about_h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; 
+    }
+
+    .headerP{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; 
+        width: 327px;
+        margin-left: 93px;
+    }
 }
