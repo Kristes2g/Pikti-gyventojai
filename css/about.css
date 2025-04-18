@@ -418,6 +418,7 @@ footer{
     width: 100%;
     background-color: rgba(0, 37, 41, 1);
     z-index: 7;
+    height: 200px;
 }
 
 .footer_links{
@@ -428,6 +429,9 @@ footer{
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
+    position: relative;
+    right: 550px;
+    top: 70px;
 }
 
 .footer_links:hover{
@@ -440,18 +444,17 @@ footer{
     /* justify-content: center; */
     /* align-items: flex-start; */
     gap: 40px;
-    margin-top: 30px;
+    margin-top: 40px;
     position: relative;
     z-index: 2;
-    margin-left: 163px;
-    margin-top: 115px;
+
 }
 
 .footer_logo{
-    position: absolute;
+    position: relative;
     z-index: 1;
-    margin-top: 48px;
-    margin-left: 165px;
+    top: 20px;
+    right: 400px;
 
 }
 
@@ -470,6 +473,8 @@ footer{
     margin-top: 45px;
     width: 200px;
     line-height: 25px;
+    position: relative;
+    right: 500px;
 }
 
 .copyright{
