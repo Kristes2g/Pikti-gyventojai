@@ -23,7 +23,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    transform: translateY(85%);
+    transform: translateY(100%);
 }
 
 .home{
@@ -81,22 +81,20 @@ header{
 }
 
 .contact{
-    color: #FFF;
-    font-family: "Livvic", sans-serif;
+    display: flex;
+    color: white;
+    font-family: Livvic;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;    
+    line-height: 28px;
+    text-decoration: none;
     border: 2px white solid;
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
-    width: 88px;
-    margin-left: 60vw;
-    transform: translateY(10%);
-}
-
-.contact_decoration{
+    margin-left: 900px;
     text-decoration: none;
+    transform: translateY(25%);
 }
 
 /* CircleLeft cia tas rutuliukas is kaires */
@@ -138,7 +136,7 @@ header{
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    padding-left: 1700px;
+    padding-left: 1200px;
     margin-top: -190px;
 }
 
@@ -151,7 +149,7 @@ header{
     background: #79C8C7;
     border: 0;
     margin-top: 144px;
-    margin-left: 1700px;
+    margin-left: 1200px;
     transform: translateY(3500%);
 }
 
@@ -170,7 +168,7 @@ header{
 .bottomimg{
     position: absolute;
     right: 175px;
-    transform: translateY(100%);
+    transform: translateY(116%);
 }
 
 .first_half{
@@ -695,7 +693,7 @@ footer{
     
     .contact{
         margin-left: 65vw;
-        transform: translateY(-160%);
+        transform: translateY(-105%);
     }
 
     .circleLeft{
@@ -721,13 +719,13 @@ footer{
     /*Tekstas desineje*/
     .headerP{
         color: #FFF;
-        font-family: "Livvic", sans-serif;
+        font-family: Livvic;
         font-size: 15px;
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
         width: 470px;
-        margin-left: -130%;
+        margin-left: -143%;
         margin-top: 1%;
     }
     
@@ -738,7 +736,7 @@ footer{
 
     .bottomimg{
         right: 200px;
-        margin-top: 8.5%;
+        margin-top: 9.8%;
         display: flex;
         justify-content: center;
     }
@@ -775,17 +773,28 @@ footer{
 }
 
 @media(max-width: 480px){  
+    .MyTeam{
+        margin-top: 48px;
+        margin-left: 24px;
+    }
+
     .circleLeft{
         display: none;
     }
 
     .header_h1{
+        position: absolute;
         margin-left: 17%;
+        margin-top: 150px;
     }
+
     /*Tekstas desineje*/
     .headerP{
+        position: absolute;
         padding: 0;
         width: 330px;
+        margin-top: 350px;
+        right: 60px;
     }
     
     .Pdiv{
@@ -797,8 +806,12 @@ footer{
         display: none;
     }
 
+    .NavList{
+        display: none;
+    }
+
     .bottomimg{
-        margin-top: 8.7%;
+        margin-top: 121.58%;
         right: 50px;
     }
 
