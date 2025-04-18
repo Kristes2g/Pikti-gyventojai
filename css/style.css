@@ -89,7 +89,7 @@ header{
     line-height: 28px;    
     border: 2px white solid;
     border-radius: 60px;
-    padding: 5px 30px 5px 30px;
+    padding: 10px 30px 10px 30px;
     width: 88px;
     margin-left: 60vw;
     transform: translateY(10%);
@@ -171,31 +171,6 @@ header{
     position: absolute;
     right: 175px;
     transform: translateY(100%);
-}
-
-@media(max-width: 1920px){
-    .NavList > li{
-        display: inline-block;
-    }
-    
-    .contact{
-        margin-left: 55vw;
-    }
-    
-    /*Tekstas desineje*/
-    .headerP{
-        padding-left: 1100px;
-    }
-    
-    /*Zydras bruksnelis virs teksto is desines*/
-    .headerHr{
-        margin-left: 1100px;
-    }
-    .bottomimg{
-        position: absolute;
-        right: 175px;
-        transform: translateY(101%);
-    }
 }
 
 .first_half{
@@ -689,10 +664,12 @@ footer{
 .social_links_box{
     margin-top: 48px;
     margin-left: 145px;
+    
 }
 
 .social_icons{
     fill: white;
+    cursor: pointer;
 }
 
 .social_icons:hover{
@@ -761,7 +738,7 @@ footer{
 
     .bottomimg{
         right: 200px;
-        margin-top: 8.4%;
+        margin-top: 8.5%;
         display: flex;
         justify-content: center;
     }
@@ -917,21 +894,9 @@ footer{
         justify-content: center;
     }
 
-    .footer_box{
-        width: 100%;
-        align-items: center;
-    }
-
     .footer_nav{
-       margin: 0;
-       margin-top: 114px;
-    }
-
-    .footer_logo{
-        margin: 0;
-        margin-top: 66px;
-        width: 96px;
-        margin-left: 20px;
+       margin-left: 171px;
+       
     }
 
     .adres_box{
@@ -956,8 +921,7 @@ footer{
     
     .copyright{
         margin: 0;
-        margin: auto;
+        margin-left: 113px;
         margin-top: 15px;
     }
-
 }

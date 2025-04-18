@@ -281,7 +281,8 @@ header{
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    margin-left: 1000px;    
+    position: absolute;
+    right: 50px;
     border: 2px white solid;
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
@@ -334,7 +335,6 @@ footer{
     z-index: 1;
     margin-top: 2%;
     margin-left: 8.5%;
-
 }
 
 .adres_box{
@@ -356,7 +356,7 @@ footer{
 .copyright{
     color: #FFF;
     text-align: right;
-    font-family: Livvic;
+    font-family: "Livvic", sans-serif;
     font-size: 100%;
     font-style: normal;
     font-weight: 600;
@@ -380,3 +380,4 @@ footer{
     fill: #F67E7E;
     transition: 0.3s;
 }
+
