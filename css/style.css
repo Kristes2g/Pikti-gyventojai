@@ -46,6 +46,10 @@ header{
     margin-left: 40px;
 }
 
+.hamburger{
+    display: none;
+}
+
 .home:link{
     color: #FFF;
     text-decoration: none;
@@ -687,6 +691,10 @@ footer{
         transform: translateY(20%);
     }
     
+    .hamburger{
+        display: none;
+    }
+
     .home{
         margin-left: 215px;
     }
@@ -778,6 +786,10 @@ footer{
         margin-left: 24px;
     }
 
+    header{
+        margin-top: -4.2%;
+    }
+
     .circleLeft{
         display: none;
     }
@@ -810,8 +822,14 @@ footer{
         display: none;
     }
 
+    .hamburger{
+        display: flex;
+        transform: translateY(350%);
+        margin-left: 90%;
+    }
+
     .bottomimg{
-        margin-top: 121.58%;
+        margin-top: 113.9%;
         right: 50px;
     }
 
@@ -833,7 +851,7 @@ footer{
     }
 
     .lowerrightImg{
-        margin-top: -55.5%;
+        margin-top: -55.3%;
     }
 
     .right_text_container{
