@@ -48,6 +48,12 @@ header{
 
 .hamburger{
     display: none;
+    z-index: 0;
+}
+
+.kryziukas{
+    display: none;
+    z-index: 2;
 }
 
 .home:link{
@@ -695,6 +701,10 @@ footer{
         display: none;
     }
 
+    .kryziukas{
+        display: none;
+    }
+
     .home{
         margin-left: 215px;
     }
@@ -819,13 +829,83 @@ footer{
     }
 
     .NavList{
-        display: none;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 300px;
+        height: 100%;
+        background-color: #2C6269;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 2rem;
+        transition: right 0.3s ease, transform 0.3s ease;
+        z-index: 1;
+    }
+
+    .NavList > li{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .NavList a{
+        color: white;
+        text-decoration: none;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .NavList.active{
+        right: 350px;
+        transform: translateX(0);
+        z-index: 1;
+    }
+
+    .home{
+        margin-top: 50px;
+    }
+
+    .home, .about, .contact {
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 63px;
+        margin-left: 0;
+        margin-bottom: 1.5rem;  
+        text-decoration: none; 
+        display: block;  
+    }
+
+    .contact{
+        padding: 10px 15px 10px 15px;
+        transform: translateY(0);
+        width: 150px;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
     }
 
     .hamburger{
         display: flex;
         transform: translateY(350%);
         margin-left: 90%;
+        z-index: 5;
+    }
+
+    .kryziukas{
+        display: none;
+        z-index: 5;
+    }
+
+    .kryziukas.active{
+        display: flex;
+        transform: translateY(350%);
+        margin-left: 90%;
+        z-index: 5;
     }
 
     .bottomimg{
