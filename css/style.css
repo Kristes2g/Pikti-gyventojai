@@ -873,7 +873,6 @@ footer{
         font-weight: 600;
         line-height: 63px;
         margin-left: 0;
-        margin-bottom: 1.5rem;  
         text-decoration: none; 
         display: block;  
     }
@@ -903,7 +902,8 @@ footer{
 
     .kryziukas.active{
         display: flex;
-        transform: translateY(350%);
+        position: absolute;
+        transform: translateY(250%);
         margin-left: 90%;
         z-index: 5;
     }
