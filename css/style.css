@@ -685,6 +685,47 @@ footer{
     transition: 0.3s;
 }
 
+.overlay{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 100%;
+    background-color: #2C6269;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    list-style-type: none;
+}
+
+.overlay-list{
+    padding-top: 100px;
+    padding-left: 40px;
+    list-style-type: none;
+}
+
+.slide{
+    width: 100%;
+    left: 0;
+}
+
+.container1{
+    position: relative;
+    width: 100%;
+}
+
+.slider{
+    position: absolute;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.menuimg{
+    display: none;
+}
 
 @media(max-width: 768px){
     .MyTeam{
@@ -715,6 +756,10 @@ footer{
     }
 
     .circleLeft{
+        display: none;
+    }
+
+    .menuimg{
         display: none;
     }
     
@@ -862,7 +907,9 @@ footer{
         line-height: 63px;
         margin-left: 0;
         text-decoration: none; 
-        display: block;  
+        display: block;
+        width: 50px;
+        margin-left: 20px;
     }
 
     .contact{
@@ -894,6 +941,13 @@ footer{
         transform: translateY(250%);
         margin-left: 90%;
         z-index: 5;
+    }
+
+    .menuimg{
+        display: flex;
+        position: absolute;
+        margin-top: 330px;
+        margin-left: 196px;
     }
 
     .bottomimg{
@@ -1023,40 +1077,4 @@ footer{
         margin-left: 113px;
         margin-top: 15px;
     }
-}
-
-.overlay{
-    position: absolute;
-    z-index: 2;
-    bottom: 0;
-    left: 100%;
-    background-color: #2C6269;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
-    list-style-type: none;
-}
-
-.overlay-list{
-    padding-left: 40px;
-    list-style-type: none;
-}
-
-.slide{
-    width: 100%;
-    left: 0;
-}
-
-.container1{
-    position: relative;
-    width: 100%;
-}
-
-.slider{
-    position: absolute;
-    right: 0;
-    width: 60%;
-    height: 100%;
-    display: inline-block;
 }
