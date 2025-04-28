@@ -3,6 +3,6 @@ const menu = document.querySelector(".NavList")
 const kryziukas = document.querySelector(".kryziukas")
 
 hamburger.addEventListener('click', () => {
-    menu.classList.toggle('active') 
+    menu.classList.toggle('active')
     kryziukas.classList.toggle('active')
 });
