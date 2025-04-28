@@ -24,42 +24,42 @@ body {
 }
 /* juodas pusrutulis */
 .icon1 {
-    width: 7.8%;
-    height: 30%;
-    top: 27%;
-    left: 0%;
+    width: 150px;
+    height: 350px;
+    top: 290px;
+    left: 0px;
     z-index: 3;
 }
 /* mazi raudoni kvadratai */
 .icon2 {
-    width: 4.2%;
-    height: 9%;
-    top: 42%;
-    left: 3.6%;
+    width: 80px;
+    height: 80px;
+    top: 450px;
+    left: 70px;
     z-index: 3;
 }
 /* melynos linijos */
 .icon3 {
-    width: 7.8%;
-    height: 4%;
-    top: 37.5%;
-    left: 0%;
+    width: 150px;
+    height: 45px;
+    top: 405px;
+    left: 0px;
     z-index: 4;
 }
 /* 2 pusrutuliai su kvadratu desineje */
 .icon4 {
-    width: 7%;
-    height: 30%;
-    top: 60%;
-    left: 93%;
+    width: 100px;
+    height: 200px;
+    top: 700px;
+    right: 0px;
     z-index: 5;
 }
 /* permatomas kvadratas */
 .icon5 {
-    width: 7.8%;
-    height: 15%;
-    top: 27%;
-    left: 0%;
+    width: 150px;
+    height: 120px;
+    top: 290px;
+    left: 0px;
     z-index: 1;
 }
 .info-container {
@@ -90,11 +90,9 @@ body {
     height: 2%;
 }
 .form-container {
-    padding: 5%;
-    border-radius: 5%;
-    width: 20%;
+    width: 200px;
     margin-right: 55%;
-    top: 20%;
+    
 }
 /* keicia button */
 form {
@@ -102,7 +100,8 @@ form {
     flex-direction: column;
     margin-right: 2%;
     gap: 15px;
-    top: 20%;
+    position: relative;
+    margin-top: 40px;
 }
 input, textarea {
     background: transparent;
@@ -110,7 +109,7 @@ input, textarea {
     border-bottom: 1px solid #ffffff;
     color: #ffffff; /* Always keep text white */
     padding: 10%;
-    width: 300%;
+    width: 600px;
     outline: none;
   
 }
@@ -122,29 +121,27 @@ textarea {
 button {
     background: #FFFFFF;
     border: none;
-   
     cursor: pointer;
-    font-size: 100%;
+    font-size: 20px;
     color: #014E56;
     font-weight: bold;
-
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
     
 }
 /* Contact h1 */
 h1 {
-    margin-left: 28%;
-    font-size: 400%;
+    margin-left: 250px;
+    font-size: 55px;
     color: #FFFFFF;
-    margin-top: 10%;
+    margin-top: 90px;
     
   
 /* Ask about us h2 */
 }
 h2 {
-    margin-left: 28%;
-    font-size: 400%;
+    margin-left: 255px;
+    font-size: 55px;
     color: #F67E7E;
     
 /* tekstas prie h1,h2 */
@@ -152,16 +149,16 @@ h2 {
 
 
 .p1 {
-    font-size: 200%;
+    font-size: 30px;
 
 }
 
 .p2 {
-    font-size: 200%;
+    font-size: 30px;
 }
 
 .p3 {
-    font-size: 200%;
+    font-size: 30px;
     margin-bottom: 100px;
 }
 
@@ -247,6 +244,8 @@ header{
     font-weight: 600;
     line-height: 20%;
     margin-left: 450px;
+    position: relative;
+    top: 25px;
 }
 
 .about{
@@ -257,6 +256,8 @@ header{
     font-weight: 600;
     line-height: 20%;
     margin-left: 50%;
+    position: relative;
+    top: 25px;
 }
 
 .home:link{
@@ -303,24 +304,25 @@ header{
     border: 2px white solid;
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
+    font-size: 200px;
 }
 
 .header{
     margin-left: 5%;
 }
 
-
 footer{
-    background-color: rgba(0, 37, 41, 1);
-    height: 196px;
+    position: relative;
+    top: 150px;
     
 }
 
+
 .footer_box{
     display: inline-flex;
-    /* justify-content: center; */
     position: relative;
     width: 100%;
+    
 }
 
 .footer_links{
@@ -331,6 +333,9 @@ footer{
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
+    position: relative;
+    left: -240px;
+    margin-top: -30px;
 }
 
 .footer_links:hover{
@@ -351,10 +356,10 @@ footer{
 }
 
 .footer_logo{
-    position: absolute;
+    position: relative;
     z-index: 1;
-    margin-top: 48px;
-    margin-left: 165px;
+    top: 10px;
+    margin-left: 20px;
 
 }
 
@@ -369,24 +374,26 @@ footer{
 }
 
 .adresas{
-    margin-left: 190px;
-    margin-top: 45px;
+    position: relative;
+    left: 110px;
+    top: -30px;
     width: 200px;
     line-height: 25px;
+    font-size: 20px;
 }
 
 .copyright{
     color: #FFF;
-    /* text-align: right; */
     font-family: Livvic;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
+    font-size: 16px;
     line-height: 25px;
     margin-top: 42px;
     width: 255px;
     opacity: 0.6;
-    margin-right: 165px;
+    display: flex;
+    transform: translateY(-60px);
+    margin-left: 20px;
+    margin-right: -40px;
 }
 
 .copyright_box{
@@ -397,7 +404,8 @@ footer{
 
 .social_links_box{
     margin-top: 48px;
-    margin-left: 145px;
+    position: relative;
+    right: 180px;
     
 }
 
@@ -411,3 +419,542 @@ footer{
     transition: 0.3s;
 }
 
+@media (min-width: 768px) and (max-width: 1440px)
+  {
+
+    header{
+        background-color: #014E56;
+        width: 100%;
+        height: 1%;
+        flex-shrink: 0;
+    }
+    
+    .MyTeam{
+        margin-left: 10%;
+        top: 25px;
+        height: 30px;
+        width: 150px;
+        position: relative;
+        right: 50px;       
+    }
+    
+    .NavList{
+        margin-top: -3.5%;
+    }
+    
+    .home{
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 100%;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20%;
+        margin-left: 450px;
+        position: relative;
+        top: 25px;
+        right: 300px;
+    }
+    
+    .about{
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-style: normal;
+        font-size: 100%;
+        font-weight: 600;
+        line-height: 20%;
+        margin-left: 50%;
+        position: relative;
+        top: 25px;
+        right: 300px;
+    }
+    
+    .home:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .home:hover{
+        color: #F67E7E;;
+        text-decoration: none;
+    }
+    
+    .about:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .about:hover{
+        color: #F67E7E;;
+        text-decoration: none;
+    }
+    
+    .contact:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    .contact:hover{
+        background-color: #FFF;
+        color: black;
+    }
+    
+    .NavList > li{
+        display: inline-block;
+    }
+    
+    .contact{
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        display: flex;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        position: absolute;
+        right: 50px;
+        border: 2px white solid;
+        border-radius: 60px;
+        padding: 10px 30px 10px 30px;
+    }
+    
+    .header{
+        margin-left: 5%;
+    }
+
+    
+    .footer_logo {
+        position: absolute;
+        z-index: 1;
+        margin-top: 50px;
+        left: 40px;
+    }
+
+    
+    .footer_box{
+        display: inline-flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 400px;
+        width: 100%;
+        height: 350px;
+        background-color: rgba(0, 37, 41, 1);
+        z-index: 7;
+    }
+    
+    .footer_links{
+        text-decoration: none;
+        color: white;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: left;
+        position: relative;
+        right: 160px;
+        top: 65px;
+       
+    
+    }
+    
+    .footer_links:hover{
+        color: #F67E7E;
+        transition: 0.3s;
+    }
+    
+    .footer_nav{
+        display: inline-flex;
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        gap: 40px;
+        margin-top: 30px;
+        position: relative;
+        z-index: 2;
+        margin-left: 163px;
+        margin-top: 115px;
+    }
+    .adres_box{
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+        opacity: 0.6;
+    }
+    
+    .adresas{
+        right:  190px;
+        position: relative;
+        margin-top: 75px;
+        width: 200px;
+        line-height: 25px;
+         text-align: right;
+    }
+    
+    .copyright{
+        color: #FFF;
+        /* text-align: right; */
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top: -80px; 
+        position: relative;
+        right: 80px;
+        top: 70px;
+        font-size: 16px !important;
+       
+      
+    }
+    
+    .copyright_box{
+        /* width: 100%; */
+        position: absolute;
+        right: 0;
+    }
+    
+    .social_links_box{
+        margin-top: 250px;
+        margin-left: -305px;
+        
+    }
+    
+    .social_icons{
+        fill: white;
+        cursor: pointer;
+    }
+    
+    .social_icons:hover{
+        fill: #F67E7E;
+        transition: 0.3s;
+    }
+
+    .left-section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+       
+    }
+    .icon1, .icon2, .icon3, .icon4, .icon5 {
+        position: absolute;
+    }
+    /* juodas pusrutulis */
+    .icon1 {
+        width: 100px;
+        height: 190px;
+        top: 290px;
+        left: 0px;
+        z-index: 3;
+    }
+    /* mazi raudoni kvadratai */
+    .icon2 {
+        width: 50px;
+        height: 50px;
+        top: 385px;
+        left: 50px;
+        z-index: 3;
+    }
+    /* melynos linijos */
+    .icon3 {
+        width: 100px;
+        height: 35px;
+        top: 350px;
+        left: 0px;
+        z-index: 4;
+    }
+    /* 2 pusrutuliai su kvadratu desineje */
+    .icon4 {
+        width: 100px;
+        height: 200px;
+        top: 970px;
+        right: 0px;
+        z-index: 5;
+    }
+    /* permatomas kvadratas */
+    .icon5 {
+        width: 100px;
+        height: 70px;
+        top: 290px;
+        left: 0px;
+        z-index: 1;
+    }
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        
+    }
+    .info {
+        display: flex;
+        gap: 4%;
+        margin-top: 1%;
+        margin-left: 27%;
+    }
+    /* h1,h2 images dydziai */
+    .info img {
+        width: 15%;
+        height: 15%;
+        position: relative;
+        left: 15px;
+    }
+    /* form section */
+    .right-section {
+        flex: 1;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        width: 1%;
+        height: 2%;
+    }
+    .form-container {
+        width: 200px;
+        margin-right: 55%;
+        
+    }
+    /* keicia button */
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2%;
+        gap: 15px;
+        position: relative;
+        top: 450px;
+        right: 320px;
+    }
+    input, textarea {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        color: #ffffff; /* Always keep text white */
+        padding: 10%;
+        width: 450px;
+        outline: none;
+        
+      
+    }
+     /* keicia formoje Message field dydi */
+    textarea {
+        height: 100px;
+        resize: none;
+    }
+    button {
+        background: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        color: #014E56;
+        font-weight: bold;
+        border-radius: 50px;
+        padding: 10px  10px ;
+        
+    }
+    /* Contact h1 */
+    h1 {
+        left: -10px;
+        position: relative;
+        font-size: 60px;
+        color: #FFFFFF;
+        margin-top: 90px;
+        
+      
+    /* Ask about us h2 */
+    }
+    h2 {
+        left: 10px;
+        position: relative;
+        font-size: 30px;
+        
+        color: #F67E7E;
+        
+    /* tekstas prie h1,h2 */
+    }
+    
+    
+    .p1 {
+        font-size: 19px;
+        position: relative;
+        left: 30px;
+    
+    }
+    
+    .p2 {
+        font-size: 19px;
+        position: relative;
+        left: 30px;
+        
+    }
+    
+    .p3 {
+        font-size: 19px;
+        position: relative;
+        left: 30px;
+        
+    }
+    
+    
+    
+    
+
+    @media  (max-width: 767px){
+        .NavList{
+            display: none;
+        }
+    
+        .MyTeam{
+            margin-top: 48px;
+            margin-left: 24px;
+        }
+    
+        .bottomimg{
+            margin-top: 368px;
+        }
+    
+        .hamburger{
+            display: flex;
+            margin-left: 90%;
+            transform: translateY(-185%);
+        }
+    
+        .about_h1{
+            color: #FFF;
+            text-align: center;
+            font-family: Livvic;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px; 
+            margin-top: 70px;
+            margin-left: 30px;
+        }
+    
+        .headerP{
+            color: #FFF;
+            text-align: center;
+            font-family: Livvic;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px; 
+            width: 327px;
+            margin-left: 93px;
+            margin-top: 5px;
+            
+        }
+        .footer_logo {
+            position: absolute;
+            z-index: 1;
+            margin-top: 10px;
+            left: 170px;
+        }
+        footer{
+            background-color: rgba(0, 37, 41, 1);
+            height: 200px;
+            position: relative;
+            
+            
+        }
+        
+        .footer_box{
+            display: inline-flex;
+            justify-content: center;
+            position: relative;
+            top: 1550px;
+            width: 100%;
+            height: 350px;
+            background-color: rgba(0, 37, 41, 1);
+            z-index: 7;
+        }
+        
+        .footer_links{
+            text-decoration: none;
+            color: white;
+            font-family: Livvic;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+            text-align: left;
+            position: relative;
+            right: -125px;
+            top: -20px;
+           
+        
+        }
+        
+        .footer_links:hover{
+            color: #F67E7E;
+            transition: 0.3s;
+        }
+        
+        .footer_nav{
+            display: inline-flex;
+            /* justify-content: center; */
+            /* align-items: flex-start; */
+            gap: 40px;
+            margin-top: 30px;
+            position: relative;
+            z-index: 2;
+            margin-left: 163px;
+            margin-top: 115px;
+        }
+        .adres_box{
+            color: #FFF;
+            font-family: Livvic;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 25px;
+            opacity: 0.6;
+        }
+        
+        .adresas{
+            right:  230px;
+            position: relative;
+            margin-top: 135px;
+            width: 200px;
+            line-height: 25px;
+             text-align: center;
+        }
+        
+        .copyright{
+            color: #FFF;
+            /* text-align: right; */
+            font-family: Livvic;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: -90px; 
+            position: relative;
+            right: -60px;
+            top: 300px;
+      
+           
+          
+        }
+        
+        .copyright_box{
+            /* width: 100%; */
+            position: absolute;
+            right: 0;
+        }
+        
+        .social_links_box{
+            position: relative;
+            top: 200px;
+            left: -10px;
+            
+        }
+        
+        .social_icons{
+            fill: white;
+            cursor: pointer;
+        }
+        
+        .social_icons:hover{
+            fill: #F67E7E;
+            transition: 0.3s;
+        }
+
+  }
+
+}
