@@ -32,3 +32,17 @@ function add_flip6(){
   rotate[5].classList.toggle("is-flipped")
   fill[5].classList.toggle("is-flipped")
 }
+
+const hamburger = document.querySelector(".hamburger")
+const kryziukas = document.querySelector(".kryziukas")
+const overlay = document.querySelector(".overlay")
+
+hamburger.addEventListener('click', ()=>{
+    overlay.classList.toggle('slide') 
+    kryziukas.classList.toggle('active')
+});
+
+kryziukas.addEventListener('click', ()=>{
+    overlay.classList.toggle('slide')
+    kryziukas.classList.toggle('active')
+})
