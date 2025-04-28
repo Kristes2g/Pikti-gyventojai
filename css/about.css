@@ -745,8 +745,54 @@ footer{
 }
 
 @media  (max-width: 767px){
+    .NavList > li{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .NavList a{
+        color: white;
+        text-decoration: none;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .NavList.active{
+        right: 350px;
+        transform: translateX(0);
+        z-index: 1;
+    }
+
     .NavList{
         display: none;
+    }
+
+    .home{
+        margin-top: 50px;
+    }
+
+    .home, .about, .contact {
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 63px;
+        margin-left: 0;
+        text-decoration: none; 
+        display: block;  
+        width: 60px;
+    }
+
+    .contact{
+        padding: 10px 15px 10px 15px;
+        transform: translateY(0);
+        width: 150px;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
     }
 
     .MyTeam{
@@ -972,4 +1018,38 @@ footer{
     }
 }
 
+.overlay{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 100%;
+    background-color: #2C6269;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    list-style-type: none;
+}
 
+.overlay-list{
+    padding-left: 40px;
+    list-style-type: none;
+}
+
+.slide{
+    width: 100%;
+    left: 0;
+}
+
+.container1{
+    position: relative;
+    width: 100%;
+}
+
+.slider{
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}

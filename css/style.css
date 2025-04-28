@@ -828,21 +828,6 @@ footer{
         display: none;
     }
 
-    .NavList{
-        position: fixed;
-        top: 0;
-        right: -250px;
-        width: 300px;
-        height: 100%;
-        background-color: #2C6269;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        padding: 2rem;
-        transition: right 0.3s ease, transform 0.3s ease;
-        z-index: 1;
-    }
-
     .NavList > li{
         display: block;
         flex-direction: column;
@@ -862,6 +847,9 @@ footer{
         z-index: 1;
     }
 
+    .NavList{
+        display: none;
+    }
     .home{
         margin-top: 50px;
     }
@@ -873,7 +861,6 @@ footer{
         font-weight: 600;
         line-height: 63px;
         margin-left: 0;
-        margin-bottom: 1.5rem;  
         text-decoration: none; 
         display: block;  
     }
@@ -903,7 +890,8 @@ footer{
 
     .kryziukas.active{
         display: flex;
-        transform: translateY(350%);
+        position: absolute;
+        transform: translateY(250%);
         margin-left: 90%;
         z-index: 5;
     }
@@ -1035,4 +1023,40 @@ footer{
         margin-left: 113px;
         margin-top: 15px;
     }
+}
+
+.overlay{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 100%;
+    background-color: #2C6269;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    list-style-type: none;
+}
+
+.overlay-list{
+    padding-left: 40px;
+    list-style-type: none;
+}
+
+.slide{
+    width: 100%;
+    left: 0;
+}
+
+.container1{
+    position: relative;
+    width: 100%;
+}
+
+.slider{
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    display: inline-block;
 }
