@@ -304,7 +304,7 @@ header{
     border: 2px white solid;
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
-    font-size: 200px;
+    font-size: 20px;
 }
 
 .header{
@@ -312,8 +312,9 @@ header{
 }
 
 footer{
-    position: relative;
-    top: 150px;
+    background-color: rgba(0, 37, 41, 1);
+    width: 100%;
+    height: 200px;
     
 }
 
@@ -419,8 +420,7 @@ footer{
     transition: 0.3s;
 }
 
-@media (min-width: 768px) and (max-width: 1440px)
-  {
+@media (min-width: 768px) and (max-width: 1440px){
 
     header{
         background-color: #014E56;
@@ -525,6 +525,7 @@ footer{
         margin-top: 50px;
         left: 40px;
     }
+    
 
     
     .footer_box{
@@ -790,7 +791,7 @@ footer{
         left: 30px;
         
     }
-    
+}
     
     
     
@@ -993,4 +994,4 @@ footer{
     display: inline-block;
 }
 
-  }
+  
