@@ -759,6 +759,10 @@ footer{
         width: 100%;
     }
 
+    .headerHr{
+        display: none;
+    }
+
     .NavList a{
         color: white;
         text-decoration: none;
@@ -829,6 +833,11 @@ footer{
         transform: translateY(-185%);
         margin-left: 90%;
         z-index: 5;
+    }
+
+    .menuimg{
+        margin-left: 198px;
+        margin-top: 275px;
     }
 
     .about_h1{
