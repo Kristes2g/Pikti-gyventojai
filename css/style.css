@@ -712,6 +712,7 @@ footer{
 .container1{
     position: relative;
     width: 100%;
+    background-color: rgba(0, 64, 71, 1);
 }
 
 .slider{
@@ -834,6 +835,407 @@ footer{
         margin-right: 28%;
         margin-top: 10%;
     }
+    .second_half{
+        background-color: rgba(0, 64, 71, 1);
+        font-family: "Livic", sans-serif;
+        height: 1295px;
+    }
+    
+    .pavadinimo_box{
+        color: #FFF;
+        text-align: center;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .succsess_storie{
+        color: #79C8C7;
+    }
+    
+    .kabutes{
+        position: relative;
+        z-index: 1;
+        top: 40px;
+        
+    }
+    
+    .aprasu_box{
+        display: flex;
+        font-family: Livvic;
+        justify-content: center;
+        /* width: 1240px; */
+        margin: auto;
+        gap: 30px;
+    }
+    
+    .aprasai{
+        position: relative;
+        z-index: 2;
+        color: white;
+        font-size: 25px;
+        margin: auto;
+        margin-top: 55px;
+    
+        
+    }
+    
+    .aprasai_pirmo{
+        text-align: center;
+        height: 80px;
+        width: 350px;
+        position: block;
+        top: 0px;
+        left: 380px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+    }
+    
+    .aprasai_antro{
+        text-align: center;
+        height: 100px;
+        width: 350px;
+        line-height: 30px;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        position: block;
+        top: 380px;
+    }
+    
+    .aprasai_trecio{
+        text-align: center;
+        height: 80px;
+        width: 350px;
+        line-height: 30px;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        position: block;
+        right: 380px;
+        top: 800px;
+    }
+    
+    .person_name_one{
+        color: #79C8C7;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        margin: 0;
+    }
+    
+    .person_specialte_one{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 18px;
+        margin: 0;
+    }
+    
+    .moteris{
+        width: 92px;
+        height: 92px;
+        flex-shrink: 0;
+        border-radius: 62px;
+        border: 2px solid #C4FFFE;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        margin-top: 50px;
+    }
+    
+    .person_name_two{
+        color: #79C8C7;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        margin: 0;
+    }
+    
+    .person_specialte_two{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 18px;
+        margin: 0;
+    }
+    
+    .moteris_2{
+        width: 92px;
+        height: 92px;
+        flex-shrink: 0;
+        border-radius: 62px;
+        border: 2px solid #C4FFFE;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        margin-top: 50px;
+    }
+    
+    .person_name_three{
+        color: #79C8C7;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        margin: 0;
+    }
+    
+    .person_specialte_three{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 18px;
+        margin: 0;
+    }
+    
+    .senukas{
+        width: 92px;
+        height: 92px;
+        flex-shrink: 0;
+        border-radius: 62px;
+        border: 2px solid #C4FFFE;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        margin-top: 50px;
+        
+        
+    }
+    
+    .container_second_half_icon_du{
+        position: relative;
+    }
+    
+    .second_half_icon_du{
+        position: absolute;
+        margin-top: 275px;
+        flex-shrink: 0;
+        right: 0;
+    }
+    .kabutes_kabutes_vienas {
+        position: absolute;
+        left: 360px;
+        margin-top: 25px;
+        z-index: 1;
+    }
+    .kabutes_kabutes_du {
+        position: absolute;
+        left: 360px;
+        margin-top: 405px;
+        z-index: 1;
+    }
+
+    .kabutes_kabutes_trys {
+        position: absolute;
+        left: 360px;
+        margin-top: 825px;
+        z-index: 1;
+    }
+    .container_second_half_icon_du {
+        position: absolute;
+        right: 0px;
+        top: 2905px;
+    }
+
+
+    /* raudona dalis */
+.red_part{
+    font-family: Livvic;
+    background-color: #F67E7E;
+    height: 220px;
+    position: relative;
+    top: 400px;
+
+}
+
+.group_8{
+    margin-top: 76px;
+    z-index: 1;
+    position: absolute;
+}
+
+.red_box{
+    
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 260px;
+    flex-shrink: 0;
+    margin-top: 86px;
+    margin-left: 273px;
+}
+
+.red_name{
+    color: #012F34;
+    font-size: 28px;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    position: relative;
+    right: 150px;
+    margin: 0;
+    
+}
+
+.contact_red_box{
+    color: #012F34;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+    border: 2px #012F34 solid;
+    border-radius: 60px;
+    padding: 10px 30px 10px 30px;
+    position: relative;
+    right: 300px;
+}
+
+.contact_red_box:hover{
+    background-color: #012F34;
+    color: white;
+    transition: 0.3s;
+}
+
+/* footer */
+
+footer{
+    background-color: rgba(0, 37, 41, 1);
+    height: 196px;
+    position: relative;
+    top: 400px;
+    height: 300px;
+    
+}
+
+.footer_box{
+    display: inline-flex;
+    /* justify-content: center; */
+    position: relative;
+    width: 100%;
+}
+
+.footer_links{
+    text-decoration: none;
+    color: white;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    position: relative;
+    right: 80px;
+}
+
+.footer_links:hover{
+    color: #F67E7E;
+    transition: 0.3s;
+}
+
+.footer_nav{
+    display: inline-flex;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    gap: 40px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    margin-left: 163px;
+    margin-top: 115px;
+}
+
+.footer_logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: -18px;
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+
+}
+
+.adres_box{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+.adresas{
+    margin-left: 250px;
+    margin-top: 45px;
+    width: 200px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.copyright{
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 42px;
+    width: 255px;
+    opacity: 0.6;
+    margin-right: 165px;
+    position: relative;
+    right: -130px;
+    top: 30px;
+}
+
+.copyright_box{
+    /* width: 100%; */
+    position: absolute;
+    right: 0;
+}
+
+.social_links_box{
+    margin-top: 98px;
+    margin-left: -285px;
+    position: relative;
+    top: 90px;
+    
+}
+
+.social_icons{
+    fill: white;
+    cursor: pointer;
+}
+
+.social_icons:hover{
+    fill: #F67E7E;
+    transition: 0.3s;
+}
 }
 
 @media  (max-width: 767px){
