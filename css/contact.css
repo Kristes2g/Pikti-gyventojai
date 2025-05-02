@@ -435,12 +435,15 @@ footer{
     }
     
     .MyTeam{
-        margin-left: 10%;
-        top: 25px;
+        width: 90px;
         height: 30px;
-        width: 150px;
+        flex-shrink: 0%;
+        margin-left: -30px;
+        margin-top: 2%;
         position: relative;
-        right: 50px;       
+        opacity: 0,5;
+        top: 25px;
+        
     }
     
     .NavList{
@@ -454,10 +457,9 @@ footer{
         font-style: normal;
         font-weight: 600;
         line-height: 20%;
-        margin-left: 450px;
+        margin-left: 60px;
         position: relative;
         top: 25px;
-        right: 300px;
     }
     
     .about{
@@ -470,7 +472,6 @@ footer{
         margin-left: 50%;
         position: relative;
         top: 25px;
-        right: 300px;
     }
     
     .home:link{
@@ -517,33 +518,27 @@ footer{
         border: 2px white solid;
         border-radius: 60px;
         padding: 10px 30px 10px 30px;
+        font-size: 20px;
     }
     
     .header{
         margin-left: 5%;
     }
-
     
-    .footer_logo {
-        position: absolute;
-        z-index: 1;
-        margin-top: 50px;
-        left: 40px;
+    footer{
+        background-color: rgba(0, 37, 41, 1);
+        height: 200px;
+        position: relative;
+        top: 550px;
+        height: 300px;
+        
     }
-
     
-    
-
     
     .footer_box{
         display: inline-flex;
-        justify-content: center;
         position: relative;
-        margin-top: 400px;
-       
-        height: 350px;
-        background-color: rgba(0, 37, 41, 1);
-        z-index: 0;
+        width: 100%;
     }
     
     .footer_links{
@@ -554,12 +549,10 @@ footer{
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
-        text-align: left;
         position: relative;
-        right: 160px;
-        top: 65px;
-       
-    
+        left: -200px;
+        margin-top: -0px;
+        
     }
     
     .footer_links:hover{
@@ -578,6 +571,17 @@ footer{
         margin-left: 163px;
         margin-top: 115px;
     }
+    
+    .footer_logo{
+        position: relative;
+        z-index: 1;
+        top: -70px;
+        margin-left: -90px;
+        left: 120px;
+        font-size: 10px;
+    
+    }
+    
     .adres_box{
         color: #FFF;
         font-family: Livvic;
@@ -589,28 +593,30 @@ footer{
     }
     
     .adresas{
-        right:  190px;
         position: relative;
-        margin-top: 75px;
+        left: 190px;
+        top:  15px;
         width: 200px;
         line-height: 25px;
-         text-align: right;
+        font-size: 20px;
+        text-align: right;
     }
     
     .copyright{
         color: #FFF;
-        /* text-align: right; */
         font-family: Livvic;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
-        margin-top: -80px; 
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 42px;
+        width: 255px;
+        opacity: 0.6;
+        display: flex;
         position: relative;
-        right: 80px;
-        top: 70px;
-        font-size: 16px !important;
-       
-      
+        right: 55px;
+        top: 140px;
+        transform: translateY(-60px);
+        margin-left: 20px;
+        margin-right: -40px;
     }
     
     .copyright_box{
@@ -620,8 +626,10 @@ footer{
     }
     
     .social_links_box{
-        margin-top: 250px;
-        margin-left: -305px;
+        margin-top: 48px;
+        position: relative;
+        right: 510px;
+        top: 150px;
         
     }
     
@@ -634,7 +642,13 @@ footer{
         fill: #F67E7E;
         transition: 0.3s;
     }
-
+    .container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 50px;
+    }
+    /* icons 1,2,3,5 */
     .left-section {
         flex: 1;
         display: flex;
@@ -647,9 +661,9 @@ footer{
     }
     /* juodas pusrutulis */
     .icon1 {
-        width: 100px;
-        height: 190px;
-        top: 290px;
+        width: 120px;
+        height: 180px;
+        top: 160px;
         left: 0px;
         z-index: 3;
     }
@@ -657,31 +671,31 @@ footer{
     .icon2 {
         width: 50px;
         height: 50px;
-        top: 385px;
-        left: 50px;
+        top: 250px;
+        left: 70px;
         z-index: 3;
     }
     /* melynos linijos */
     .icon3 {
-        width: 100px;
+        width: 120px;
         height: 35px;
-        top: 350px;
+        top: 215px;
         left: 0px;
         z-index: 4;
     }
     /* 2 pusrutuliai su kvadratu desineje */
     .icon4 {
-        width: 100px;
-        height: 200px;
-        top: 970px;
+        width: 125px;
+        height: 250px;
+        top: 940px;
         right: 0px;
         z-index: 5;
     }
     /* permatomas kvadratas */
     .icon5 {
-        width: 100px;
-        height: 70px;
-        top: 290px;
+        width: 120px;
+        height: 90px;
+        top: 150px;
         left: 0px;
         z-index: 1;
     }
@@ -702,8 +716,6 @@ footer{
     .info img {
         width: 15%;
         height: 15%;
-        position: relative;
-        left: 15px;
     }
     /* form section */
     .right-section {
@@ -726,8 +738,8 @@ footer{
         margin-right: 2%;
         gap: 15px;
         position: relative;
-        top: 450px;
-        right: 320px;
+        top: 440px;
+        right: 330px;
     }
     input, textarea {
         background: transparent;
@@ -735,9 +747,8 @@ footer{
         border-bottom: 1px solid #ffffff;
         color: #ffffff; /* Always keep text white */
         padding: 10%;
-        width: 450px;
+        width: 400px;
         outline: none;
-        
       
     }
      /* keicia formoje Message field dydi */
@@ -749,29 +760,29 @@ footer{
         background: #FFFFFF;
         border: none;
         cursor: pointer;
-        font-size: 15px;
+        font-size: 20px;
         color: #014E56;
         font-weight: bold;
-        border-radius: 50px;
-        padding: 10px  10px ;
+        border-radius: 60px;
+        padding: 10px 30px 10px 30px;
         
     }
     /* Contact h1 */
     h1 {
-        left: -10px;
+        left: -35px;
+        font-size: 65px;
         position: relative;
-        font-size: 60px;
         color: #FFFFFF;
-        margin-top: 90px;
+      
         
       
     /* Ask about us h2 */
     }
     h2 {
-        left: 10px;
         position: relative;
-        font-size: 30px;
-        
+        left: -25px;
+        font-size: 35px;
+        top: -20px;
         color: #F67E7E;
         
     /* tekstas prie h1,h2 */
@@ -779,25 +790,19 @@ footer{
     
     
     .p1 {
-        font-size: 19px;
-        position: relative;
-        left: 30px;
+        font-size: 20px;
     
     }
     
     .p2 {
-        font-size: 19px;
-        position: relative;
-        left: 30px;
-        
+        font-size: 20px;
     }
     
     .p3 {
-        font-size: 19px;
-        position: relative;
-        left: 30px;
-        
+        font-size: 20px;
+        margin-bottom: 100px;
     }
+
 }
     
     
@@ -805,9 +810,7 @@ footer{
 
     @media  (max-width: 767px){
 
-        
         header{
-
             background-color: #014E56;
             width: 100%;
             height: 1%;
@@ -815,12 +818,15 @@ footer{
         }
         
         .MyTeam{
-            margin-left: 10%;
-            top: 25px;
+            width: 200px;
             height: 30px;
-            width: 150px;
+            flex-shrink: 0%;
+            margin-left: -30px;
+            margin-top: 2%;
             position: relative;
-            right: 50px;       
+            opacity: 0,5;
+            top: 25px;
+                       
         }
         
         .NavList{
@@ -834,10 +840,10 @@ footer{
             font-style: normal;
             font-weight: 600;
             line-height: 20%;
-            margin-left: 450px;
+            margin-left: 60px;
             position: relative;
             top: 25px;
-            right: 300px;
+            display: none;
         }
         
         .about{
@@ -850,7 +856,7 @@ footer{
             margin-left: 50%;
             position: relative;
             top: 25px;
-            right: 300px;
+            display: none;
         }
         
         .home:link{
@@ -883,33 +889,42 @@ footer{
         .NavList > li{
             display: inline-block;
         }
-       
+        
+        .contact{
+            color: #FFF;
+            font-family: "Livvic", sans-serif;
+            font-size: 18px;
+            display: flex;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+            position: absolute;
+            right: 50px;
+            border: 2px white solid;
+            border-radius: 60px;
+            padding: 10px 30px 10px 30px;
+            font-size: 20px;
+            display: none;
+        }
         
         .header{
             margin-left: 5%;
         }
-    
         
-        .footer_logo {
-            position: absolute;
-            z-index: 1;
-            margin-top: 50px;
-            left: 40px;
+        footer{
+            background-color: rgba(0, 37, 41, 1);
+            height: 200px;
+            position: relative;
+            top: 550px;
+            height: 300px;
+            
         }
-    
         
-        
-    
         
         .footer_box{
             display: inline-flex;
-            justify-content: center;
             position: relative;
-            margin-top: 400px;
-           
-            height: 350px;
-            background-color: rgba(0, 37, 41, 1);
-            z-index: 0;
+            width: 100%;
         }
         
         .footer_links{
@@ -920,12 +935,11 @@ footer{
             font-style: normal;
             font-weight: 600;
             line-height: 28px;
-            text-align: left;
             position: relative;
-            right: 160px;
-            top: 65px;
-           
-        
+            left: 15px;
+            top: -160px;
+            margin-top: -0px;
+            
         }
         
         .footer_links:hover{
@@ -944,6 +958,17 @@ footer{
             margin-left: 163px;
             margin-top: 115px;
         }
+        
+        .footer_logo{
+            position: relative;
+            z-index: 1;
+            top: -20px;
+            left: 150px;
+            height: 100px;
+            width: 100px;
+        
+        }
+        
         .adres_box{
             color: #FFF;
             font-family: Livvic;
@@ -955,28 +980,30 @@ footer{
         }
         
         .adresas{
-            right:  190px;
             position: relative;
-            margin-top: 75px;
+            left: -140px;
+            top:  85px;
             width: 200px;
             line-height: 25px;
-             text-align: right;
+            font-size: 15px;
+            text-align: center;
         }
         
         .copyright{
             color: #FFF;
-            /* text-align: right; */
             font-family: Livvic;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 600;
-            margin-top: -80px; 
+            font-size: 16px;
+            line-height: 25px;
+            margin-top: 42px;
+            width: 255px;
+            opacity: 0.6;
+            display: flex;
             position: relative;
-            right: 80px;
-            top: 70px;
-            font-size: 16px !important;
-           
-          
+            right: 125px;
+            top: 190px;
+            transform: translateY(-60px);
+            margin-left: 20px;
+            margin-right: -40px;
         }
         
         .copyright_box{
@@ -986,8 +1013,10 @@ footer{
         }
         
         .social_links_box{
-            margin-top: 250px;
-            margin-left: -305px;
+            margin-top: 48px;
+            position: relative;
+            right: 42px;
+            top: 160px;
             
         }
         
@@ -1000,7 +1029,13 @@ footer{
             fill: #F67E7E;
             transition: 0.3s;
         }
-    
+        .container {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding: 0 50px;
+        }
+        /* icons 1,2,3,5 */
         .left-section {
             flex: 1;
             display: flex;
@@ -1013,43 +1048,47 @@ footer{
         }
         /* juodas pusrutulis */
         .icon1 {
-            width: 100px;
-            height: 190px;
-            top: 290px;
+            width: 120px;
+            height: 180px;
+            top: 160px;
             left: 0px;
             z-index: 3;
+            display: none;
         }
         /* mazi raudoni kvadratai */
         .icon2 {
             width: 50px;
             height: 50px;
-            top: 385px;
-            left: 50px;
+            top: 250px;
+            left: 70px;
             z-index: 3;
+            display: none;
         }
         /* melynos linijos */
         .icon3 {
-            width: 100px;
+            width: 120px;
             height: 35px;
-            top: 350px;
+            top: 215px;
             left: 0px;
             z-index: 4;
+            display: none;
         }
         /* 2 pusrutuliai su kvadratu desineje */
         .icon4 {
-            width: 100px;
-            height: 200px;
-            top: 970px;
+            width: 120px;
+            height: 250px;
+            top: 1030px;
             right: 0px;
-            z-index: 5;
+            z-index: 0;
         }
         /* permatomas kvadratas */
         .icon5 {
-            width: 100px;
-            height: 70px;
-            top: 290px;
+            width: 120px;
+            height: 90px;
+            top: 150px;
             left: 0px;
             z-index: 1;
+            display: none;
         }
         .info-container {
             display: flex;
@@ -1062,14 +1101,13 @@ footer{
             display: flex;
             gap: 4%;
             margin-top: 1%;
-            margin-left: 27%;
+            margin-left: -10px;
         }
-        /* h1,h2 images dydziai */
+        /* prie texto images dydziai */
         .info img {
-            width: 15%;
-            height: 15%;
-            position: relative;
-            left: 15px;
+            width: 10%;
+            height: 10%;
+            
         }
         /* form section */
         .right-section {
@@ -1092,8 +1130,8 @@ footer{
             margin-right: 2%;
             gap: 15px;
             position: relative;
-            top: 450px;
-            right: 320px;
+            top: 440px;
+            right: 400px;
         }
         input, textarea {
             background: transparent;
@@ -1101,9 +1139,8 @@ footer{
             border-bottom: 1px solid #ffffff;
             color: #ffffff; /* Always keep text white */
             padding: 10%;
-            width: 450px;
+            width: 370px;
             outline: none;
-            
           
         }
          /* keicia formoje Message field dydi */
@@ -1115,29 +1152,29 @@ footer{
             background: #FFFFFF;
             border: none;
             cursor: pointer;
-            font-size: 15px;
+            font-size: 20px;
             color: #014E56;
             font-weight: bold;
-            border-radius: 50px;
-            padding: 10px  10px ;
+            border-radius: 60px;
+            padding: 10px 30px 10px 30px;
             
         }
         /* Contact h1 */
         h1 {
-            left: -10px;
+            left: -185px;
+            font-size: 65px;
             position: relative;
-            font-size: 60px;
             color: #FFFFFF;
-            margin-top: 90px;
+          
             
           
         /* Ask about us h2 */
         }
         h2 {
-            left: 10px;
             position: relative;
-            font-size: 30px;
-            
+            left: -175px;
+            font-size: 35px;
+            top: -20px;
             color: #F67E7E;
             
         /* tekstas prie h1,h2 */
@@ -1145,25 +1182,21 @@ footer{
         
         
         .p1 {
-            font-size: 19px;
-            position: relative;
-            left: 30px;
+            font-size: 20px;
+            
         
         }
         
         .p2 {
-            font-size: 19px;
-            position: relative;
-            left: 30px;
-            
+            font-size: 20px;
         }
         
         .p3 {
-            font-size: 19px;
-            position: relative;
-            left: 30px;
-            
+            font-size: 20px;
+            margin-bottom: 100px;
         }
+        
+      
 
   }
 
