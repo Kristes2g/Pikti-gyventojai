@@ -727,7 +727,8 @@ footer{
     display: none;
 }
 
-@media(max-width: 768px){
+@media (min-width: 768px) and (max-width: 1440px)
+  {
     .MyTeam{
         margin-left: 39px;
         margin-top: 72px;
@@ -835,7 +836,7 @@ footer{
     }
 }
 
-@media(max-width: 480px){  
+@media  (max-width: 767px){
     
     .MyTeam{
         margin-top: 48px;
