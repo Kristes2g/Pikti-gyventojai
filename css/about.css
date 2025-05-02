@@ -21,6 +21,10 @@ header{
     display: none;
 }
 
+.kryziukas{
+    display: none;
+}
+
 .NavList{
     margin-top: -40px;
 }
@@ -77,10 +81,11 @@ header{
 }
 
 .contact{
+    position: relative;
     color: #FFF;
     font-family: "Livvic", sans-serif;
     font-size: 18px;
-    font-style: normal;
+    font-style: normal;fe
     font-weight: 600;
     line-height: 28px;    
     border: 2px white solid;
@@ -89,6 +94,7 @@ header{
     width: 88px;
     margin-left: 70vw;
     transform: translateY(10%);
+    z-index: 3;
 }
 
 .about_h1{
@@ -539,6 +545,10 @@ footer{
         display: none;
     }
 
+    .kryziukas{
+        display: none;
+    }
+
     .contact{
         margin-left: 150px;
     }
@@ -751,6 +761,10 @@ footer{
         width: 100%;
     }
 
+    .headerHr{
+        display: none;
+    }
+
     .NavList a{
         color: white;
         text-decoration: none;
@@ -805,9 +819,27 @@ footer{
     }
 
     .hamburger{
+        position: absolute;
         display: flex;
         margin-left: 90%;
         transform: translateY(-185%);
+    }
+
+    .kryziukas{
+        display: none;
+    }
+
+    .kryziukas.active{
+        display: flex;
+        position: absolute;
+        transform: translateY(-185%);
+        margin-left: 90%;
+        z-index: 5;
+    }
+
+    .menuimg{
+        margin-left: 198px;
+        margin-top: 275px;
     }
 
     .about_h1{
@@ -920,9 +952,6 @@ footer{
         position: relative;
         right: -60px;
         top: 300px;
-  
-       
-      
     }
     
     .copyright_box{
@@ -1034,6 +1063,7 @@ footer{
 .overlay-list{
     padding-left: 40px;
     list-style-type: none;
+    margin-top: 200px;
 }
 
 .slide{
@@ -1049,7 +1079,8 @@ footer{
 .slider{
     position: absolute;
     right: 0;
-    width: 60%;
+    width: 70%;
     height: 100%;
     display: inline-block;
+    z-index: 1;
 }
