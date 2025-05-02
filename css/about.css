@@ -648,6 +648,7 @@ footer{
         width: 200px;
         line-height: 25px;
          text-align: right;
+         right: 25px;
     }
     
     .copyright{
@@ -659,8 +660,8 @@ footer{
         font-weight: 600;
         margin-top: -80px; 
         position: relative;
-        right: 60px;
-        top: 70px;
+        right: -90px;
+        top: 50px;
        
       
     }
@@ -726,8 +727,9 @@ footer{
         z-index: 3;
         width: 336px;
         font-size: 25px;
+        white-space: nowrap;
         height: 44px;
-        margin-left: -180px;
+        margin-left: -160px;
         
     }
     
@@ -744,6 +746,8 @@ footer{
         border: 2px #012F34 solid;
         border-radius: 60px;
         padding: 10px 30px 10px 30px;
+        position: relative;
+        right: -100px;
     }
     
     .contact_red_box:hover{
