@@ -753,27 +753,8 @@ footer{
 }
 
 @media  (max-width: 767px){
-    .NavList > li{
-        display: block;
-        flex-direction: column;
-        width: 100%;
-    }
-
     .headerHr{
         display: none;
-    }
-
-    .NavList a{
-        color: white;
-        text-decoration: none;
-        margin-bottom: 1.5rem;
-        font-size: 1.2rem;
-    }
-
-    .NavList.active{
-        right: 350px;
-        transform: translateX(0);
-        z-index: 1;
     }
 
     .NavList{
@@ -781,7 +762,7 @@ footer{
     }
 
     .home{
-        margin-top: 50px;
+        margin-top: -70px;
     }
 
     .home, .about, .contact {
@@ -794,6 +775,7 @@ footer{
         text-decoration: none; 
         display: block;  
         width: 60px;
+        margin-left: 20px;
     }
 
     .contact{
@@ -837,7 +819,7 @@ footer{
 
     .menuimg{
         margin-left: 198px;
-        margin-top: 275px;
+        margin-top: 340px;
     }
 
     .about_h1{
