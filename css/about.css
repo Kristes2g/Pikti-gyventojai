@@ -81,6 +81,7 @@ header{
 }
 
 .contact{
+    position: relative;
     color: #FFF;
     font-family: "Livvic", sans-serif;
     font-size: 18px;
@@ -93,6 +94,7 @@ header{
     width: 88px;
     margin-left: 70vw;
     transform: translateY(10%);
+    z-index: 3;
 }
 
 .about_h1{
@@ -753,8 +755,27 @@ footer{
 }
 
 @media  (max-width: 767px){
+    .NavList > li{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    }
+
     .headerHr{
         display: none;
+    }
+
+    .NavList a{
+        color: white;
+        text-decoration: none;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .NavList.active{
+        right: 350px;
+        transform: translateX(0);
+        z-index: 1;
     }
 
     .NavList{
@@ -762,7 +783,7 @@ footer{
     }
 
     .home{
-        margin-top: -70px;
+        margin-top: 50px;
     }
 
     .home, .about, .contact {
@@ -775,7 +796,6 @@ footer{
         text-decoration: none; 
         display: block;  
         width: 60px;
-        margin-left: 20px;
     }
 
     .contact{
@@ -819,7 +839,7 @@ footer{
 
     .menuimg{
         margin-left: 198px;
-        margin-top: 340px;
+        margin-top: 275px;
     }
 
     .about_h1{
@@ -1062,4 +1082,5 @@ footer{
     width: 70%;
     height: 100%;
     display: inline-block;
+    z-index: 1;
 }

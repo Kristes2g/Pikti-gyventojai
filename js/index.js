@@ -1,5 +1,4 @@
 const hamburger = document.querySelector(".hamburger")
-const menu = document.querySelector(".NavList")
 const kryziukas = document.querySelector(".kryziukas")
 const overlay = document.querySelector(".overlay")
 
