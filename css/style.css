@@ -1022,9 +1022,7 @@ footer{
         
     }
     
-    .container_second_half_icon_du{
-        position: relative;
-    }
+
     
     .second_half_icon_du{
         position: absolute;
@@ -1441,7 +1439,44 @@ footer{
     /* raudona dalis */
     .red_part{
         height: 302px;
+        z-index: 2;
     }
+.red_name {
+    font-size: 30px;
+    white-space: nowrap;
+    position: relative;
+    top: -250px;
+    right: 200px;
+}
+.contact_red_box{
+    color: #012F34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    right: 700px;
+    width: 100px;
+    position: relative;
+    top: -160px;
+    z-index: 4;
+    text-decoration: none;
+    border: 2px #012F34 solid;
+    border-radius: 60px;
+    padding: 10px 30px 10px 30px;
+    justify-content: center;
+}
+
+    footer {
+        height: 300px;
+    }
+
+    .group_8 {
+        position: relative;
+        top: 88px;
+        z-index: 1;
+    }
+
+    
 
 /* footer */
     footer{
@@ -1461,6 +1496,13 @@ footer{
     .footer_nav{
        margin-left: 171px;
        
+    }
+    .footer_logo {
+        width: 125px;
+        height: 125px;
+        position: absolute;
+        top: -40px;
+        right: 175px;
     }
 
     .adres_box{
@@ -1488,6 +1530,37 @@ footer{
         margin-left: 113px;
         margin-top: 15px;
     }
+    .second_half_icon_du{
+        position: absolute;
+        margin-top: 632px;
+        flex-shrink: 0;
+        right: 0;
+    }
+    .kabutes_kabutes_vienas {
+        position: absolute;
+        left: 205px;
+        margin-top: 10px;
+        z-index: 1;
+    }
+    .kabutes_kabutes_du {
+        position: absolute;
+        left: 205px;
+        margin-top: 10px;
+        z-index: 1;
+    }
+
+    .kabutes_kabutes_trys {
+        position: absolute;
+        left: 205px;
+        margin-top: 10px;
+        z-index: 1;
+    }
+    .container_second_half_icon_du {
+        position: absolute;
+        right: 0px;
+        top: 2905px;
+    }
+    
 }
 
 .overlay{
