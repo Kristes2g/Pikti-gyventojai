@@ -11,6 +11,15 @@ body {
     height: 100%;
     padding: 0 50px;
 }
+
+.hamburger{
+    display: none;
+}
+
+.kryziukas{
+    display: none;
+}
+
 /* icons 1,2,3,5 */
 .left-section {
     flex: 1;
@@ -291,6 +300,10 @@ header{
     display: inline-block;
 }
 
+.menuimg{
+    display: none;
+}
+
 .contact{
     color: #FFF;
     font-family: "Livvic", sans-serif;
@@ -443,11 +456,22 @@ footer{
         position: relative;
         opacity: 0,5;
         top: 25px;
-        
     }
-    
+
+    .hamburger{
+        display: none;
+    }
+
+    .kryziukas{
+        display: none;
+    }
+
     .NavList{
         margin-top: -3.5%;
+    }
+
+    .menuimg{
+        display: none;
     }
     
     .home{
@@ -829,35 +853,43 @@ footer{
                        
         }
         
+        .NavList > li{
+            display: block;
+            flex-direction: column;
+            width: 100%;
+        }
+    
         .NavList{
-            margin-top: -3.5%;
+            display: none;
         }
-        
         .home{
+            margin-top: 100px;
+        }
+    
+        .home, .about, .contact {
             color: #FFF;
             font-family: "Livvic", sans-serif;
-            font-size: 100%;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 63px;
+            margin-left: 0;
+            text-decoration: none; 
+            display: block;
+            width: 50px;
+            margin-left: 20px;
+        }
+
+        .contact{
+            padding: 10px 15px 10px 15px;
+            width: 150px;
+            text-align: center;
+            font-size: 18px;
             font-style: normal;
             font-weight: 600;
-            line-height: 20%;
-            margin-left: 60px;
-            position: relative;
-            top: 25px;
-            display: none;
+            line-height: 28px;
+            margin-top: 100px;
         }
-        
-        .about{
-            color: #FFF;
-            font-family: "Livvic", sans-serif;
-            font-style: normal;
-            font-size: 100%;
-            font-weight: 600;
-            line-height: 20%;
-            margin-left: 50%;
-            position: relative;
-            top: 25px;
-            display: none;
-        }
+    
         
         .home:link{
             color: #FFF;
@@ -889,23 +921,34 @@ footer{
         .NavList > li{
             display: inline-block;
         }
-        
-        .contact{
-            color: #FFF;
-            font-family: "Livvic", sans-serif;
-            font-size: 18px;
-            display: flex;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 28px;
+
+        .hamburger{
             position: absolute;
+            display: flex;
+            margin-left: 90%;
+            transform: translateY(-10%);
             right: 50px;
-            border: 2px white solid;
-            border-radius: 60px;
-            padding: 10px 30px 10px 30px;
-            font-size: 20px;
+        }
+    
+        .kryziukas{
             display: none;
         }
+    
+        .kryziukas.active{
+            display: flex;
+            position: absolute;
+            transform: translateY(-5%);
+            right: 50px;
+            z-index: 5;
+        }
+
+        .menuimg{
+            display: flex;
+            position: absolute;
+            margin-top: 445px;
+            margin-left: 148px;
+        }
+        
         
         .header{
             margin-left: 5%;
@@ -920,7 +963,7 @@ footer{
             
         }
         
-        
+
         .footer_box{
             display: inline-flex;
             position: relative;
