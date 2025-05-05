@@ -888,6 +888,11 @@ footer{
         display: flex;
         margin-left: 90%;
         transform: translateY(-185%);
+        z-index: 15;
+    }
+    
+    .hamburger.hidden{
+        display: none;
     }
 
     .kryziukas{
@@ -896,10 +901,11 @@ footer{
 
     .kryziukas.active{
         display: flex;
-        position: absolute;
+        position: fixed;
         transform: translateY(-185%);
         margin-left: 90%;
         z-index: 5;
+        z-index: 15;
     }
 
     .menuimg{
@@ -1206,10 +1212,10 @@ footer{
 }
 
 .slider{
-    position: absolute;
+    position: fixed;
     right: 0;
     width: 70%;
     height: 100%;
     display: inline-block;
-    z-index: 1;
+    z-index: 15;
 }
