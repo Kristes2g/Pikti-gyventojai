@@ -728,6 +728,26 @@ footer{
     display: none;
 }
 
+.kabutes_kabutes_vienas {
+    position: absolute;
+    left: 920px;
+    margin-top: 5px;
+    z-index: 1;
+}
+.kabutes_kabutes_du {
+    position: absolute;
+    left: 530px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.kabutes_kabutes_trys {
+    position: absolute;
+    left: 1295px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
 @media (min-width: 768px) and (max-width: 1440px)
   {
     .MyTeam{
@@ -864,6 +884,8 @@ footer{
         top: 40px;
         
     }
+
+    
     
     .aprasu_box{
         display: flex;
