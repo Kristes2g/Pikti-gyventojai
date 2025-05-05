@@ -119,7 +119,7 @@ header{
     margin-top: -200px;
     margin-left: 165px;
     color: #FFF;
-    font-family: "Livvic", sans-serif;
+    font-family: Livvic;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -1383,7 +1383,7 @@ footer{
     }
 
     .lowerrightImg{
-        margin-top: -55.3%;
+        margin-top: -55%;
     }
 
     .right_text_container{
