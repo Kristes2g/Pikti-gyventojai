@@ -755,6 +755,67 @@ footer{
         color: white;
         transition: 0.3s;
     }
+   
+    .clients_h1{
+        color: #fff;
+        text-align: center;
+        font-family: "Livvic","sans-serif";
+        font-size: 48px;
+        position: relative;
+        left: 5px;
+        font-weight: 700;
+        margin-top: 120px;
+    }
+    
+    .client_img{
+        filter: brightness(0) invert(1);
+    }
+    
+    .verge{
+        margin-top: 70px;
+        margin-left: 30px;
+        width: 120px;
+        
+    }
+    
+    .jakarta{
+        margin-top: 70px;
+        margin-left: 200px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .guardian{
+        margin-top: 70px;
+        margin-left: 350px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .techradar{
+        margin-top: 70px;
+        margin-left: 490px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .gadget{
+        margin-top: 64px;
+        margin-left: 640px;
+        width: 110px;
+        height: 40px;
+    }
+
+    .blue_moon {
+        z-index: 0;
+        position: absolute;
+        top: -100px;
+
+    }
+
+    .background1 {
+        z-index: 1;
+    }
 
 }
 
@@ -1048,6 +1109,70 @@ footer{
         background-color: #012F34;
         color: white;
         transition: 0.3s;
+    }
+
+    .clients_h1{
+        color: #fff;
+        text-align: center;
+        font-family: "Livvic","sans-serif";
+        font-size: 43px;
+        position: relative;
+        left: 5px;
+        font-weight: 700;
+        margin-top: 80px;
+    }
+    
+    .client_img{
+        filter: brightness(0) invert(1);
+    }
+    
+    .verge{
+        margin-top: -10px;
+        margin-left: 190px;
+        width: 120px;
+        
+        
+    }
+    
+    .jakarta{
+        margin-top: 70px;
+        margin-left: 190px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .guardian{
+        margin-top: 140px;
+        margin-left: 190px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .techradar{
+        margin-top: 200px;
+        margin-left: 190px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .gadget{
+        margin-top: 260px;
+        margin-left: 190px;
+        width: 80px;
+        height: 35px;
+        left: 20px;
+    }
+
+    .blue_moon {
+        z-index: 0;
+        position: absolute;
+        top: -100px;
+        left: -100px;
+
+    }
+
+    .background1 {
+        z-index: 1;
     }
 }
 
