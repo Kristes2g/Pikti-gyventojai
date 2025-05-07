@@ -187,8 +187,9 @@ margin: 0 auto;
 
 .square_lined{
     /* margin-left: 1750px; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
     right: 0;
+    bottom: 0;
 }
 
 .background2{
@@ -583,6 +584,20 @@ footer{
         width: 457px;
     }
 
+    .background1{
+        height: 1328px;
+    }
+    
+    .grid{
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(3, 253px);
+        width: 716px;
+    }
+
+    .background2{
+        margin-top: 1328px;
+        height: 680px;
+    }
     
     .footer_logo {
         position: absolute;
@@ -765,54 +780,51 @@ footer{
     }
    
     .clients_h1{
-        color: #fff;
-        text-align: center;
-        font-family: "Livvic","sans-serif";
-        font-size: 48px;
-        position: relative;
-        left: 5px;
-        font-weight: 700;
-        margin-top: 120px;
+        font-size: 32px;
+        margin-top: 10px;
+    }
+
+    .client_box{
+        width: 780px;
     }
     
     .client_img{
-        filter: brightness(0) invert(1);
+        /* filter: brightness(0) invert(1); */
     }
     
     .verge{
-        margin-top: 70px;
-        margin-left: 30px;
+        /* margin-top: 70px; */
+        margin-left: 0px;
         width: 120px;
-        
     }
     
     .jakarta{
-        margin-top: 70px;
-        margin-left: 200px;
+        /* margin-top: 70px; */
+        margin-left: 170px;
         width: 120px;
         height: 20px;
     }
     
     .guardian{
-        margin-top: 70px;
-        margin-left: 350px;
+        /* margin-top: 70px; */
+        margin-left: 340px;
         width: 120px;
         height: 20px;
     }
     
     .techradar{
-        margin-top: 70px;
-        margin-left: 490px;
+        /* margin-top: 70px; */
+        margin-left: 510px;
         width: 120px;
         height: 20px;
     }
     
-    .gadget{
-        margin-top: 64px;
-        margin-left: 640px;
-        width: 110px;
-        height: 40px;
-    }
+        .gadget{
+            /* margin-top: 64px; */
+            margin-left: 680px;
+            width: 100px;
+            height: 40px;
+        }
 
     .blue_moon {
         z-index: 0;
@@ -828,6 +840,10 @@ footer{
 }
 
 @media  (max-width: 767px){
+    .grid{
+       
+    }
+
     .NavList > li{
         display: block;
         flex-direction: column;
