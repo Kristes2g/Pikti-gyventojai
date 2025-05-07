@@ -54,8 +54,9 @@ header{
     text-decoration: none;
 }
 .home:hover{
-    color: #F67E7E;;
+    color: #F67E7E;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .about:link{
@@ -63,8 +64,9 @@ header{
     text-decoration: none;
 }
 .about:hover{
-    color: #F67E7E;;
+    color: #F67E7E;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .contact:link{
@@ -74,6 +76,7 @@ header{
 .contact:hover{
     background-color: #FFF;
     color: black;
+    transition: 0.3s;
 }
 
 .NavList > li{
@@ -81,7 +84,7 @@ header{
 }
 
 .contact{
-    position: relative;
+    position: absolute;
     color: #FFF;
     font-family: "Livvic", sans-serif;
     font-size: 18px;
@@ -92,9 +95,9 @@ header{
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
     width: 88px;
-    margin-left: 70vw;
-    transform: translateY(10%);
+    margin-left: 45vw;
     z-index: 3;
+    transform: translateY(-60%);
 }
 
 .about_h1{
@@ -926,10 +929,9 @@ footer{
     .kryziukas.active{
         display: flex;
         position: fixed;
+        margin-left: 433px;
+        z-index: 16;
         transform: translateY(-185%);
-        margin-left: 90%;
-        z-index: 5;
-        z-index: 15;
     }
 
     .menuimg{
@@ -1204,6 +1206,15 @@ footer{
     .background1 {
         z-index: 1;
     }
+    
+    .slider{
+        position: fixed;
+        right: 0;
+        width: 87%;
+        height: 100%;
+        display: inline-block;
+        z-index: 15;
+    }
 }
 
 .overlay{
@@ -1235,11 +1246,3 @@ footer{
     width: 100%;
 }
 
-.slider{
-    position: fixed;
-    right: 0;
-    width: 70%;
-    height: 100%;
-    display: inline-block;
-    z-index: 15;
-}

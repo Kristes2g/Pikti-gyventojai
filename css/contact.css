@@ -340,9 +340,9 @@ footer{
 }
 
 .footer_links{
+    font: Livvic;
     text-decoration: none;
     color: white;
-    font-family: Livvic;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -390,6 +390,7 @@ footer{
 }
 
 .adresas{
+    font-family: "Livvic", sans-serif;
     position: relative;
     left: -30px;
     top:  15px;
@@ -399,12 +400,12 @@ footer{
 }
 
 .copyright{
+    font-family: "Livvic", sans-serif;
     color: #FFF;
-    font-family: Livvic;
     font-size: 16px;
     line-height: 25px;
     margin-top: 42px;
-    width: 255px;
+    width: 260px;
     opacity: 0.6;
     display: flex;
     position: relative;
