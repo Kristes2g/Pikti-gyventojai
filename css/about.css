@@ -843,8 +843,20 @@ footer{
 }
 
 @media  (max-width: 767px){
+
+    .background1{
+        height: 2300px;
+    }
+
     .grid{
-       
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(6, 253px);
+        width: 358px;
+    }
+
+    .client_box{
+        width: 120px;
+        
     }
 
     .NavList > li{
@@ -1160,7 +1172,7 @@ footer{
     
     .verge{
         margin-top: -10px;
-        margin-left: 190px;
+        margin-left: 0px;
         width: 120px;
         
         
@@ -1168,31 +1180,31 @@ footer{
     
     .jakarta{
         margin-top: 70px;
-        margin-left: 190px;
+        margin-left: 0px;
         width: 120px;
         height: 20px;
     }
     
     .guardian{
         margin-top: 140px;
-        margin-left: 190px;
+        margin-left: 0px;
         width: 120px;
         height: 20px;
     }
     
     .techradar{
         margin-top: 200px;
-        margin-left: 190px;
+        margin-left: 0px;
         width: 120px;
         height: 20px;
     }
     
     .gadget{
         margin-top: 260px;
-        margin-left: 190px;
+        margin-left: 20px;
         width: 80px;
         height: 35px;
-        left: 20px;
+        /* left: 20px; */
     }
 
     .blue_moon {
