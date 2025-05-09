@@ -940,7 +940,7 @@ footer{
     .kryziukas.active{
         display: flex;
         position: fixed;
-        margin-left: 438px;
+        margin-left: 420px;
         z-index: 16;
         transform: translateY(-410%);
     }
