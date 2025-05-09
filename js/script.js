@@ -1,30 +1,22 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const inputs = document.querySelectorAll('#contact-form input, #contact-form textarea');
-    const interacted = new WeakSet();
+document.querySelectorAll('input, textarea').forEach(field => {
+    const errorMessage = field.nextElementSibling;
   
-    inputs.forEach(input => {
-      const errorMessage = input.nextElementSibling;
+    // Focus on the input (click)
+    field.addEventListener('focus', () => {
+      field.classList.remove('error'); // Remove the error state when clicked
+      errorMessage.classList.remove('active'); // Hide the error message
+      field.style.borderBottom = '1px solid #79C8C7'; // Blue underline on focus
+    });
   
-      input.addEventListener('mouseenter', () => {
-        interacted.add(input);
-        
-        if (input.classList.contains('error')) {
-          input.classList.remove('error');
-          errorMessage.classList.remove('active');
-        }
-      });
-  
-      input.addEventListener('mouseleave', () => {
-        if (interacted.has(input) && input.value.trim() === '') {
-          input.classList.add('error');
-          errorMessage.classList.add('active');
-        }
-      });
-  
-      input.addEventListener('focus', () => {
-        input.classList.remove('error');
-        errorMessage.classList.remove('active');
-      });
+    // Blur event (when clicking out of the input)
+    field.addEventListener('blur', () => {
+      if (field.value.trim() === '') {
+        field.classList.add('error'); // Add error state if empty
+        errorMessage.classList.add('active'); // Show error message
+        field.style.borderBottom = '1px solid #F67E7E'; // Red underline
+      } else {
+        field.style.borderBottom = '1px solid #79C8C7'; // Blue underline if not empty
+      }
     });
   });
 
@@ -49,7 +41,6 @@ form.addEventListener('submit', function (e) {
     form.reset();
   }
 });
-
 
 
 
