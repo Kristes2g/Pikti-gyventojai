@@ -5,13 +5,14 @@ const MyTeamCont = document.querySelector(".MyTeamCont")
 const HamburgerCont = document.querySelector(".HamburgerCont")
 const slider = document.querySelector(".slider")
 
-hamburger.addEventListener('click', ()=>{
-    overlay.classList.toggle('slide')
-    kryziukas.classList.toggle('active')
-    hamburger.classList.toggle('hidden')
-    MyTeamCont.classList.toggle('deactivate')
-    HamburgerCont.classList.toggle('ijungt')
-    slider.classList.toggle('active')
+hamburger.addEventListener('click', () => {
+    slider.classList.toggle('active');
+    void slider.offsetWidth;
+    overlay.classList.toggle('slide');
+    kryziukas.classList.toggle('active');
+    hamburger.classList.toggle('hidden');
+    MyTeamCont.classList.toggle('deactivate');
+    HamburgerCont.classList.toggle('ijungt');
 });
 
 kryziukas.addEventListener('click', ()=>{
