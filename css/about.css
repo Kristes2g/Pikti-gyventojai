@@ -842,6 +842,11 @@ footer{
 
 @media  (max-width: 767px){
 
+    header{
+        margin-top: 0;
+        height: 438px;
+    }
+
     .background1{
         height: 2300px;
     }
@@ -882,10 +887,6 @@ footer{
 
     .NavList{
         display: none;
-    }
-
-    .home{
-        margin-top: 50px;
     }
 
     .home, .about, .contact {
@@ -939,13 +940,13 @@ footer{
     .kryziukas.active{
         display: flex;
         position: fixed;
-        margin-left: 433px;
+        margin-left: 438px;
         z-index: 16;
-        transform: translateY(-185%);
+        transform: translateY(-410%);
     }
 
     .menuimg{
-        margin-left: 198px;
+        margin-left: 178px;
         margin-top: 275px;
     }
 
@@ -957,7 +958,6 @@ footer{
         font-style: normal;
         font-weight: 700;
         line-height: 40px; 
-        margin-top: 70px;
         margin-left: 30px;
     }
 
@@ -1111,7 +1111,6 @@ footer{
         flex-shrink: 0;
         margin-top: 86px;
         margin-left: 273px;
-        
     }
     
     .red_name{
@@ -1174,8 +1173,6 @@ footer{
         margin-top: -10px;
         margin-left: 0px;
         width: 120px;
-        
-        
     }
 
     .client_box {
@@ -1224,25 +1221,49 @@ footer{
         z-index: 1;
     }
     
-    .slider{
-        position: fixed;
-        right: 0;
-        width: 87%;
-        height: 100%;
-        display: inline-block;
-        z-index: 15;
-    }
     
     .background2 {
         position: relative;
         top: 1290px;
-
     }
+
+    .MyTeamCont{
+        position: fixed;
+        width: 100%;
+        height: 14%;
+        z-index: 5;
+        margin-top: -130px;
+        padding-bottom: -20px;
+        background-color: #014E56;
+    }
+
+    .MyTeamCont.deactivate{
+        position: absolute;
+        z-index: 0;
+    }
+
+    .slider {
+        margin-top: -130px;
+        position: fixed;
+        right: 0;
+        width: 76%;
+        height: 100%;
+        z-index: 15;
+        transform: translateX(10%);
+        transition: transform 0.5s ease;
+        pointer-events: none;
+      }
+
+      .slider.active{
+        pointer-events: auto;
+      }
 }
+
+
 
 .overlay{
     position: absolute;
-    z-index: 2;
+    z-index: 15;
     bottom: 0;
     left: 100%;
     background-color: #2C6269;
@@ -1254,9 +1275,11 @@ footer{
 }
 
 .overlay-list{
+    position: absolute;
     padding-left: 40px;
     list-style-type: none;
     margin-top: 200px;
+    z-index: 15;
 }
 
 .slide{
