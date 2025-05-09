@@ -791,9 +791,7 @@ footer{
         width: 780px;
     }
     
-    .client_img{
-        /* filter: brightness(0) invert(1); */
-    }
+
     
     .verge{
         /* margin-top: 70px; */
@@ -992,7 +990,7 @@ footer{
         display: inline-flex;
         justify-content: center;
         position: relative;
-        top: 1550px;
+        top: 1250px;
         width: 100%;
         height: 350px;
         background-color: rgba(0, 37, 41, 1);
@@ -1090,9 +1088,10 @@ footer{
         font-family: Livvic;
         background-color: #F67E7E;
         height: 220px;
-        z-index: 4;
+        z-index: 10;
         width: 100%;
-        top: 1550px;
+        top: 1250px;
+        
         position: relative;
     }
     
@@ -1163,7 +1162,8 @@ footer{
         position: relative;
         left: 5px;
         font-weight: 700;
-        margin-top: 80px;
+        margin-top: 90px;
+        top: 75px;
     }
     
     .client_img{
@@ -1176,6 +1176,11 @@ footer{
         width: 120px;
         
         
+    }
+
+    .client_box {
+        position: relative;
+        top: 85px;
     }
     
     .jakarta{
@@ -1226,6 +1231,12 @@ footer{
         height: 100%;
         display: inline-block;
         z-index: 15;
+    }
+    
+    .background2 {
+        position: relative;
+        top: 1290px;
+
     }
 }
 
