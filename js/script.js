@@ -50,13 +50,16 @@ const hamburger = document.querySelector(".hamburger")
 const menu = document.querySelector(".NavList")
 const kryziukas = document.querySelector(".kryziukas")
 const overlay = document.querySelector(".overlay")
+const MyTeamCont = document.querySelector(".MyTeamCont")
 
 hamburger.addEventListener('click', ()=>{
     overlay.classList.toggle('slide') 
     kryziukas.classList.toggle('active')
+    MyTeamCont.classList.toggle('deactivate')
 });
 
 kryziukas.addEventListener('click', ()=>{
     overlay.classList.toggle('slide')
     kryziukas.classList.toggle('active')
+    MyTeamCont.classList.toggle('deactivate')
 })
