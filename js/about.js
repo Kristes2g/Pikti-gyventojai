@@ -38,6 +38,7 @@ const kryziukas = document.querySelector(".kryziukas")
 const overlay = document.querySelector(".overlay")
 const MyTeamCont = document.querySelector(".MyTeamCont")
 const slider = document.querySelector(".slider")
+const darken = document.querySelector(".darken")
 
 hamburger.addEventListener('click', ()=>{
     overlay.classList.toggle('slide') 
@@ -45,6 +46,7 @@ hamburger.addEventListener('click', ()=>{
     hamburger.classList.toggle('hidden')
     MyTeamCont.classList.toggle('deactivate')
     slider.classList.toggle('active')
+    darken.classList.toggle('active')
 });
 
 kryziukas.addEventListener('click', ()=>{
@@ -53,4 +55,5 @@ kryziukas.addEventListener('click', ()=>{
     hamburger.classList.toggle('hidden')
     MyTeamCont.classList.toggle('deactivate')
     slider.classList.toggle('active')
+    darken.classList.toggle('active')
 })

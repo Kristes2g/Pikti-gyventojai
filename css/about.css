@@ -940,9 +940,9 @@ footer{
     .kryziukas.active{
         display: flex;
         position: fixed;
-        margin-left: 420px;
+        margin-left: 250px;
         z-index: 16;
-        transform: translateY(-410%);
+        transform: translateY(355%);
     }
 
     .menuimg{
@@ -1009,8 +1009,6 @@ footer{
         position: relative;
         right: -125px;
         top: -20px;
-       
-    
     }
     
     .footer_links:hover{
@@ -1230,7 +1228,7 @@ footer{
     .MyTeamCont{
         position: fixed;
         width: 100%;
-        height: 14%;
+        height: 13%;
         z-index: 5;
         margin-top: -130px;
         padding-bottom: -20px;
@@ -1238,6 +1236,7 @@ footer{
     }
 
     .MyTeamCont.deactivate{
+        height: 130px;
         position: absolute;
         z-index: 0;
     }
@@ -1256,6 +1255,10 @@ footer{
 
       .slider.active{
         pointer-events: auto;
+      }
+
+      .darken.active{
+        filter: brightness(50%);
       }
 }
 

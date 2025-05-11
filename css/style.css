@@ -1374,7 +1374,7 @@ footer{
         display: flex;
         position: fixed;
         transform: translateY(350%);
-        margin-left: 410px;
+        margin-left: 265px;
         z-index: 6;
     }
 
@@ -1642,6 +1642,10 @@ footer{
       .slider.active {
         transform: translateX(0);
         pointer-events: auto;
+      }
+
+      .darken.active{
+        filter: brightness(50%);
       }
 }
 
