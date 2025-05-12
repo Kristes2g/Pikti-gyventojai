@@ -5,7 +5,7 @@ body{
 header{
     background-color: #014E56;
     width: 100%;
-    height: 800px;
+    height: 700px;
     flex-shrink: 0;
 }
 
@@ -23,7 +23,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    transform: translateY(100%);
+    transform: translateY(105%);
 }
 
 .home{
@@ -102,22 +102,22 @@ header{
     text-decoration: none;
     border: 2px white solid;
     border-radius: 60px;
-    padding: 10px 30px 10px 30px;
-    margin-left: 900px;
+    padding: 8px 30px 8px 30px;
+    margin-left: 580px;
     text-decoration: none;
-    transform: translateY(25%);
+    transform: translateY(15%);
 }
 
 /* CircleLeft cia tas rutuliukas is kaires */
 .circleLeft{
-    margin-top: 150px;
+    margin-top: 30px;
     margin-right: 1340px;
     flex-shrink: 0;
 }
 
 /*Didelis tekstas is kaires*/
 .header_h1{
-    margin-top: -200px;
+    margin-top: -205px;
     margin-left: 165px;
     color: #FFF;
     font-family: Livvic;
@@ -147,8 +147,8 @@ header{
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    padding-left: 1200px;
-    margin-top: -190px;
+    padding-left: 830px;
+    margin-top: -180px;
 }
 
 /*Zydras bruksnelis virs teksto is desines*/
@@ -160,8 +160,8 @@ header{
     background: #79C8C7;
     border: 0;
     margin-top: 144px;
-    margin-left: 1200px;
-    transform: translateY(3500%);
+    margin-left: 830px;
+    transform: translateY(1100%);
 }
 
 /*containeris kuriame randasi headerHr, h1 ir headerP*/
@@ -178,13 +178,13 @@ header{
 
 .bottomimg{
     position: absolute;
-    right: 175px;
-    transform: translateY(116%);
+    right: 165px;
+    transform: translateY(130%);
 }
 
 .first_half{
     width: 100%;
-    height: 784px;
+    height: 684px;
     flex-shrink: 0;
     background: #012F34;
 }
@@ -211,7 +211,7 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: 48px; 
-    padding-top: 20px;
+    padding-top: 15px;
     width: 445px;
 }
 
@@ -219,21 +219,20 @@ header{
 .right-text{
     display: flex;
     justify-content: flex-end;
-    margin-right: 5%;
-    right: 165px;
+    margin-right: 45px;
 }
 
 /*virsutine dalis is desines*/
 
 .right_text_container{
     height: 700px;
-    margin-top: -7%;
+    margin-top: -150px;
     margin-right: 15%;
 }
 
 .up{
-    margin-left: 26%;
-    margin-top: -15%;
+    transform: translateX(93px);
+    margin-top: -75px;
     padding-bottom: 13%;
 }
 
@@ -273,8 +272,7 @@ header{
     font-weight: 600;
     line-height: 25px;
     width: 445px;
-    margin-top: -6.3%;
-    margin-right: 10.5%;
+    margin-top: -39px;
     opacity: 0.8;
 }
 
@@ -282,8 +280,7 @@ header{
 .midImg{
     margin: 0;
     padding: 0;
-    margin-right: 29%;
-    margin-top: -2.5%;
+    margin-top: -40px;
 }
 .midText{
     color: #F67E7E;
@@ -293,56 +290,55 @@ header{
     font-weight: 700;
     line-height: 28px; 
     width: 445px;
-    margin-top: -2.5%;
-    margin-right: 10.5%;
+    transform: translateY(-25px);
+    margin-left: -23px;
 }
 .midsubText{
     color: #FFF;
-    font-family: "Livic", sans-serif;
+    font-family: Livvic;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 25px; 
     width: 450px;
-    margin-right: 10.3%;
-    margin-top: -0.7%;
     opacity: 0.8;
+    margin-top: -28px;
+    transform: translateX(-23px);
 }
 
 /*apatine dalis is desines*/
 .lowerImg{
     margin: 0;
     padding: 0;
-    margin-right: 29%;
-    margin-top: 3%;
+    margin-top: -41px;
 }
 .lowerText{
     color: #F67E7E;
-    font-family: "Livic", sans-serif;
+    font-family: Livvic;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 28px; 
-    margin-top: 3%;
-    margin-right: 20.3%;
+    margin-top: 3px;
+    margin-left: -21px;
 }
 .lowersubText{
     color: #FFF;
-    font-family: "Livic", sans-serif;
+    font-family: Livvic;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
     width: 445px;
     opacity: 0.8;
-    margin-top: 4.8%;
-    margin-right: 10.5%;
+    margin-left: -22px;
+    margin-top: -2px;
 }
 .lowerrightImg{
     position: absolute;
-    margin-right: -4.98%;
-    margin-top: 5.95%;
     flex-shrink: 0;
+    margin-top: 57px;
+    margin-right: -45px;
 }
 
 /* antra puse */
@@ -350,16 +346,19 @@ header{
 .second_half{
     background-color: rgba(0, 64, 71, 1);
     font-family: "Livic", sans-serif;
-    height: 895px;
+    height: 745px;
 }
 
 .pavadinimo_box{
     color: #FFF;
     text-align: center;
-    font-size: 48px;
+    font-family: Livvic;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: 88px;
+    line-height: 48px;
+    margin-left: 15px;
+    letter-spacing: 2px;
 }
 
 .succsess_storie{
@@ -369,7 +368,6 @@ header{
 .kabutes{
     position: absolute;
     z-index: 1;
-    margin-left: 142px;
 }
 
 .aprasu_box{
@@ -394,33 +392,43 @@ header{
     text-align: center;
     height: 80px;
     width: 350px;
-    
     text-align: center;
-    
-    line-height: 30px;
+    line-height: 25px;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
+}
+
+.aprasai_pirmo > p{
+    margin-top: 54px;
 }
 
 .aprasai_antro{
     text-align: center;
     height: 100px;
     width: 350px;
-    line-height: 30px;
+    line-height: 25px;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
+}
+
+.aprasai_antro > p{
+    margin-top: 54px;
 }
 
 .aprasai_trecio{
     text-align: center;
     height: 80px;
     width: 350px;
-    line-height: 30px;
+    line-height: 25px;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
+}
+
+.aprasai_trecio > p{
+    margin-top: 54px;
 }
 
 .person_name_one{
@@ -432,6 +440,7 @@ header{
     font-weight: 700;
     line-height: 28px;
     margin: 0;
+    transform: translateY(-30px);
 }
 
 .person_specialte_one{
@@ -443,16 +452,17 @@ header{
     font-weight: 500;
     line-height: 18px;
     margin: 0;
+    transform: translateY(-83px);
 }
 
 .moteris{
-    width: 92px;
-    height: 92px;
+    width: 62px;
+    height: 62px;
     flex-shrink: 0;
     border-radius: 62px;
     border: 2px solid #C4FFFE;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-    margin-top: 50px;
+    transform: translateY(-52px);
 }
 
 .person_name_two{
@@ -464,6 +474,7 @@ header{
     font-weight: 700;
     line-height: 28px;
     margin: 0;
+    transform: translateY(-30px);
 }
 
 .person_specialte_two{
@@ -475,16 +486,17 @@ header{
     font-weight: 500;
     line-height: 18px;
     margin: 0;
+    transform: translateY(-84px);
 }
 
 .moteris_2{
-    width: 92px;
-    height: 92px;
+    width: 62px;
+    height: 62px;
     flex-shrink: 0;
     border-radius: 62px;
     border: 2px solid #C4FFFE;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-    margin-top: 50px;
+    transform: translateY(-53px);
 }
 
 .person_name_three{
@@ -496,6 +508,7 @@ header{
     font-weight: 700;
     line-height: 28px;
     margin: 0;
+    transform: translateY(-30px);
 }
 
 .person_specialte_three{
@@ -507,16 +520,17 @@ header{
     font-weight: 500;
     line-height: 18px;
     margin: 0;
+    transform: translateY(-84px);
 }
 
 .senukas{
-    width: 92px;
-    height: 92px;
+    width: 62px;
+    height: 62px;
     flex-shrink: 0;
     border-radius: 62px;
     border: 2px solid #C4FFFE;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-    margin-top: 50px;
+    margin-top: -42px;
 }
 
 .container_second_half_icon_du{
@@ -525,7 +539,7 @@ header{
 
 .second_half_icon_du{
     position: absolute;
-    margin-top: 259px;
+    margin-top: 216px;
     flex-shrink: 0;
     right: 0;
 }
@@ -534,11 +548,11 @@ header{
 .red_part{
     font-family: Livvic;
     background-color: #F67E7E;
-    height: 220px;
+    height: 200px;
 }
 
 .group_8{
-    margin-top: 76px;
+    margin-top: 56px;
     z-index: 1;
     position: absolute;
 }
@@ -562,6 +576,8 @@ header{
     font-weight: 700;
     line-height: 48px;
     margin: 0;
+    margin-left: -10px;
+    margin-top: -10px;
     
 }
 
@@ -575,7 +591,9 @@ header{
     text-decoration: none;
     border: 2px #012F34 solid;
     border-radius: 60px;
-    padding: 10px 30px 10px 30px;
+    padding: 8px 30px 8px 30px;
+    margin-top: -10px;
+    margin-left: 1px;
 }
 
 .contact_red_box:hover{
@@ -645,8 +663,9 @@ footer{
 }
 
 .adresas{
-    margin-left: 190px;
-    margin-top: 45px;
+    font-family: Livvic;
+    margin-left: 150px;
+    margin-top: 48px;
     width: 200px;
     line-height: 25px;
 }
@@ -659,10 +678,10 @@ footer{
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
-    margin-top: 42px;
+    margin-top: 46px;
     width: 255px;
     opacity: 0.6;
-    margin-right: 165px;
+    margin-right: 163px;
 }
 
 .copyright_box{
@@ -673,8 +692,7 @@ footer{
 
 .social_links_box{
     margin-top: 48px;
-    margin-left: 145px;
-    
+    margin-left: 150px;
 }
 
 .social_icons{
@@ -732,25 +750,25 @@ footer{
 
 .kabutes_kabutes_vienas {
     position: absolute;
-    left: 920px;
-    margin-top: 5px;
+    left: 686.5px;
+    margin-top: 17px;
     z-index: 1;
 }
 .kabutes_kabutes_du {
     position: absolute;
-    left: 530px;
-    margin-top: 5px;
+    left: 306.5px;
+    margin-top: 17px;
     z-index: 1;
 }
 
 .kabutes_kabutes_trys {
     position: absolute;
-    left: 1295px;
-    margin-top: 5px;
+    left: 1066.5px;
+    margin-top: 17px;
     z-index: 1;
 }
 
-@media (min-width: 768px) and (max-width: 1440px)
+@media (min-width: 768px) and (max-width: 1439px)
   {
     .MyTeam{
         margin-left: 39px;
