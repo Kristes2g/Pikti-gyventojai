@@ -54,8 +54,9 @@ header{
     text-decoration: none;
 }
 .home:hover{
-    color: #F67E7E;;
+    color: #F67E7E;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .about:link{
@@ -63,8 +64,9 @@ header{
     text-decoration: none;
 }
 .about:hover{
-    color: #F67E7E;;
+    color: #F67E7E;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .contact:link{
@@ -74,6 +76,7 @@ header{
 .contact:hover{
     background-color: #FFF;
     color: black;
+    transition: 0.3s;
 }
 
 .NavList > li{
@@ -81,7 +84,7 @@ header{
 }
 
 .contact{
-    position: relative;
+    position: absolute;
     color: #FFF;
     font-family: "Livvic", sans-serif;
     font-size: 18px;
@@ -92,9 +95,9 @@ header{
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
     width: 88px;
-    margin-left: 70vw;
-    transform: translateY(10%);
+    margin-left: 45vw;
     z-index: 3;
+    transform: translateY(-60%);
 }
 
 .about_h1{
@@ -173,7 +176,9 @@ grid-template-columns: repeat(3, 350px);
 grid-template-rows: repeat(2, 253px);
 grid-column-gap: 30px;
 grid-row-gap: 76px;
-margin-left: 390px;
+/* margin-left: 390px; */
+width: 1082px;
+margin: 0 auto;
 
 .div1 { grid-area: 1 / 1 / 2 / 2;}
 .div2 { grid-area: 1 / 2 / 2 / 3;}
@@ -184,8 +189,10 @@ margin-left: 390px;
 }
 
 .square_lined{
-    margin-left: 1750px;
-    margin-top: 50px;
+    /* margin-left: 1750px; */
+    /* margin-top: 50px; */
+    right: 0;
+    bottom: 0;
 }
 
 .background2{
@@ -206,33 +213,38 @@ margin-left: 390px;
     margin-top: 120px;
 }
 
+.client_box{
+    margin: 0 auto;
+    width: 1450px;
+}
+
 .client_img{
     filter: brightness(0) invert(1);
 }
 
 .verge{
     margin-top: 70px;
-    margin-left: 250px;
+    margin-left: 70px;
 }
 
 .jakarta{
     margin-top: 70px;
-    margin-left: 550px;
+    margin-left: 340px;
 }
 
 .guardian{
     margin-top: 70px;
-    margin-left: 850px;
+    margin-left: 640px;
 }
 
 .techradar{
     margin-top: 70px;
-    margin-left: 1150px;
+    margin-left: 940px;
 }
 
 .gadget{
     margin-top: 64px;
-    margin-left: 1450px;
+    margin-left: 1240px;
 }
 
 .oval{
@@ -575,6 +587,20 @@ footer{
         width: 457px;
     }
 
+    .background1{
+        height: 1328px;
+    }
+    
+    .grid{
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(3, 253px);
+        width: 716px;
+    }
+
+    .background2{
+        margin-top: 1328px;
+        height: 680px;
+    }
     
     .footer_logo {
         position: absolute;
@@ -755,10 +781,87 @@ footer{
         color: white;
         transition: 0.3s;
     }
+   
+    .clients_h1{
+        font-size: 32px;
+        margin-top: 10px;
+    }
+
+    .client_box{
+        width: 780px;
+    }
+    
+
+    
+    .verge{
+        /* margin-top: 70px; */
+        margin-left: 0px;
+        width: 120px;
+    }
+    
+    .jakarta{
+        /* margin-top: 70px; */
+        margin-left: 170px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .guardian{
+        /* margin-top: 70px; */
+        margin-left: 340px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .techradar{
+        /* margin-top: 70px; */
+        margin-left: 510px;
+        width: 120px;
+        height: 20px;
+    }
+    
+        .gadget{
+            /* margin-top: 64px; */
+            margin-left: 680px;
+            width: 100px;
+            height: 40px;
+        }
+
+    .blue_moon {
+        z-index: 0;
+        position: absolute;
+        top: -100px;
+
+    }
+
+    .background1 {
+        z-index: 1;
+    }
 
 }
 
 @media  (max-width: 767px){
+
+    header{
+        margin-top: 0;
+        height: 438px;
+    }
+
+    .background1{
+        height: 2300px;
+    }
+
+    .grid{
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(6, 253px);
+        width: 358px;
+    }
+
+    .client_box{
+        width: 120px;
+        
+    }
+
     .NavList > li{
         display: block;
         flex-direction: column;
@@ -784,10 +887,6 @@ footer{
 
     .NavList{
         display: none;
-    }
-
-    .home{
-        margin-top: 50px;
     }
 
     .home, .about, .contact {
@@ -827,6 +926,11 @@ footer{
         display: flex;
         margin-left: 90%;
         transform: translateY(-185%);
+        z-index: 15;
+    }
+    
+    .hamburger.hidden{
+        display: none;
     }
 
     .kryziukas{
@@ -835,14 +939,14 @@ footer{
 
     .kryziukas.active{
         display: flex;
-        position: absolute;
-        transform: translateY(-185%);
-        margin-left: 90%;
-        z-index: 5;
+        position: fixed;
+        margin-left: 250px;
+        z-index: 16;
+        transform: translateY(355%);
     }
 
     .menuimg{
-        margin-left: 198px;
+        margin-left: 178px;
         margin-top: 275px;
     }
 
@@ -854,7 +958,6 @@ footer{
         font-style: normal;
         font-weight: 700;
         line-height: 40px; 
-        margin-top: 70px;
         margin-left: 30px;
     }
 
@@ -887,7 +990,7 @@ footer{
         display: inline-flex;
         justify-content: center;
         position: relative;
-        top: 1550px;
+        top: 1250px;
         width: 100%;
         height: 350px;
         background-color: rgba(0, 37, 41, 1);
@@ -906,8 +1009,6 @@ footer{
         position: relative;
         right: -125px;
         top: -20px;
-       
-    
     }
     
     .footer_links:hover{
@@ -985,9 +1086,10 @@ footer{
         font-family: Livvic;
         background-color: #F67E7E;
         height: 220px;
-        z-index: 4;
+        z-index: 10;
         width: 100%;
-        top: 1550px;
+        top: 1250px;
+        
         position: relative;
     }
     
@@ -1007,7 +1109,6 @@ footer{
         flex-shrink: 0;
         margin-top: 86px;
         margin-left: 273px;
-        
     }
     
     .red_name{
@@ -1050,6 +1151,119 @@ footer{
         transition: 0.3s;
     }
 
+    .clients_h1{
+        color: #fff;
+        text-align: center;
+        font-family: "Livvic","sans-serif";
+        font-size: 43px;
+        position: relative;
+        left: 5px;
+        font-weight: 700;
+        margin-top: 90px;
+        top: 75px;
+    }
+    
+    .client_img{
+        filter: brightness(0) invert(1);
+    }
+    
+    .verge{
+        margin-top: -10px;
+        margin-left: 0px;
+        width: 120px;
+    }
+
+    .client_box {
+        position: relative;
+        top: 85px;
+    }
+    
+    .jakarta{
+        margin-top: 70px;
+        margin-left: 0px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .guardian{
+        margin-top: 140px;
+        margin-left: 0px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .techradar{
+        margin-top: 200px;
+        margin-left: 0px;
+        width: 120px;
+        height: 20px;
+    }
+    
+    .gadget{
+        margin-top: 260px;
+        margin-left: 20px;
+        width: 80px;
+        height: 35px;
+        /* left: 20px; */
+    }
+
+    .blue_moon {
+        z-index: 0;
+        position: absolute;
+        top: -100px;
+        left: -100px;
+
+    }
+
+    .background1 {
+        z-index: 1;
+    }
+    
+    
+    .background2 {
+        position: relative;
+        top: 1290px;
+    }
+
+    .MyTeamCont{
+        position: fixed;
+        width: 100%;
+        height: 13%;
+        z-index: 5;
+        margin-top: -130px;
+        padding-bottom: -20px;
+        background-color: #014E56;
+    }
+
+    .MyTeamCont.deactivate{
+        height: 130px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .slider {
+        margin-top: -130px;
+        position: fixed;
+        right: 0;
+        width: 76%;
+        height: 100%;
+        z-index: 15;
+        transform: translateX(10%);
+        transition: transform 0.5s ease;
+        pointer-events: none;
+      }
+
+      .slider.active{
+        pointer-events: auto;
+      }
+
+      .darken.active{
+        filter: brightness(50%);
+      }
+}
+
+
+
     .grid{
         display: flex;
         flex-wrap: wrap;
@@ -1058,7 +1272,7 @@ footer{
 
 .overlay{
     position: absolute;
-    z-index: 2;
+    z-index: 15;
     bottom: 0;
     left: 100%;
     background-color: #2C6269;
@@ -1070,9 +1284,11 @@ footer{
 }
 
 .overlay-list{
+    position: absolute;
     padding-left: 40px;
     list-style-type: none;
     margin-top: 200px;
+    z-index: 15;
 }
 
 .slide{
@@ -1085,11 +1301,3 @@ footer{
     width: 100%;
 }
 
-.slider{
-    position: absolute;
-    right: 0;
-    width: 70%;
-    height: 100%;
-    display: inline-block;
-    z-index: 1;
-}

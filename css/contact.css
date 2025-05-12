@@ -138,6 +138,8 @@ button {
     padding: 10px 30px 10px 30px;
     
 }
+
+
 /* Contact h1 */
 h1 {
     margin-left: 250px;
@@ -340,9 +342,9 @@ footer{
 }
 
 .footer_links{
+    font: Livvic;
     text-decoration: none;
     color: white;
-    font-family: Livvic;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -390,6 +392,7 @@ footer{
 }
 
 .adresas{
+    font-family: "Livvic", sans-serif;
     position: relative;
     left: -30px;
     top:  15px;
@@ -399,12 +402,12 @@ footer{
 }
 
 .copyright{
+    font-family: "Livvic", sans-serif;
     color: #FFF;
-    font-family: Livvic;
     font-size: 16px;
     line-height: 25px;
     margin-top: 42px;
-    width: 255px;
+    width: 260px;
     opacity: 0.6;
     display: flex;
     position: relative;
@@ -666,23 +669,26 @@ footer{
         fill: #F67E7E;
         transition: 0.3s;
     }
+
     .container {
         display: flex;
         align-items: center;
         height: 100%;
         padding: 0 50px;
     }
+
     /* icons 1,2,3,5 */
     .left-section {
         flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: center; 
-       
     }
+
     .icon1, .icon2, .icon3, .icon4, .icon5 {
         position: absolute;
     }
+
     /* juodas pusrutulis */
     .icon1 {
         width: 120px;
@@ -691,6 +697,7 @@ footer{
         left: 0px;
         z-index: 3;
     }
+
     /* mazi raudoni kvadratai */
     .icon2 {
         width: 50px;
@@ -699,6 +706,7 @@ footer{
         left: 70px;
         z-index: 3;
     }
+
     /* melynos linijos */
     .icon3 {
         width: 120px;
@@ -707,6 +715,7 @@ footer{
         left: 0px;
         z-index: 4;
     }
+
     /* 2 pusrutuliai su kvadratu desineje */
     .icon4 {
         width: 125px;
@@ -715,6 +724,7 @@ footer{
         right: 0px;
         z-index: 5;
     }
+
     /* permatomas kvadratas */
     .icon5 {
         width: 120px;
@@ -723,24 +733,27 @@ footer{
         left: 0px;
         z-index: 1;
     }
+
     .info-container {
         display: flex;
         flex-direction: column;
         gap: 20px;
         position: absolute;
-        
     }
+
     .info {
         display: flex;
         gap: 4%;
         margin-top: 1%;
         margin-left: 27%;
     }
+
     /* h1,h2 images dydziai */
     .info img {
         width: 15%;
         height: 15%;
     }
+
     /* form section */
     .right-section {
         flex: 1;
@@ -750,11 +763,13 @@ footer{
         width: 1%;
         height: 2%;
     }
+
     .form-container {
         width: 200px;
         margin-right: 55%;
         
     }
+
     /* keicia button */
     form {
         display: flex;
@@ -765,6 +780,7 @@ footer{
         top: 440px;
         right: 330px;
     }
+
     input, textarea {
         background: transparent;
         border: none;
@@ -775,11 +791,13 @@ footer{
         outline: none;
       
     }
+
      /* keicia formoje Message field dydi */
     textarea {
         height: 100px;
         resize: none;
     }
+
     button {
         background: #FFFFFF;
         border: none;
@@ -791,17 +809,17 @@ footer{
         padding: 10px 30px 10px 30px;
         
     }
+
     /* Contact h1 */
     h1 {
         left: -35px;
         font-size: 65px;
         position: relative;
         color: #FFFFFF;
-      
-        
-      
-    /* Ask about us h2 */
     }
+
+    /* Ask about us h2 */
+
     h2 {
         position: relative;
         left: -25px;
@@ -810,8 +828,8 @@ footer{
         color: #F67E7E;
         
     /* tekstas prie h1,h2 */
+
     }
-    
     
     .p1 {
         font-size: 20px;
@@ -852,6 +870,19 @@ footer{
             top: 25px;
                        
         }
+
+        .MyTeamCont{
+            position: fixed;
+            width: 100%;
+            height: 13%;
+            z-index: 4;
+            background-color: #014E56;
+        }
+    
+        .MyTeamCont.deactivate{
+            position: absolute;
+            z-index: 0;
+        }
         
         .NavList > li{
             display: block;
@@ -862,8 +893,9 @@ footer{
         .NavList{
             display: none;
         }
+
         .home{
-            margin-top: 100px;
+            margin-top: 200px;
         }
     
         .home, .about, .contact {
@@ -880,6 +912,7 @@ footer{
         }
 
         .contact{
+            position: relative;
             padding: 10px 15px 10px 15px;
             width: 150px;
             text-align: center;
@@ -888,6 +921,7 @@ footer{
             font-weight: 600;
             line-height: 28px;
             margin-top: 100px;
+            margin-left: 50px;
         }
     
         
@@ -936,10 +970,10 @@ footer{
     
         .kryziukas.active{
             display: flex;
-            position: absolute;
-            transform: translateY(-5%);
-            right: 50px;
-            z-index: 5;
+            position: fixed;
+            transform: translateY(-940%);
+            right: 51px;
+            z-index: 7;
         }
 
         .menuimg{
@@ -963,7 +997,6 @@ footer{
             
         }
         
-
         .footer_box{
             display: inline-flex;
             position: relative;
@@ -1078,7 +1111,9 @@ footer{
             height: 100%;
             padding: 0 50px;
         }
+
         /* icons 1,2,3,5 */
+
         .left-section {
             flex: 1;
             display: flex;
@@ -1086,10 +1121,13 @@ footer{
             justify-content: center; 
            
         }
+
         .icon1, .icon2, .icon3, .icon4, .icon5 {
             position: absolute;
         }
+
         /* juodas pusrutulis */
+
         .icon1 {
             width: 120px;
             height: 180px;
@@ -1098,7 +1136,9 @@ footer{
             z-index: 3;
             display: none;
         }
+
         /* mazi raudoni kvadratai */
+
         .icon2 {
             width: 50px;
             height: 50px;
@@ -1107,7 +1147,9 @@ footer{
             z-index: 3;
             display: none;
         }
+
         /* melynos linijos */
+
         .icon3 {
             width: 120px;
             height: 35px;
@@ -1116,7 +1158,9 @@ footer{
             z-index: 4;
             display: none;
         }
+
         /* 2 pusrutuliai su kvadratu desineje */
+
         .icon4 {
             width: 120px;
             height: 250px;
@@ -1124,7 +1168,9 @@ footer{
             right: 0px;
             z-index: 0;
         }
+
         /* permatomas kvadratas */
+
         .icon5 {
             width: 120px;
             height: 90px;
@@ -1133,6 +1179,7 @@ footer{
             z-index: 1;
             display: none;
         }
+
         .info-container {
             display: flex;
             flex-direction: column;
@@ -1140,19 +1187,24 @@ footer{
             position: absolute;
             
         }
+
         .info {
             display: flex;
             gap: 4%;
             margin-top: 1%;
             margin-left: -10px;
         }
+
         /* prie texto images dydziai */
+
         .info img {
             width: 10%;
             height: 10%;
             
         }
+
         /* form section */
+
         .right-section {
             flex: 1;
             display: flex;
@@ -1161,12 +1213,15 @@ footer{
             width: 1%;
             height: 2%;
         }
+
         .form-container {
             width: 200px;
             margin-right: 55%;
             
         }
+
         /* keicia button */
+
         form {
             display: flex;
             flex-direction: column;
@@ -1176,6 +1231,7 @@ footer{
             top: 440px;
             right: 400px;
         }
+
         input, textarea {
             background: transparent;
             border: none;
@@ -1184,13 +1240,14 @@ footer{
             padding: 10%;
             width: 370px;
             outline: none;
-          
         }
+
          /* keicia formoje Message field dydi */
         textarea {
             height: 100px;
             resize: none;
         }
+
         button {
             background: #FFFFFF;
             border: none;
@@ -1200,19 +1257,18 @@ footer{
             font-weight: bold;
             border-radius: 60px;
             padding: 10px 30px 10px 30px;
-            
         }
+
         /* Contact h1 */
         h1 {
             left: -185px;
             font-size: 65px;
             position: relative;
             color: #FFFFFF;
-          
-            
-          
-        /* Ask about us h2 */
         }
+        
+        /* Ask about us h2 */
+
         h2 {
             position: relative;
             left: -175px;
@@ -1221,6 +1277,7 @@ footer{
             color: #F67E7E;
             
         /* tekstas prie h1,h2 */
+        
         }
         
         
@@ -1238,14 +1295,11 @@ footer{
             font-size: 20px;
             margin-bottom: 100px;
         }
-        
-      
-
   }
 
 .overlay{
     position: absolute;
-    z-index: 2;
+    z-index: 5;
     bottom: 0;
     left: 100%;
     background-color: #2C6269;
@@ -1262,8 +1316,10 @@ footer{
 }
 
 .slide{
-    width: 100%;
-    left: 0;
+    width: 60%;
+    left: 40%;
+    z-index: 6;
+    position: fixed;
 }
 
 .container1{
@@ -1275,8 +1331,7 @@ footer{
     position: absolute;
     right: 0;
     width: 60%;
-    height: 100%;
+    height: 200%;
     display: inline-block;
 }
-
   
