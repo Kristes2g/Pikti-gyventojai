@@ -1049,6 +1049,11 @@ footer{
         color: white;
         transition: 0.3s;
     }
+
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .overlay{
