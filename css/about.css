@@ -5,16 +5,16 @@ body{
 header{
     background-color: #014E56;
     width: 100%;
-    height: 600px;
+    height: 517px;
     flex-shrink: 0;
 }
 
 .MyTeam{
-    width: 160px;
+    width: 300px;
     height: 40px;
     flex-shrink: 0;
-    margin-left: 165px;
-    margin-top: 77px;
+    margin-left: 95px;
+    margin-top: 76px;
 }
 
 .hamburger{
@@ -26,7 +26,7 @@ header{
 }
 
 .NavList{
-    margin-top: -40px;
+    margin-top: -45px;
 }
 
 .home{
@@ -35,7 +35,7 @@ header{
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 43px;
     margin-left: 365px;
 }
 
@@ -46,7 +46,7 @@ header{
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
-    margin-left: 40px;
+    margin-left: 37px;
 }
 
 .home:link{
@@ -90,12 +90,13 @@ header{
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;    
+    line-height: 25px;    
     border: 2px white solid;
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
     width: 88px;
-    margin-left: 45vw;
+    margin-left: 575px;
+    margin-top: -1px;
     z-index: 3;
     transform: translateY(-60%);
 }
@@ -107,8 +108,8 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: 100px; 
-    margin-left: 185px;
-    margin-top: 130px;
+    margin-left: 165px;
+    margin-top: 123px;
 }
 
 .headerHr{
@@ -119,8 +120,8 @@ header{
     border: 0;
     margin: 0;
     background: #F67E7E;
-    margin-left: 830px;
-    margin-top: 30px;
+    margin-left: 545px;
+    margin-top: 0px;
 }
 
 .headerP{
@@ -132,29 +133,33 @@ header{
     font-weight: 600;
     line-height: 28px;
     width: 730px;
-    margin-left: 830px;
-    margin-top: -50px;
+    margin-left: 545px;
+    margin-top: -98px;
 }
 
 .bottomimg{
     position: relative;
     display: flex;
-    height: 130px; 
-    margin-top: 100px; 
+    height: 125px; 
+    margin-top: 50px; 
 }
 
 .headerCircle{
     position: absolute;
-    right: 0;
+    right: -62px;
     bottom: 0;
+    height: 200px;
+    width: 225px;
+    z-index: 2;
 }
 
 .background1{
     width: 100%;
-    height: 1002px;
+    height: 1003px;
     flex-shrink: 0;
     background-color: #004047;
     position: absolute;
+    margin-top: -1px;
 }
 
 img{
@@ -167,7 +172,7 @@ img{
     text-align: center;
     font-family: "Livvic", "sans-serif";
     font-size: 48px;
-    margin-top: 170px;
+    margin-top: 135px;
 }
 
 .grid {
@@ -178,7 +183,7 @@ grid-column-gap: 30px;
 grid-row-gap: 76px;
 /* margin-left: 390px; */
 width: 1082px;
-margin: 0 auto;
+margin: 59px 165px auto;
 
 .div1 { grid-area: 1 / 1 / 2 / 2;}
 .div2 { grid-area: 1 / 2 / 2 / 3;}
@@ -197,11 +202,11 @@ margin: 0 auto;
 
 .background2{
     width: 100%;
-    height: 550px;
+    height: 438px;
     flex-shrink: 0;
     background-color: #012F34;
     position: absolute;
-    margin-top: 1002px;
+    margin-top: 1001px;
 }
 
 .clients_h1{
@@ -210,7 +215,7 @@ margin: 0 auto;
     font-family: "Livvic","sans-serif";
     font-size: 48px;
     font-weight: 700;
-    margin-top: 120px;
+    margin-top: 134px;
 }
 
 .client_box{
@@ -223,33 +228,33 @@ margin: 0 auto;
 }
 
 .verge{
-    margin-top: 70px;
-    margin-left: 70px;
+    margin-top: 25px;
+    margin-left: 165px;
 }
 
 .jakarta{
-    margin-top: 70px;
-    margin-left: 340px;
+    margin-top: 25px;
+    margin-left: 410px;
 }
 
 .guardian{
-    margin-top: 70px;
-    margin-left: 640px;
+    margin-top: 25px;
+    margin-left: 673px;
 }
 
 .techradar{
-    margin-top: 70px;
-    margin-left: 940px;
+    margin-top: 25px;
+    margin-left: 933px;
 }
 
 .gadget{
-    margin-top: 64px;
-    margin-left: 1240px;
+    margin-top: 20px;
+    margin-left: 1177px;
 }
 
 .oval{
-    margin-top: 32px;
-    margin-left: 127px;
+    margin-top: 30px;
+    margin-left: 125px;
 }
 
 .oval6{
@@ -267,7 +272,7 @@ margin: 0 auto;
     font-style: normal;
     font-weight: 700;
     line-height: 28px; /* 155.556% */
-    margin-top: 150px;
+    margin-top: 143px;
 }
 
 .directors-status{
@@ -277,7 +282,7 @@ margin: 0 auto;
     font-size: 15px;
     font-style: italic;
     font-weight: 400;
-    margin-top: -10px;
+    margin-top: -12px;
 }
 
 .circle-icon{
@@ -335,7 +340,7 @@ margin: 0 auto;
   }
 
   .quote{
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     width: 260px;
     text-align: center;
@@ -349,17 +354,19 @@ margin: 0 auto;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 36px;
 }
 
 .fa{
     color: white;
-    padding-left: 20px;
+    padding-left: 12px;
+    padding-top: 22px;
     transition: color 0.5s;
+    font-size: 10px;
 }
 
 .fa:first-of-type{
-    padding-left: 125px;
+    padding-left: 145px;
 }
 
 .fa:hover{
@@ -369,18 +376,18 @@ margin: 0 auto;
 .red_part{
     font-family: Livvic;
     background-color: #F67E7E;
-    height: 220px;
+    height: 200px;
     z-index: 4;
     width: 100%;
-    top: 1550px;
+    top: 1439px;
     position: relative;
 }
 
 .group_8{
-    margin-top: 76px;
+    margin-top: 42px;
     z-index: 3;
     position: absolute;
-    
+    height: 170px;
 }
 
 .red_box{
@@ -392,7 +399,6 @@ margin: 0 auto;
     flex-shrink: 0;
     margin-top: 86px;
     margin-left: 273px;
-    
 }
 
 .red_name{
@@ -401,9 +407,9 @@ margin: 0 auto;
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
-    margin: 0;
+    margin-left: -10px;
+    margin-top: -10px;
     z-index: 3;
-    
 }
 
 .contact_red_box{
@@ -411,11 +417,13 @@ margin: 0 auto;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 25px;
     text-decoration: none;
     border: 2px #012F34 solid;
     border-radius: 60px;
     padding: 10px 30px 10px 30px;
+    margin-top: -11px;
+    width: 90px;
 }
 
 .contact_red_box:hover{
@@ -428,19 +436,18 @@ margin: 0 auto;
 
 footer{
     background-color: rgba(0, 37, 41, 1);
-    height: 196px;
-    
+    height: 256px;
 }
 
 .footer_box{
     display: inline-flex;
     justify-content: center;
     position: relative;
-    top: 1550px;
+    top: 1438px;
     width: 100%;
     background-color: rgba(0, 37, 41, 1);
     z-index: 7;
-    height: 200px;
+    height: 197px;
 }
 
 .footer_links{
@@ -452,8 +459,8 @@ footer{
     font-weight: 600;
     line-height: 28px;
     position: relative;
-    right: 550px;
-    top: 70px;
+    right: 373px;
+    top: 75px;
 }
 
 .footer_links:hover{
@@ -475,14 +482,13 @@ footer{
 .footer_logo{
     position: relative;
     z-index: 1;
-    top: 20px;
-    right: 400px;
-
+    top: 29px;
+    right: 210px;
 }
 
 .adres_box{
     color: #FFF;
-    font-family: Livvic;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -492,11 +498,13 @@ footer{
 
 .adresas{
     margin-left: 190px;
-    margin-top: 45px;
+    margin-top: 50px;
     width: 200px;
     line-height: 25px;
+    word-spacing: 5px;
     position: relative;
-    right: 500px;
+    right: 415px;
+    font-size: 14px;
 }
 
 .copyright{
@@ -507,10 +515,10 @@ footer{
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
-    margin-top: 42px;
+    margin-top: 48px;
     width: 255px;
     opacity: 0.6;
-    margin-right: 165px;
+    margin-right: 163px;
 }
 
 .copyright_box{
@@ -521,8 +529,7 @@ footer{
 
 .social_links_box{
     margin-top: 48px;
-    margin-left: 145px;
-    
+    margin-left: 149px;
 }
 
 .social_icons{
@@ -535,7 +542,7 @@ footer{
     transition: 0.3s;
 }
 
-@media (min-width: 768px) and (max-width: 1440px)
+@media (min-width: 768px) and (max-width: 1439px)
   {
     .headerHr{
         display: none;
@@ -1230,7 +1237,7 @@ footer{
         width: 100%;
         height: 13%;
         z-index: 5;
-        margin-top: -130px;
+        margin-top: -140px;
         padding-bottom: -20px;
         background-color: #014E56;
     }
@@ -1264,11 +1271,8 @@ footer{
 
 
 
-    .grid{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
+    
+
 
 .overlay{
     position: absolute;
