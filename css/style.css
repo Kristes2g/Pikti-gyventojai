@@ -773,11 +773,13 @@ footer{
     .MyTeam{
         margin-left: 39px;
         margin-top: 72px;
+        width: 128px;
+        height: 32px;
     }
     
     .NavList{
         padding-top: 3.4vw;
-        transform: translateY(20%);
+        transform: translateY(35%);
     }
     
     .hamburger{
@@ -789,12 +791,13 @@ footer{
     }
 
     .home{
-        margin-left: 215px;
+        margin-left: 175px;
     }
     
     .contact{
-        margin-left: 65vw;
-        transform: translateY(-105%);
+        right: 40px;
+        transform: translateY(7px);
+        width: 90px;
     }
 
     .circleLeft{
@@ -811,9 +814,10 @@ footer{
         font-size: 64px;
         font-weight: 700;
         line-height: 56px; 
-        margin-top: 60px;
-        margin-left: 220px;
+        margin-top: 155px;
+        margin-left: 212px;
         width: 350px;
+        line-height: 15px;
     }
     
     /*zodis talent*/
@@ -830,8 +834,8 @@ footer{
         font-weight: 600;
         line-height: 28px;
         width: 470px;
-        margin-left: -143%;
-        margin-top: 1%;
+        margin-left: -1061px;
+        margin-top: -40px;
     }
     
     /*Zydras bruksnelis virs teksto is desines*/
@@ -839,9 +843,14 @@ footer{
         display: none;
     }
 
+    .mainHr{
+        transform: translateY(23px);
+        margin-left: 21px;
+    }
+
     .bottomimg{
-        right: 200px;
-        margin-top: 9.8%;
+        right: 204px;
+        margin-top: 10px;
         display: flex;
         justify-content: center;
     }
@@ -854,9 +863,58 @@ footer{
     }
 
     .mainH2{
+        margin-left: 21.5px;
         font-size: 32px;
         width: 500px;
-        margin-top: -0.1%;
+        line-height: 32px;
+        margin-top: 40px;
+    }
+
+    .upperImg{
+        margin-left: 56px;
+        transform: translateY(4px);
+    }
+
+    .upperText{
+        margin-left: 59px;
+        transform: translateY(4px);
+    }
+
+    .uppersubText{
+        width: 480px;
+        transform: translateX(60px);
+    }
+
+    .midImg{
+        margin-left: 56px;
+        margin-top: -45px;
+    }
+
+    .midText{
+        margin-left: 27px;
+        margin-top: 22px;
+    }
+
+    .midsubText{
+        transform: translateX(26px);
+    }
+
+    .lowerImg{
+        transform: translateY(-5px);
+        margin-left: 56px;
+    }
+
+    .lowerText{
+        margin-left: 25px;
+    }
+
+    .lowersubText{
+        width: 500px;
+        transform: translateX(50px);
+    }
+
+    .first_half{
+        height: 710px;
     }
 
     .left-text{
@@ -866,7 +924,7 @@ footer{
     }
 
     .lowerrightImg{
-        margin-top: -29%;
+        margin-top: -29.5%;
     }
 
     .right_text_container{
@@ -878,23 +936,27 @@ footer{
     .second_half{
         background-color: rgba(0, 64, 71, 1);
         font-family: "Livic", sans-serif;
-        height: 1295px;
+        height: 799px;
     }
     
     .pavadinimo_box{
         color: #FFF;
+        font-size: 20px;
         text-align: center;
-        font-size: 35px;
         font-style: normal;
         font-weight: 700;
-        line-height: 48px;
-    
+        line-height: 33px;
         text-align: center;
         justify-content: center;
         position: relative;
+        width: 480px;
+        margin-left: 140px;
+        transform: translateY(-30px);
+        letter-spacing: 1px;
     }
     
     .succsess_storie{
+        margin-left: 10px;
         color: #79C8C7;
     }
     
@@ -902,10 +964,7 @@ footer{
         position: relative;
         z-index: 1;
         top: 40px;
-        
     }
-
-    
     
     .aprasu_box{
         display: flex;
@@ -923,47 +982,49 @@ footer{
         font-size: 25px;
         margin: auto;
         margin-top: 55px;
-    
-        
     }
     
     .aprasai_pirmo{
         text-align: center;
         height: 80px;
-        width: 350px;
+        width: 570px;
         position: block;
-        top: 0px;
-        left: 380px;
+        left: 613px;
         text-align: center;
-        line-height: 30px;
-        font-size: 9px;
+        line-height: 24px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 600;
+        margin-top: -25px;
     }
     
     .aprasai_antro{
         text-align: center;
         height: 100px;
-        width: 350px;
+        width: 580px;
         line-height: 30px;
-        font-size: 9px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 600;
         position: block;
-        top: 380px;
+        top: 300px;
+        margin-left: 5px;
+        margin-top: -25px;
+        line-height: 25px;
     }
     
     .aprasai_trecio{
         text-align: center;
         height: 80px;
-        width: 350px;
+        width: 580px;
         line-height: 30px;
-        font-size: 9px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 600;
         position: block;
-        right: 380px;
-        top: 800px;
+        right: 610px;
+        top: 575px;
+        line-height: 25px;
     }
     
     .person_name_one{
@@ -974,7 +1035,7 @@ footer{
         font-style: normal;
         font-weight: 700;
         line-height: 28px;
-        margin: 0;
+        transform: translateY(-35px);
     }
     
     .person_specialte_one{
@@ -986,16 +1047,17 @@ footer{
         font-weight: 500;
         line-height: 18px;
         margin: 0;
+        transform: translateY(-90px);
     }
     
     .moteris{
-        width: 92px;
-        height: 92px;
+        width: 62px;
+        height: 62px;
         flex-shrink: 0;
         border-radius: 62px;
         border: 2px solid #C4FFFE;
         background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-        margin-top: 50px;
+        margin-top: -23px;
     }
     
     .person_name_two{
@@ -1007,6 +1069,8 @@ footer{
         font-weight: 700;
         line-height: 28px;
         margin: 0;
+        transform: translateY(-38px);
+        margin-left: 5px;
     }
     
     .person_specialte_two{
@@ -1018,16 +1082,18 @@ footer{
         font-weight: 500;
         line-height: 18px;
         margin: 0;
+        transform: translateY(-90px);
     }
     
     .moteris_2{
-        width: 92px;
-        height: 92px;
+        width: 62px;
+        height: 62px;
         flex-shrink: 0;
         border-radius: 62px;
         border: 2px solid #C4FFFE;
         background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-        margin-top: 50px;
+        margin-top: -23px;
+        margin-left: 5px;
     }
     
     .person_name_three{
@@ -1039,6 +1105,8 @@ footer{
         font-weight: 700;
         line-height: 28px;
         margin: 0;
+        transform: translateY(-38px);
+        margin-left: 5px;
     }
     
     .person_specialte_three{
@@ -1050,16 +1118,19 @@ footer{
         font-weight: 500;
         line-height: 18px;
         margin: 0;
+        transform: translateY(-90px);
+        margin-left: 3px;
     }
     
     .senukas{
-        width: 92px;
-        height: 92px;
+        width: 62px;
+        height: 62px;
         flex-shrink: 0;
         border-radius: 62px;
         border: 2px solid #C4FFFE;
         background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-        margin-top: 50px;
+        transform: translateY(-35px);
+        margin-left: 5px;
     }
     
     
@@ -1071,27 +1142,27 @@ footer{
     }
     .kabutes_kabutes_vienas {
         position: absolute;
-        left: 360px;
-        margin-top: 25px;
+        left: 352px;
+        margin-top: 293px;
         z-index: 1;
     }
     .kabutes_kabutes_du {
+        margin-top: -10px;
         position: absolute;
-        left: 360px;
-        margin-top: 405px;
+        left: 352px;
         z-index: 1;
     }
 
     .kabutes_kabutes_trys {
         position: absolute;
-        left: 360px;
-        margin-top: 825px;
+        left: 351px;
+        margin-top: 594px;
         z-index: 1;
     }
     .container_second_half_icon_du {
         position: absolute;
         right: 0px;
-        top: 2905px;
+        top: 2500px;
     }
 
 
@@ -1099,20 +1170,20 @@ footer{
 .red_part{
     font-family: Livvic;
     background-color: #F67E7E;
-    height: 220px;
+    height: 200px;
     position: relative;
     top: 400px;
 
 }
 
 .group_8{
-    margin-top: 76px;
+    height: 244px;
+    margin-top: 28px;
     z-index: 1;
     position: absolute;
 }
 
 .red_box{
-    
     display: inline-flex;
     height: 48px;
     justify-content: center;
@@ -1125,14 +1196,15 @@ footer{
 
 .red_name{
     color: #012F34;
-    font-size: 28px;
+    font-size: 32px;
     white-space: nowrap;
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
     position: relative;
-    right: 150px;
+    right: 177px;
     margin: 0;
+    transform: translateY(-10px);
     
 }
 
@@ -1147,9 +1219,9 @@ footer{
     text-decoration: none;
     border: 2px #012F34 solid;
     border-radius: 60px;
-    padding: 10px 30px 10px 30px;
+    padding: 8px 25px 8px 25px;
     position: relative;
-    right: 300px;
+    right: 353px;
 }
 
 .contact_red_box:hover{
@@ -1165,8 +1237,8 @@ footer{
     height: 196px;
     position: relative;
     top: 400px;
-    height: 300px;
-    
+    height: 271px;
+    z-index: 2;
 }
 
 .footer_box{
@@ -1180,13 +1252,21 @@ footer{
     text-decoration: none;
     color: white;
     font-family: Livvic;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
     position: relative;
-    right: 80px;
-    
+    right: 130px;
+    margin-top: 19px;
+}
+
+.fhome{
+    margin-left: 5px;
+}
+
+.fabout{
+    margin-left: -15px;
 }
 
 .footer_links:hover{
@@ -1209,10 +1289,10 @@ footer{
 .footer_logo{
     position: absolute;
     z-index: 1;
-    margin-top: -18px;
-    width: 150px;
-    height: 150px;
-    margin-left: 80px;
+    margin-top: 55px;
+    width: 96px;
+    height: 24px;
+    margin-left: 40px;
 
 }
 
@@ -1224,6 +1304,8 @@ footer{
     font-weight: 600;
     line-height: 25px;
     opacity: 0.6;
+    margin-top: 12px;
+    margin-left: 2px;
 }
 
 .adresas{
@@ -1242,12 +1324,12 @@ footer{
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
-    margin-top: 42px;
+    margin-top: 30px;
     width: 255px;
     opacity: 0.6;
     margin-right: 165px;
     position: relative;
-    right: -130px;
+    right: -127px;
     top: 30px;
 }
 
@@ -1258,8 +1340,8 @@ footer{
 }
 
 .social_links_box{
-    margin-top: 98px;
-    margin-left: -285px;
+    margin-top: 101px;
+    margin-left: -310px;
     position: relative;
     top: 90px;
     
