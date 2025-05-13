@@ -495,14 +495,15 @@ footer{
     }
     
     .MyTeam{
-        width: 90px;
-        height: 30px;
+        width: 130px;
+        height: 40px;
         flex-shrink: 0%;
-        margin-left: -30px;
-        margin-top: 2%;
+        margin-left: -1px;
+        margin-top: 0.6%;
+        right: 0px;
         position: relative;
         opacity: 0,5;
-        top: 25px;
+        top: 65px;
     }
 
     .hamburger{
@@ -524,25 +525,26 @@ footer{
     .home{
         color: #FFF;
         font-family: "Livvic", sans-serif;
-        font-size: 100%;
+        font-size: 19.6px;
         font-style: normal;
         font-weight: 600;
         line-height: 20%;
-        margin-left: 60px;
+        margin-left: 290px;
         position: relative;
-        top: 25px;
+        top: 57px;
     }
     
     .about{
         color: #FFF;
         font-family: "Livvic", sans-serif;
         font-style: normal;
-        font-size: 100%;
+        font-size: 18px;
         font-weight: 600;
         line-height: 20%;
         margin-left: 50%;
         position: relative;
-        top: 25px;
+        top: 58px;
+        right: 145px;
     }
     
     .home:link{
@@ -585,10 +587,11 @@ footer{
         font-weight: 600;
         line-height: 28px;
         position: absolute;
-        right: 50px;
+        right: 40px;
+        top: 64px;
         border: 2px white solid;
         border-radius: 60px;
-        padding: 10px 30px 10px 30px;
+        padding: 8px 25px 8px 25px;
         font-size: 20px;
     }
     
@@ -600,8 +603,8 @@ footer{
         background-color: rgba(0, 37, 41, 1);
         height: 200px;
         position: relative;
-        top: 550px;
-        height: 300px;
+        top: 603px;
+        height: 290px;
         
     }
     
@@ -616,12 +619,13 @@ footer{
         text-decoration: none;
         color: white;
         font-family: Livvic;
-        font-size: 18px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
         position: relative;
-        left: -200px;
+        left: -146px;
+        top: 15px;
         margin-top: -0px;
         
     }
@@ -646,10 +650,12 @@ footer{
     .footer_logo{
         position: relative;
         z-index: 1;
-        top: -70px;
+        top:  0px;
         margin-left: -90px;
-        left: 120px;
-        font-size: 10px;
+        left: 128px;
+        font-size: 40px;
+        height: 130px;
+        width: 100px;
     
     }
     
@@ -665,26 +671,26 @@ footer{
     
     .adresas{
         position: relative;
-        left: 190px;
-        top:  15px;
+        left: 234px;
+        top:  40px;
         width: 200px;
         line-height: 25px;
-        font-size: 20px;
+        font-size: 16.7px;
         text-align: right;
     }
     
     .copyright{
         color: #FFF;
         font-family: Livvic;
-        font-size: 16px;
+        font-size: 16.7px;
         line-height: 25px;
         margin-top: 42px;
         width: 255px;
         opacity: 0.6;
         display: flex;
         position: relative;
-        right: 55px;
-        top: 140px;
+        right: 75px;
+        top: 150px;
         transform: translateY(-60px);
         margin-left: 20px;
         margin-right: -40px;
@@ -699,8 +705,8 @@ footer{
     .social_links_box{
         margin-top: 48px;
         position: relative;
-        right: 510px;
-        top: 150px;
+        right: 495px;
+        top: 157px;
         
     }
     
@@ -735,45 +741,45 @@ footer{
 
     /* juodas pusrutulis */
     .icon1 {
-        width: 120px;
-        height: 180px;
-        top: 160px;
+        width: 100px;
+        height: 195px;
+        top: 220px;
         left: 0px;
         z-index: 3;
     }
 
     /* mazi raudoni kvadratai */
     .icon2 {
-        width: 50px;
-        height: 50px;
-        top: 250px;
-        left: 70px;
+        width: 49.5px;
+        height: 47px;
+        top: 316px;
+        left: 48px;
         z-index: 3;
     }
 
     /* melynos linijos */
     .icon3 {
-        width: 120px;
-        height: 35px;
-        top: 215px;
+        width: 100px;
+        height: 40px;
+        top: 275px;
         left: 0px;
         z-index: 4;
     }
 
     /* 2 pusrutuliai su kvadratu desineje */
     .icon4 {
-        width: 125px;
-        height: 250px;
-        top: 940px;
+        width: 100px;
+        height: 228px;
+        top: 980px;
         right: 0px;
         z-index: 5;
     }
 
     /* permatomas kvadratas */
     .icon5 {
-        width: 120px;
+        width: 100px;
         height: 90px;
-        top: 150px;
+        top: 217px;
         left: 0px;
         z-index: 1;
     }
@@ -794,8 +800,11 @@ footer{
 
     /* h1,h2 images dydziai */
     .info img {
-        width: 15%;
-        height: 15%;
+        width:  75px;
+        position: relative;
+        top: 85px;
+        left: -55px;
+        height: 75px;
     }
 
     /* form section */
@@ -819,10 +828,10 @@ footer{
         display: flex;
         flex-direction: column;
         margin-right: 2%;
-        gap: 15px;
+        gap: 14px;
         position: relative;
-        top: 440px;
-        right: 330px;
+        top: 480px;
+        right: 368px;
     }
 
     input, textarea {
@@ -830,15 +839,15 @@ footer{
         border: none;
         border-bottom: 1px solid #ffffff;
         color: #ffffff; /* Always keep text white */
-        padding: 10%;
-        width: 400px;
+        padding: 11.4%;
+        width: 500px;
         outline: none;
       
     }
 
      /* keicia formoje Message field dydi */
     textarea {
-        height: 100px;
+        height: 51px;
         resize: none;
     }
 
@@ -851,13 +860,18 @@ footer{
         font-weight: bold;
         border-radius: 60px;
         padding: 10px 30px 10px 30px;
+        position: relative;
+        top: 10px;
+        right: 2px;
         
     }
 
     /* Contact h1 */
     h1 {
-        left: -35px;
+        left: -37px;
         font-size: 65px;
+        top: 100px;
+        
         position: relative;
         color: #FFFFFF;
     }
@@ -867,8 +881,8 @@ footer{
     h2 {
         position: relative;
         left: -25px;
-        font-size: 35px;
-        top: -20px;
+        font-size: 32px;
+        top: 90px;
         color: #F67E7E;
         
     /* tekstas prie h1,h2 */
@@ -877,15 +891,29 @@ footer{
     
     .p1 {
         font-size: 20px;
-    
+        position: relative;
+        right: 52px;
+        font-size: 20.5px;
+        text-wrap: nowrap;
+        top: 90px;
     }
     
     .p2 {
-        font-size: 20px;
+       font-size: 20px;
+        position: relative;
+        right: 54px;
+        font-size: 20.4px;
+        text-wrap: nowrap;
+        top: 92px;
     }
     
     .p3 {
-        font-size: 20px;
+       font-size: 20px;
+        position: relative;
+        right: 52px;
+        font-size: 19.8px;
+        text-wrap: nowrap;
+        top: 93px;
         margin-bottom: 100px;
     }
 
