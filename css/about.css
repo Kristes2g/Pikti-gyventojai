@@ -548,16 +548,24 @@ footer{
         display: none;
     }
 
+    header{
+        height: 557px;
+    }
+
     .container{
         text-align: center;
     }
 
     .MyTeam{
         margin-left: 39px;
+        margin-top: 72px;
+        width: 128px;
+        height: 32px;
     }
 
     .NavList{
-        margin-left: -150px;
+        margin-left: -190px;
+        margin-top: -41px;
     }
 
     .hamburger{
@@ -569,16 +577,21 @@ footer{
     }
 
     .contact{
-        margin-left: 150px;
+        margin-left: 218px;
+        margin-top: -2px;
+        height: 24px;
+        width: 89px;
     }
 
     .about_h1{
-        margin-right: 150px;
-        margin-top: 105px;
+        margin-right: 158px;
+        margin-top: 92px;
+        font-size: 64px;
     }
 
     .bottomimg{
-        margin-top: 155px;
+        margin-top: 129px;
+        margin-right: -2px;
     }
 
     .headerP{
@@ -589,36 +602,85 @@ footer{
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
-        margin-top: 2px;
-        margin-left: 160px;
+        margin-top: -40px;
+        margin-left: 156px;
         width: 457px;
     }
 
     .background1{
-        height: 1328px;
+        height: 1219px;
     }
-    
+
+    .left-half{
+        z-index: 6;
+        margin-top: -1px;
+        margin-left: 1px;
+    }
+    .meet{
+        margin-top: 96px;
+        font-size: 32px;
+        margin-left: 3px;
+    }
+
     .grid{
-        grid-template-columns: repeat(2, 350px);
+        grid-template-columns: repeat(2, 281px);
         grid-template-rows: repeat(3, 253px);
-        width: 716px;
+        width: 573px;
+        margin-left: 98px;
+        margin-top: 44px;
+        column-gap: 11px;
+    }
+
+    .oval{
+        margin-left: 91px;
+    }
+
+    .directors-name{
+        margin-top: 145px;
+    }
+
+    .directors-status{
+        margin-top: -13px;
+    }
+
+    .circle-icon{
+        margin-left: 113px;
+    }
+
+    .directors-name-back{
+        margin-top: 38px;
+    }
+
+    .quote{
+        width: 233px;
+        height: 75px;
+        margin-left: -18px;
+        margin-bottom: -6px;
+    }
+
+    .fa-twitter{
+        margin-left: -35px;
+        margin-top: -110px;
     }
 
     .background2{
-        margin-top: 1328px;
-        height: 680px;
+        margin-top: 1218px;
+        height: 308px;
     }
-    
+
     .footer_logo {
         position: absolute;
         z-index: 1;
-        margin-top: 50px;
+        width: 96px;
+        height: 24px;
+        margin-top: 27px;
         left: 40px;
     }
+
     footer{
         background-color: rgba(0, 37, 41, 1);
-        height: 196px;
-        
+        height: 271px;
+        margin-top: -24px;
     }
     
     .footer_box{
@@ -627,7 +689,7 @@ footer{
         position: relative;
         top: 1550px;
         width: 100%;
-        height: 350px;
+        height: 271px;
         background-color: rgba(0, 37, 41, 1);
         z-index: 7;
     }
@@ -636,18 +698,18 @@ footer{
         text-decoration: none;
         color: white;
         font-family: Livvic;
-        font-size: 18px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 600;
-        line-height: 28px;
         text-align: left;
         position: relative;
-        right: 160px;
-        top: 65px;
-       
-    
+        right: 169px;
     }
     
+    .footer_links:last-child{
+        margin-left: -16px;
+    }
+
     .footer_links:hover{
         color: #F67E7E;
         transition: 0.3s;
@@ -655,15 +717,14 @@ footer{
     
     .footer_nav{
         display: inline-flex;
-        /* justify-content: center; */
-        /* align-items: flex-start; */
         gap: 40px;
         margin-top: 30px;
         position: relative;
         z-index: 2;
-        margin-left: 163px;
-        margin-top: 115px;
+        margin-left: 146px;
+        margin-top: 57px;
     }
+
     .adres_box{
         color: #FFF;
         font-family: Livvic;
@@ -675,34 +736,30 @@ footer{
     }
     
     .adresas{
-        right:  190px;
         position: relative;
-        margin-top: 75px;
+        margin-top: 56px;
         width: 200px;
         line-height: 25px;
-         text-align: right;
-         right: 25px;
+        text-align: right;
+        right: -24px;
     }
     
     .copyright{
         color: #FFF;
-        /* text-align: right; */
         font-family: Livvic;
         font-size: 15px;
         font-style: normal;
         font-weight: 600;
         margin-top: -80px; 
         position: relative;
-        right: -90px;
-        top: 50px;
-       
-      
+        right: -132px;
+        top: 51px;
     }
     
     .copyright_box{
-        /* width: 100%; */
         position: absolute;
-        right: 0;
+        margin-top: -59px;
+        left: 345px;
     }
     
     .social_links_box{
@@ -724,18 +781,18 @@ footer{
     .red_part{
         font-family: Livvic;
         background-color: #F67E7E;
-        height: 220px;
+        height: 200px;
         z-index: 4;
         width: 100%;
-        top: 1550px;
+        top: 1526px;
         position: relative;
     }
     
     .group_8{
-        margin-top: 76px;
+        margin-top: 65px;
+        margin-left: 1px;
         z-index: 3;
         position: absolute;
-        
     }
     
     .red_box{
@@ -759,11 +816,11 @@ footer{
         margin: 0;
         z-index: 3;
         width: 336px;
-        font-size: 25px;
+        font-size: 32px;
         white-space: nowrap;
         height: 44px;
-        margin-left: -160px;
-        
+        margin-left: -175px;
+        margin-top: 5px;
     }
     
     .contact_red_box{
@@ -773,14 +830,15 @@ footer{
         font-weight: 600;
         line-height: 28px;
         margin-left: -300px;
+        margin-top: -3px;
         position: relative;
         top: -7px;
         text-decoration: none;
         border: 2px #012F34 solid;
         border-radius: 60px;
-        padding: 10px 30px 10px 30px;
+        padding: 8px 29px 8px 30px;
         position: relative;
-        right: -100px;
+        right: -124px;
     }
     
     .contact_red_box:hover{
@@ -791,48 +849,44 @@ footer{
    
     .clients_h1{
         font-size: 32px;
-        margin-top: 10px;
+        margin-top: 96px;
+        margin-left: 1px;
     }
 
-    .client_box{
-        width: 780px;
-    }
-    
-
-    
     .verge{
-        /* margin-top: 70px; */
-        margin-left: 0px;
-        width: 120px;
+        margin-left: 40px;
+        margin-top: 21px;
+        width: 103px;
+        height: 17px;
     }
     
     .jakarta{
-        /* margin-top: 70px; */
-        margin-left: 170px;
-        width: 120px;
-        height: 20px;
+        margin-left: 192px;
+        margin-top: 21px;
+        width: 114px;
+        height: 14px;
     }
     
     .guardian{
-        /* margin-top: 70px; */
-        margin-left: 340px;
-        width: 120px;
-        height: 20px;
+        margin-left: 355px;
+        margin-top: 21px;
+        width: 112px;
+        height: 17px;
     }
     
     .techradar{
-        /* margin-top: 70px; */
-        margin-left: 510px;
-        width: 120px;
-        height: 20px;
+        margin-left: 516px;
+        margin-top: 21px;
+        width: 103px;
+        height: 17px;
     }
     
-        .gadget{
-            /* margin-top: 64px; */
-            margin-left: 680px;
-            width: 100px;
-            height: 40px;
-        }
+    .gadget{
+        margin-left: 668px;
+        margin-top: 17px;
+        width: 61px;
+        height: 28px;
+    }
 
     .blue_moon {
         z-index: 0;
