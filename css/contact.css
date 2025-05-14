@@ -933,10 +933,10 @@ footer{
         
         .MyTeam{
             width: 200px;
-            height: 30px;
+            height: 32px;
             flex-shrink: 0%;
-            margin-left: -30px;
-            margin-top: 2%;
+            margin-left: -0.3px;
+            margin-top: 4%;
             position: relative;
             opacity: 0,5;
             top: 25px;
@@ -1031,9 +1031,9 @@ footer{
         .hamburger{
             position: absolute;
             display: flex;
-            margin-left: 90%;
+            top: 5cqmax;
             transform: translateY(-10%);
-            right: 50px;
+            left: 331px;
         }
     
         .kryziukas{
@@ -1051,7 +1051,7 @@ footer{
         .menuimg{
             display: flex;
             position: absolute;
-            margin-top: 445px;
+            margin-top: 4145px;
             margin-left: 148px;
         }
         
@@ -1064,8 +1064,8 @@ footer{
             background-color: rgba(0, 37, 41, 1);
             height: 200px;
             position: relative;
-            top: 550px;
-            height: 300px;
+            top: 513px;
+            height: 430px;
             
         }
         
@@ -1079,14 +1079,14 @@ footer{
             text-decoration: none;
             color: white;
             font-family: Livvic;
-            font-size: 18px;
+            font-size: 16px;
             font-style: normal;
             font-weight: 600;
             line-height: 28px;
-            position: relative;
-            left: 15px;
+            position: block;
+            left: -30px;
             top: -160px;
-            margin-top: -0px;
+            margin-top: 53px;
             
         }
         
@@ -1110,8 +1110,8 @@ footer{
         .footer_logo{
             position: relative;
             z-index: 1;
-            top: -20px;
-            left: 150px;
+            top:  28px;
+            left: 100px;
             height: 100px;
             width: 100px;
         
@@ -1129,26 +1129,26 @@ footer{
         
         .adresas{
             position: relative;
-            left: -140px;
-            top:  85px;
+            left: -191px;
+            top:  145px;
             width: 200px;
             line-height: 25px;
-            font-size: 15px;
+            font-size: 16.3px;
             text-align: center;
         }
         
         .copyright{
             color: #FFF;
             font-family: Livvic;
-            font-size: 16px;
+            font-size: 17px;
             line-height: 25px;
             margin-top: 42px;
             width: 255px;
             opacity: 0.6;
             display: flex;
             position: relative;
-            right: 125px;
-            top: 190px;
+            right: 98px;
+            top: 302px;
             transform: translateY(-60px);
             margin-left: 20px;
             margin-right: -40px;
@@ -1163,8 +1163,8 @@ footer{
         .social_links_box{
             margin-top: 48px;
             position: relative;
-            right: 42px;
-            top: 160px;
+            right: 4px;
+            top: 270px;
             
         }
         
@@ -1234,10 +1234,10 @@ footer{
         /* 2 pusrutuliai su kvadratu desineje */
 
         .icon4 {
-            width: 120px;
-            height: 250px;
-            top: 1030px;
-            right: 0px;
+            width: 110px;
+            height: 200px;
+            top: 1022px;
+            right: -10px;
             z-index: 0;
         }
 
@@ -1270,9 +1270,12 @@ footer{
         /* prie texto images dydziai */
 
         .info img {
-            width: 10%;
-            height: 10%;
-            
+            width: 75px;
+            height: 75px;
+            position: relative;
+            right: 18px;
+            top: 88px;
+            margin-bottom: 22px;            
         }
 
         /* form section */
@@ -1300,8 +1303,8 @@ footer{
             margin-right: 2%;
             gap: 15px;
             position: relative;
-            top: 440px;
-            right: 400px;
+            top: 478px;
+            right: 376px;
         }
 
         input, textarea {
@@ -1309,8 +1312,8 @@ footer{
             border: none;
             border-bottom: 1px solid #ffffff;
             color: #ffffff; /* Always keep text white */
-            padding: 10%;
-            width: 370px;
+            padding: 11%;
+            width: 290px;
             outline: none;
         }
 
@@ -1318,6 +1321,8 @@ footer{
         textarea {
             height: 100px;
             resize: none;
+            position: relative;
+            top: -50px;
         }
 
         button {
@@ -1328,13 +1333,16 @@ footer{
             color: #014E56;
             font-weight: bold;
             border-radius: 60px;
-            padding: 10px 30px 10px 30px;
+            padding: 12px 32px 12px 32px;
+            position: relative;
+            top: -40px;
         }
 
         /* Contact h1 */
         h1 {
-            left: -185px;
-            font-size: 65px;
+            left: -193px;
+            font-size: 43px;
+            top: 105px;
             position: relative;
             color: #FFFFFF;
         }
@@ -1343,9 +1351,10 @@ footer{
 
         h2 {
             position: relative;
-            left: -175px;
-            font-size: 35px;
-            top: -20px;
+            left: -218px;
+            font-size: 31px;
+            text-wrap: nowrap;
+            top: 77px;
             color: #F67E7E;
             
         /* tekstas prie h1,h2 */
@@ -1354,18 +1363,30 @@ footer{
         
         
         .p1 {
-            font-size: 20px;
-            
-        
+            font-size: 20.4px;
+            position: relative;
+            width: 250px;
+            top: 88px;
+            right: 17px;
         }
         
         .p2 {
-            font-size: 20px;
+            font-size: 20.9px;
+            text-wrap: wrap;
+            position: relative;
+            width: 250px;
+            top: 80px;
+            right: 16px;
+            
         }
         
         .p3 {
-            font-size: 20px;
-            margin-bottom: 100px;
+            font-size: 20.4px;
+            position: relative;
+            width: 230px;
+            top: 78px;
+            right: 17px;
+            margin-bottom: 140px;
         }
   }
 
