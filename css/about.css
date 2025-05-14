@@ -138,10 +138,12 @@ header{
 }
 
 .bottomimg{
-    position: relative;
+    position: absolute;
     display: flex;
-    height: 125px; 
-    margin-top: 50px; 
+    height: 198px;
+    width: 99px; 
+    margin-top: -33px;
+    right: 1px;
 }
 
 .headerCircle{
@@ -450,6 +452,10 @@ footer{
     height: 197px;
 }
 
+.footer_container{
+    width: 100px;
+}
+
 .footer_links{
     text-decoration: none;
     color: white;
@@ -459,8 +465,8 @@ footer{
     font-weight: 600;
     line-height: 28px;
     position: relative;
-    right: 373px;
     top: 75px;
+    left: 0px;
 }
 
 .footer_links:hover{
@@ -564,7 +570,7 @@ footer{
     }
 
     .NavList{
-        margin-left: -190px;
+        margin-left: -191px;
         margin-top: -41px;
     }
 
@@ -584,14 +590,14 @@ footer{
     }
 
     .about_h1{
-        margin-right: 158px;
+        margin-right: 160px;
         margin-top: 92px;
         font-size: 64px;
     }
 
     .bottomimg{
-        margin-top: 129px;
-        margin-right: -2px;
+        margin-top: 6px;
+        right: 0px;
     }
 
     .headerP{
@@ -603,7 +609,7 @@ footer{
         font-weight: 600;
         line-height: 28px;
         margin-top: -40px;
-        margin-left: 156px;
+        margin-left: 155px;
         width: 457px;
     }
 
@@ -619,7 +625,6 @@ footer{
     .meet{
         margin-top: 96px;
         font-size: 32px;
-        margin-left: 3px;
     }
 
     .grid{
@@ -901,26 +906,80 @@ footer{
 
 }
 
-@media  (max-width: 767px){
 
+@media  (max-width: 767px){
+    
     header{
         margin-top: 0;
-        height: 438px;
+        height: 398px;
+    }
+
+    .left-half{
+        z-index: -1;
+        margin-top: -100px;
+        margin-left: 1px;
+    }
+
+    .square_lined{
+        margin-bottom: 237px;
+        margin-right: -1px;
     }
 
     .background1{
         height: 2300px;
+        z-index: -2;
+    }
+
+    .darken{
+        position: absolute;
+        z-index: 0;
     }
 
     .grid{
         grid-template-columns: repeat(1, 350px);
         grid-template-rows: repeat(6, 253px);
-        width: 358px;
+        width: 375px;
+        margin-left: 0px;
+        margin-top: 44px;
+        row-gap: 52px;
+    }
+
+    .card{
+        width: 327px;
+        margin-left: 25px;
+    }
+
+    .oval{
+        margin-left: 113.5px;
+        z-index: 5;
+    }
+
+    .directors-name{
+        margin-top: 145px;
+    }
+
+    .circle-icon{
+        position: absolute;
+        margin-left: 136px;
+        z-index: 10;
+    }
+
+    .circle-icon.is-flipped{
+        fill: red;
+    }
+
+    .fa-twitter{
+        margin-left: -11px;
+    }
+
+    .meet{
+        margin-top: 85px;
+        margin-left: 1px;
+        font-size: 32px;
     }
 
     .client_box{
         width: 120px;
-        
     }
 
     .NavList > li{
@@ -943,7 +1002,6 @@ footer{
     .NavList.active{
         right: 350px;
         transform: translateX(0);
-        z-index: 1;
     }
 
     .NavList{
@@ -962,30 +1020,48 @@ footer{
         width: 60px;
     }
 
+    .home{
+        margin-top: 25px;
+        margin-left: 9px;
+    }
+
+    .about{
+        margin-top: -11px;
+        margin-left: 10px;
+    }
+
     .contact{
         padding: 10px 15px 10px 15px;
         transform: translateY(0);
-        width: 150px;
+        width: 124px;
         text-align: center;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
-        line-height: 28px;
+        line-height: 24px;
+        margin-top: 0px;
+        margin-left: 10px;
     }
 
     .MyTeam{
-        margin-top: 48px;
-        margin-left: 24px;
+        margin-top: 66px;
+        margin-left: 25px;
+        height: 32px;
+        width: 128px;
     }
 
     .bottomimg{
-        margin-top: 368px;
+        margin-top: 97px;
+        margin-right: -1px;
+        overflow: hidden;
+        height: 196px;
     }
 
     .hamburger{
         position: absolute;
         display: flex;
-        margin-left: 90%;
+        margin-left: 331px;
+        margin-top: 4px;
         transform: translateY(-185%);
         z-index: 15;
     }
@@ -996,22 +1072,25 @@ footer{
 
     .kryziukas{
         display: none;
+        z-index: 16;
     }
 
     .kryziukas.active{
         display: flex;
         position: fixed;
-        margin-left: 250px;
-        z-index: 16;
+        margin-top: 126px;
+        margin-left: 213px;
+        z-index: 1;
         transform: translateY(355%);
     }
 
     .menuimg{
-        margin-left: 178px;
-        margin-top: 275px;
+        margin-left: 117px;
+        margin-top: 239px;
     }
 
     .about_h1{
+        position: relative;
         color: #FFF;
         text-align: center;
         font-family: Livvic;
@@ -1019,7 +1098,9 @@ footer{
         font-style: normal;
         font-weight: 700;
         line-height: 40px; 
-        margin-left: 30px;
+        margin-left: 2px;
+        margin-top: 122px;
+        padding-top: 38px;
     }
 
     .headerP{
@@ -1031,45 +1112,47 @@ footer{
         font-weight: 600;
         line-height: 28px; 
         width: 327px;
-        margin-left: 93px;
-        margin-top: 5px;
-        
+        margin-left: 25px;
+        margin-top: -10px;
     }
+
     .footer_logo {
         position: absolute;
-        z-index: 1;
-        margin-top: 10px;
-        left: 170px;
+        margin-top: 37px;
+        left: 141px;
+        width: 96px;
+        height: 24px;
     }
+
     footer{
-        background-color: rgba(0, 37, 41, 1);
-        height: 196px;
-        
+        background-color: #002529;
+        height: 432px;
+        margin-top: 1060px;
     }
     
     .footer_box{
         display: inline-flex;
         justify-content: center;
         position: relative;
-        top: 1250px;
+        top: 0px;
         width: 100%;
         height: 350px;
-        background-color: rgba(0, 37, 41, 1);
-        z-index: 7;
+        background-color: #002529;;
     }
     
     .footer_links{
         text-decoration: none;
         color: white;
         font-family: Livvic;
-        font-size: 18px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
         text-align: left;
         position: relative;
-        right: -125px;
-        top: -20px;
+        top: -2px;
+        margin-left: -66px;
+        margin-right: 51px;
     }
     
     .footer_links:hover{
@@ -1079,15 +1162,14 @@ footer{
     
     .footer_nav{
         display: inline-flex;
-        /* justify-content: center; */
-        /* align-items: flex-start; */
         gap: 40px;
         margin-top: 30px;
         position: relative;
-        z-index: 2;
+        z-index: 0;
         margin-left: 163px;
         margin-top: 115px;
     }
+
     .adres_box{
         color: #FFF;
         font-family: Livvic;
@@ -1099,38 +1181,35 @@ footer{
     }
     
     .adresas{
-        right:  230px;
         position: relative;
-        margin-top: 135px;
+        margin-top: 163px;
+        margin-left: 0px;
+        right: 49px;
         width: 200px;
         line-height: 25px;
-         text-align: center;
+        text-align: center;
     }
     
     .copyright{
         color: #FFF;
-        /* text-align: right; */
         font-family: Livvic;
         font-size: 15px;
         font-style: normal;
         font-weight: 600;
-        margin-top: -90px; 
+        margin-top: 267px; 
         position: relative;
-        right: -60px;
-        top: 300px;
+        right: -105px;
     }
     
     .copyright_box{
-        /* width: 100%; */
         position: absolute;
         right: 0;
     }
     
     .social_links_box{
         position: relative;
-        top: 200px;
-        left: -10px;
-        
+        top: 255px;
+        left: 31px;
     }
     
     .social_icons{
@@ -1146,19 +1225,16 @@ footer{
     .red_part{
         font-family: Livvic;
         background-color: #F67E7E;
-        height: 220px;
-        z-index: 10;
+        height: 302px;
         width: 100%;
-        top: 1250px;
-        
+        top: 1060px;
         position: relative;
     }
     
     .group_8{
-        margin-top: 76px;
-        z-index: 3;
-        position: absolute;
-        
+        margin-top: 167px;
+        margin-left: 1px;
+        position: absolute;   
     }
     
     .red_box{
@@ -1169,24 +1245,21 @@ footer{
         gap: 260px;
         flex-shrink: 0;
         margin-top: 86px;
-        margin-left: 273px;
+        margin-left: 0px;
+        width: 375px;
     }
     
     .red_name{
+        text-align: center;
         color: #012F34;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 18px;
+        line-height: 32px;
         margin: 0;
-        z-index: 3;
-        width: 336px;
-        font-size: 25px;
-        height: 44px;
-        position: relative;
-        left: -150px;
-        top: -50px;
-        
+        font-size: 32px;
+        margin-left: 2px;
+        margin-top: -3px;
+        height: 64px;
+        position: absolute;
+        width: 200px;
     }
     
     .contact_red_box{
@@ -1195,15 +1268,16 @@ footer{
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
-        right: 690px;
         width: 100px;
         position: relative;
-        top: 10px;
+        top: 96px;
+        left: 1px;
         text-decoration: none;
         border: 2px #012F34 solid;
         border-radius: 60px;
-        padding: 10px 30px 10px 30px;
+        padding: 8px 19px 8px 30px;
         justify-content: center;
+        z-index: 5;
     }
     
     .contact_red_box:hover{
@@ -1216,12 +1290,11 @@ footer{
         color: #fff;
         text-align: center;
         font-family: "Livvic","sans-serif";
-        font-size: 43px;
+        font-size: 32px;
         position: relative;
-        left: 5px;
+        left: 1px;
         font-weight: 700;
-        margin-top: 90px;
-        top: 75px;
+        margin-top: 84px;
     }
     
     .client_img{
@@ -1229,9 +1302,10 @@ footer{
     }
     
     .verge{
-        margin-top: -10px;
-        margin-left: 0px;
-        width: 120px;
+        margin-top: -52px;
+        margin-left: -14px;
+        width: 146px;
+        height: 25px;
     }
 
     .client_box {
@@ -1240,57 +1314,50 @@ footer{
     }
     
     .jakarta{
-        margin-top: 70px;
-        margin-left: 0px;
-        width: 120px;
-        height: 20px;
+        margin-top: 30px;
+        margin-left: -21px;
+        width: 162px;
+        height: 19px;
     }
     
     .guardian{
-        margin-top: 140px;
-        margin-left: 0px;
-        width: 120px;
-        height: 20px;
+        margin-top: 106px;
+        margin-left: -20px;
+        width: 159px;
+        height: 24px;
     }
     
     .techradar{
-        margin-top: 200px;
-        margin-left: 0px;
-        width: 120px;
-        height: 20px;
+        margin-top: 187px;
+        margin-left: -14px;
+        width: 146px;
+        height: 24px;
     }
     
     .gadget{
-        margin-top: 260px;
-        margin-left: 20px;
-        width: 80px;
-        height: 35px;
-        /* left: 20px; */
+        margin-top: 268px;
+        margin-left: 16px;
+        width: 86px;
+        height: 39px;
     }
 
     .blue_moon {
-        z-index: 0;
         position: absolute;
         top: -100px;
         left: -100px;
-
     }
 
-    .background1 {
-        z-index: 1;
-    }
-    
-    
     .background2 {
         position: relative;
-        top: 1290px;
+        top: 1061px;
+        height: 633px;
+        overflow: hidden;
     }
 
     .MyTeamCont{
-        position: fixed;
+        position: absolute;
         width: 100%;
         height: 13%;
-        z-index: 5;
         margin-top: -140px;
         padding-bottom: -20px;
         background-color: #014E56;
@@ -1299,7 +1366,6 @@ footer{
     .MyTeamCont.deactivate{
         height: 130px;
         position: absolute;
-        z-index: 0;
     }
 
     .slider {
@@ -1307,7 +1373,7 @@ footer{
         position: fixed;
         right: 0;
         width: 76%;
-        height: 100%;
+        height: 1200px;
         z-index: 15;
         transform: translateX(10%);
         transition: transform 0.5s ease;
@@ -1322,10 +1388,6 @@ footer{
         filter: brightness(50%);
       }
 }
-
-
-
-    
 
 
 .overlay{
