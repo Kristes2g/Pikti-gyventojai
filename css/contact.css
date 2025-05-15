@@ -935,11 +935,12 @@ footer{
             width: 200px;
             height: 32px;
             flex-shrink: 0%;
-            margin-left: -0.3px;
+            margin-left: -1px;
             margin-top: 4%;
             position: relative;
             opacity: 0,5;
-            top: 25px;
+            top: 32px;
+            right: 30px;
                        
         }
 
@@ -968,6 +969,15 @@ footer{
 
         .home{
             margin-top: 200px;
+            transform: translateY(-129px);
+            position: relative;
+            right: 140px;
+        }
+        .about {
+            margin-top: 0px;
+            transform: translateY(-139px);
+            position: relative;
+            right: 138px;
         }
     
         .home, .about, .contact {
@@ -985,15 +995,16 @@ footer{
 
         .contact{
             position: relative;
-            padding: 10px 15px 10px 15px;
-            width: 150px;
+            padding: 8px 10px 8px 10px;
+            width: 134px;
             text-align: center;
             font-size: 18px;
+            transform: translateY(-270px);
             font-style: normal;
             font-weight: 600;
             line-height: 28px;
-            margin-top: 100px;
-            margin-left: 120px;
+            margin-top: 102px;
+            margin-left: 163px;
         }
     
         
@@ -1032,7 +1043,7 @@ footer{
             position: absolute;
             display: flex;
             top: 5cqmax;
-            transform: translateY(-10%);
+            transform: translateY(77%);
             left: 331px;
         }
     
@@ -1044,15 +1055,16 @@ footer{
             display: flex;
             position: fixed;
             transform: translateY(-940%);
-            right: 51px;
+            right: 44px;
+            top: 215px;
             z-index: 7;
         }
 
         .menuimg{
             display: flex;
             position: absolute;
-            margin-top: 145px;
-            margin-left: 8px;
+            margin-top: -10px;
+            margin-left: 136px;
         }
         
         .text-content{
@@ -1133,7 +1145,7 @@ footer{
         
         .adresas{
             position: relative;
-            left: -191px;
+            left: -95px;
             top:  145px;
             width: 200px;
             line-height: 25px;
@@ -1240,7 +1252,7 @@ footer{
             width: 110px;
             height: 200px;
             top: 1022px;
-            right: 2px;
+            right: 0px;
             z-index: 0;
         }
 
@@ -1267,7 +1279,7 @@ footer{
             display: flex;
             gap: 4%;
             margin-top: 1%;
-            margin-left: -10px;
+            margin-left:  40px;
         }
 
         /* prie texto images dydziai */
@@ -1302,47 +1314,55 @@ footer{
         form {
             display: flex;
             flex-direction: column;
+            position: absolute;
             margin-right: 2%;
             gap: 15px;
-            position: relative;
-            top: 478px;
-            right: 376px;
+            padding: 3%;
+            top: 480px;
+            right: 45px;
         }
 
         input, textarea {
+            
             background: transparent;
             border: none;
             border-bottom: 1px solid #ffffff;
             color: #ffffff; /* Always keep text white */
-            padding: 11%;
-            width: 290px;
+            padding: 7.4%;
+            width: 287px;
+            gap: 10px;
             outline: none;
+            
         }
+  
 
          /* keicia formoje Message field dydi */
         textarea {
-            height: 100px;
+            height: 78px;
             resize: none;
             position: relative;
-            top: -50px;
+            top: -19px;
+            transform: translateY(-5px);
         }
+   
 
         button {
             background: #FFFFFF;
             border: none;
             cursor: pointer;
-            font-size: 20px;
+            font-size: 18px;
             color: #014E56;
             font-weight: bold;
             border-radius: 60px;
-            padding: 12px 32px 12px 32px;
+            padding: 15px 32px 15px 32px;
             position: relative;
-            top: -40px;
+            top: -17px;
+            right: -10x;
         }
 
         /* Contact h1 */
         h1 {
-            left: -193px;
+            left: -143px;
             font-size: 43px;
             top: 105px;
             position: relative;
@@ -1353,7 +1373,7 @@ footer{
 
         h2 {
             position: relative;
-            left: -218px;
+            left: -168px;
             font-size: 31px;
             text-wrap: nowrap;
             top: 77px;
@@ -1369,7 +1389,7 @@ footer{
             position: relative;
             width: 250px;
             top: 88px;
-            right: 17px;
+            right: 10px;
         }
         
         .p2 {
@@ -1377,17 +1397,17 @@ footer{
             text-wrap: wrap;
             position: relative;
             width: 250px;
-            top: 80px;
-            right: 16px;
+            top: 82px;
+            right: 10px;
             
         }
         
         .p3 {
-            font-size: 20.4px;
+            font-size: 20.9px;
             position: relative;
             width: 230px;
             top: 78px;
-            right: 17px;
+            right: 12px;
             margin-bottom: 140px;
         }
   }
@@ -1411,10 +1431,10 @@ footer{
 }
 
 .slide{
-    width: 60%;
-    left: 40%;
+    width: 70%;
+    left: 30%;
     z-index: 6;
-    position: fixed;
+    position: Fixed;
 }
 
 .container1{
@@ -1424,7 +1444,7 @@ footer{
 
 .slider{
     position: absolute;
-    right: 0;
+    right: 0px;
     width: 60%;
     height: 100%;
     display: inline-block;
