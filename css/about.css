@@ -465,8 +465,8 @@ footer{
     font-weight: 600;
     line-height: 28px;
     position: relative;
-    top: 75px;
-    left: 0px;
+    top: 30px;
+    transform: translateX(-310px);
 }
 
 .footer_links:hover{
@@ -488,8 +488,8 @@ footer{
 .footer_logo{
     position: relative;
     z-index: 1;
-    top: 29px;
-    right: 210px;
+    top: 50px;
+    right: 310px;
 }
 
 .adres_box{
@@ -511,6 +511,7 @@ footer{
     position: relative;
     right: 415px;
     font-size: 14px;
+    transform: translateX(100px);
 }
 
 .copyright{
@@ -708,7 +709,7 @@ footer{
         font-weight: 600;
         text-align: left;
         position: relative;
-        right: 169px;
+        transform: translateX(-245px);
     }
     
     .footer_links:last-child{
@@ -746,7 +747,7 @@ footer{
         width: 200px;
         line-height: 25px;
         text-align: right;
-        right: -24px;
+        right: -97px;
     }
     
     .copyright{
@@ -770,7 +771,6 @@ footer{
     .social_links_box{
         margin-top: 250px;
         margin-left: -305px;
-        
     }
     
     .social_icons{
@@ -1044,7 +1044,7 @@ footer{
     }
 
     .MyTeam{
-        margin-top: 66px;
+        margin-top: 55px;
         margin-left: 25px;
         height: 32px;
         width: 128px;
@@ -1355,12 +1355,13 @@ footer{
     }
 
     .MyTeamCont{
-        position: absolute;
+        position: fixed;
         width: 100%;
-        height: 13%;
-        margin-top: -130px;
+        height: 14%;
+        margin-top: -129px;
         padding-bottom: -20px;
         background-color: #014E56;
+        z-index: 3;
     }
 
     .MyTeamCont.deactivate{
